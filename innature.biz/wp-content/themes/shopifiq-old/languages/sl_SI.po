@@ -1,0 +1,458 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Blocked v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-08-24 12:02:55+0000\n"
+"Last-Translator: admin <ziga@envoo.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Slovenian\n"
+"X-Poedit-Country: SLOVENIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: admin-functions/adminSliderClass.php:18
+#: admin-functions/adminSliderClass.php:21
+#@ myplugin_textdomain
+msgid "Slider options"
+msgstr ""
+
+#: archive.php:30
+#, php-format
+#@ twentyten
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:32
+#, php-format
+#@ twentyten
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:34
+#, php-format
+#@ twentyten
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:36
+#@ twentyten
+msgid "Blog Archives"
+msgstr ""
+
+#: attachment.php:14
+#, php-format
+#@ twentyten
+msgid "Return to %s"
+msgstr ""
+
+#. translators: %s - title of parent post
+#: attachment.php:16
+#, php-format
+#@ twentyten
+msgid "<span>&larr;</span> %s"
+msgstr ""
+
+#: attachment.php:22
+#, php-format
+#@ twentyten
+msgid "By %2$s"
+msgstr ""
+
+#: attachment.php:26
+#: functions.php:560
+#, php-format
+#@ twentyten
+msgid "View all posts by %s"
+msgstr ""
+
+#: attachment.php:33
+#, php-format
+#@ twentyten
+msgid "Published %2$s"
+msgstr ""
+
+#: attachment.php:43
+#, php-format
+#@ twentyten
+msgid "Full size is %s pixels"
+msgstr ""
+
+#: attachment.php:46
+#@ twentyten
+msgid "Link to full-size image"
+msgstr ""
+
+#: attachment.php:53
+#: attachment.php:92
+#: loop.php:81
+#: loop.php:96
+#: loop.php:123
+#: onecolumn-page.php:22
+#: page.php:78
+#: single.php:34
+#@ twentyten
+msgid "Edit"
+msgstr ""
+
+#: attachment.php:88
+#: loop.php:90
+#: loop.php:107
+#@ twentyten
+msgid "Continue reading &rarr;"
+msgstr ""
+
+#: attachment.php:89
+#: loop.php:108
+#: onecolumn-page.php:21
+#: page.php:77
+#: single.php:22
+#@ twentyten
+msgid "Pages:"
+msgstr ""
+
+#: author.php:24
+#, php-format
+#@ twentyten
+msgid "Author Archives: %s"
+msgstr ""
+
+#: author.php:31
+#: single.php:26
+#, php-format
+#@ twentyten
+msgid "About %s"
+msgstr ""
+
+#: category.php:13
+#, php-format
+#@ twentyten
+msgid "Category Archives: %s"
+msgstr ""
+
+#: comments.php:17
+#@ twentyten
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:34
+#, php-format
+#@ twentyten
+msgid "One Response to %2$s"
+msgid_plural "%1$s Responses to %2$s"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: comments.php:39
+#: comments.php:56
+#@ twentyten
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:40
+#: comments.php:57
+#@ twentyten
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:67
+#@ twentyten
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:36
+#@ twentyten
+msgid "Primary Navigation"
+msgstr ""
+
+#. translators: header image description
+#: functions.php:72
+#@ twentyten
+msgid "Blocked default logo"
+msgstr ""
+
+#: functions.php:288
+#, php-format
+#@ twentyten
+msgid "Search results for %s"
+msgstr ""
+
+#: functions.php:291
+#: functions.php:308
+#, php-format
+#@ twentyten
+msgid "Page %s"
+msgstr ""
+
+#: functions.php:350
+#@ twentyten
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: functions.php:417
+#, php-format
+#@ twentyten
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: functions.php:420
+#@ twentyten
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. translators: 1: date, 2: time
+#: functions.php:427
+#, php-format
+#@ twentyten
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:427
+#: functions.php:444
+#@ twentyten
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:444
+#@ twentyten
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:463
+#@ twentyten
+msgid "Primary Widget Area"
+msgstr ""
+
+#: functions.php:465
+#@ twentyten
+msgid "The primary widget area"
+msgstr ""
+
+#: functions.php:474
+#@ twentyten
+msgid "Secondary Widget Area"
+msgstr ""
+
+#: functions.php:476
+#@ twentyten
+msgid "The secondary widget area"
+msgstr ""
+
+#: functions.php:485
+#@ twentyten
+msgid "First Footer Widget Area"
+msgstr ""
+
+#: functions.php:487
+#@ twentyten
+msgid "The first footer widget area"
+msgstr ""
+
+#: functions.php:496
+#@ twentyten
+msgid "Second Footer Widget Area"
+msgstr ""
+
+#: functions.php:498
+#@ twentyten
+msgid "The second footer widget area"
+msgstr ""
+
+#: functions.php:507
+#@ twentyten
+msgid "Third Footer Widget Area"
+msgstr ""
+
+#: functions.php:509
+#@ twentyten
+msgid "The third footer widget area"
+msgstr ""
+
+#: functions.php:518
+#@ twentyten
+msgid "Fourth Footer Widget Area"
+msgstr ""
+
+#: functions.php:520
+#@ twentyten
+msgid "The fourth footer widget area"
+msgstr ""
+
+#: functions.php:551
+#, php-format
+#@ twentyten
+msgid "<span class=\"%1$s\">Posted on</span> %2$s <span class=\"meta-sep\">by</span> %3$s"
+msgstr ""
+
+#: functions.php:577
+#, php-format
+#@ twentyten
+msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: functions.php:579
+#, php-format
+#@ twentyten
+msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: functions.php:581
+#, php-format
+#@ twentyten
+msgid "Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: loop.php:24
+#: loop.php:133
+#@ twentyten
+msgid "&larr; Older posts"
+msgstr ""
+
+#: loop.php:25
+#: loop.php:134
+#@ twentyten
+msgid "Newer posts &rarr;"
+msgstr ""
+
+#: loop.php:30
+#@ twentyten
+msgid "Not Found"
+msgstr ""
+
+#: loop.php:31
+#@ twentyten
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr ""
+
+#: loop.php:55
+#: loop.php:78
+#@ twentyten
+msgctxt "gallery category slug"
+msgid "gallery"
+msgstr ""
+
+#: loop.php:56
+#: loop.php:71
+#: loop.php:101
+#, php-format
+#@ twentyten
+msgid "Permalink to %s"
+msgstr ""
+
+#: loop.php:70
+#, php-format
+#@ twentyten
+msgid "This gallery contains <a %1$s>%2$s photos</a>."
+msgstr ""
+
+#: loop.php:78
+#@ twentyten
+msgid "View posts in the Gallery category"
+msgstr ""
+
+#: loop.php:78
+#@ twentyten
+msgid "More Galleries"
+msgstr ""
+
+#: loop.php:80
+#: loop.php:95
+#: loop.php:122
+#@ twentyten
+msgid "Leave a comment"
+msgstr ""
+
+#: loop.php:80
+#: loop.php:95
+#: loop.php:122
+#@ twentyten
+msgid "1 Comment"
+msgstr ""
+
+#: loop.php:80
+#: loop.php:95
+#: loop.php:122
+#@ twentyten
+msgid "% Comments"
+msgstr ""
+
+#: loop.php:85
+#@ twentyten
+msgctxt "asides category slug"
+msgid "asides"
+msgstr ""
+
+#: loop.php:112
+#, php-format
+#@ twentyten
+msgid "Posted in %2$s"
+msgstr ""
+
+#: loop.php:119
+#, php-format
+#@ twentyten
+msgid "Tagged %2$s"
+msgstr ""
+
+#: search.php:13
+#, php-format
+#@ twentyten
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:22
+#@ twentyten
+msgid "Nothing Found"
+msgstr ""
+
+#: search.php:23
+#@ twentyten
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr ""
+
+#: sidebar.php:26
+#@ twentyten
+msgid "Archives"
+msgstr ""
+
+#: sidebar.php:33
+#@ twentyten
+msgid "Meta"
+msgstr ""
+
+#: single.php:14
+#: single.php:36
+#@ twentyten
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr ""
+
+#: single.php:15
+#: single.php:37
+#@ twentyten
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr ""
+
+#: single.php:29
+#, php-format
+#@ twentyten
+msgid "View all posts by %s &rarr;"
+msgstr ""
+
+#: tag.php:13
+#, php-format
+#@ twentyten
+msgid "Tag Archives: %s"
+msgstr ""
+
