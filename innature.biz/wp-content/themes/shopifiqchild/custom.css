@@ -1,0 +1,15 @@
+/***
+	Write your CSS structure here.
+***/
+
+#submit_swipehq_payment_form {  background: -moz-linear-gradient(center top , #72793B, #65692A) repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    color: #FFFFFF !important;
+    min-height: 40px;
+    min-width: 222px;
+}
+.amount, .total strong {
+    color: #686D2E;
+    font-weight: bold;
+}
+
+body .wc_ei_read_more_button_container { display: none !important; }

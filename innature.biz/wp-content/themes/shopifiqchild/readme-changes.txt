@@ -1,0 +1,1 @@
+20141021 - enclose revslider in page div on /shopifiq/functions.php
