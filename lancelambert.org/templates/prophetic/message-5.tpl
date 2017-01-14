@@ -1,0 +1,13 @@
+<div id="main" class="middle-east-update">
+	<hr color="#999999" size="1" width="100%" />
+	<h2>Sunday 18 April 2010, Jerusalem Israel</h2>
+	<p>Do not fear neither be dismayed for that which is coming upon the face of the earth, for I am with you, says The Lord. Nevertheless I have a serious controversy with the nations. They are seeking to divide My Land says The Lord, the land that I covenanted to give to Abraham and to his seed after him through Isaac and Jacob, as an everlasting inheritance. This I will not allow without devastating judgment upon those nations who pursue this plan. I have arisen with intense and furious anger and will not back down until I have destroyed their well being. I will cause their economies to fail, and their financial system to break down, and even the climate to fail them! I will turn them upside down and inside out and they will not know what has hit them, whether they be super powers or not. For I am the only One, the Almighty God and besides me there is none to compare.</p>
+	<p>Do they believe that in their arrogance they can contradict and nullify covenants that I the Almighty have made? Do they believe that they can change what has gone forth from My mouth with impunity? It is My Word and My decree that has gone forth concerning the seed of Abraham. It will not be changed by man. I and I alone am Almighty. Do not fear!</p>
+	<p>For this reason a new and a far more serious phase of judgment is commencing. Do not fear, it is I who is shaking all things. Remember that in Me you have peace but in the world tribulation. Trust Me! I am shaking all things so that which cannot be shaken may remain. When all your circumstances become abnormal, discover in Me your peace, your rest and your fulfillment.</p>
+	<p>In this phase the old and powerful nations will become as if they are third world countries, super powers will no longer be super powers but countries such as India and China will arise to take their place. A great company of the redeemed will come out of these two countries. In all this change, do not fear.</p>
+	<p>I know your weakness and your tendency to fear, but do not be dismayed at these things. In the midst of all this shaking, this turmoil and strife, there are two peoples that lie at it's heart, the true and living church and Israel. I will use these matters, these events, to purify one and to save the other! Do not fear, above the storms, the shaking, and the conflict, I am the Everlasting and Almighty One. In Me you cannot be shaken, you can only lose what is not worth holding!</p>
+
+	<p>&nbsp;</p>
+
+	{include file="prophetic/nav.tpl" page=5}
+</div>

@@ -1,0 +1,177 @@
+<? 
+require_once("header.php");
+$pagenum=1;
+$product_id=1;
+if (is_numeric($_GET["pagenum"])) {
+	$pagenum=$_GET["pagenum"];
+}
+$matchproduct=false;
+if (is_numeric($_GET["Product_Id"])) {
+	$product_id=$_GET["Product_Id"];
+	$matchproduct=true;
+}
+
+$sql="select count(*) from product where Category_Id=$category_id ";
+$product_result=$db->openRS($sql);
+$ptotal=mysql_fetch_array($product_result);
+$numrows=$ptotal[0];
+
+$sort="Product_Name";
+$_SESSION["sort"]=$sort;
+
+if ($_GET["sort"]=="date") {
+	$sort="Date_Added";
+	$pagenum=1;
+	$_SESSION["sort"]=$sort;
+}
+if ($_GET["sort"]=="name") {
+	$sort="Product_Name";
+	$pagenum=1;
+	$_SESSION["sort"]=$sort;
+}
+/*
+if($_GET['Category_Id'] == '4'){
+  $sort="Product_Name DESC";
+}*/
+$to=$pagenum*$maxperpage;
+$from=($pagenum-1)*$maxperpage;
+$sort=$_SESSION["sort"];
+$searchFor=$_POST["searchFor"];
+if ($searchFor=="") {
+	$searchFor=$_GET["searchFor"];
+}
+if (!$searched) {
+$sql="select * from product 
+where Category_Id=$category_id 
+";
+if ($matchproduct) 
+	$sql.=" and Product_ID=$product_id ";
+$sql.="order by $sort limit $from, $to";
+} else { 
+$sql="select * from product 
+where 
+ ( Product_Name like '%$searchFor%'
+or Product_Desc like '%$searchFor%'
+)
+order by $sort
+";
+
+}
+$product_result=$db->openRS($sql);
+
+$normal=true;
+if ($searched) $normal=false;
+if ($matchproduct) $normal=false;
+ ?>
+
+<div id="main">
+	<hr size="1" color="#999999" width="100%" />
+	<form action="products.php?Category_Id=<? echo $category_id ?>" method="post">
+	<table align="right">
+	<tr>
+	<td >
+	<a href="products.php?Category_Id=<? echo $category_id?>&sort=name&searchFor=<? echo $searchFor ?>">Sort by Name</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="products.php?Category_Id=<? echo $category_id?>&sort=date&searchFor=<? echo $searchFor ?>">Sort by Date</a>
+&nbsp;&nbsp;&nbsp;Search: 
+
+	</td>
+	<td>
+<input type="text" style="border: 1px solid grey; width:100px" value="<? echo $searchFor ?>" name="searchFor">
+	</td>
+	<td><input type="submit" value="GO" /><? if ($searchFor!="") { ?>&nbsp;&nbsp;<a href="products.php?Category_Id=<? echo $category_id ?>">Clear</a><? } ?></td>
+	</tr>
+	<tr>
+	  <td colspan="3" ><div align="right">Text size: <a id="increasetextsize" class="increaseFont" href="#">Enlarge</a>&nbsp;&nbsp;&nbsp;<a id="resettextsize" class="resetFont" href="#">Reset</a></div></td>
+	  </tr>
+	</table>
+	</form>
+	<p>&nbsp;</p>
+	<? if ($searched) $Category_Name = "Search Results"; ?>
+<h2><? echo $Category_Name ?></h2>
+
+	<!-- This has been added by Andrew Kelly	 -->
+	
+	<?php
+	
+		if ($Category_Name == "Video") {
+			require_once('videoFiles/videos.php');		
+		}
+	
+	?>
+	
+	<!-- This ends where Andrew Kelly had done work	 -->
+	
+	
+	<? if ($normal) { ?>
+	<span id="feature">
+	
+	<? echo $Category_Desc ?>
+	</span>
+	<br style="clear: both;" />
+	<? } ?>	
+<hr size="1" color="#999999" width="100%" /><br />
+
+<? if (!$searched) { ?>
+	<table width="740" style="margin-left:30px; font-size:13px;" border="0" cellspacing="0" cellpadding="0">
+  <tr valign="top">
+<?
+	$col=0;
+	$rowat=1;
+while (($rowat<=$maxperpage) && ($prow=mysql_fetch_array($product_result,MYSQL_ASSOC))) { 
+	$rowat++;
+
+	
+	while (list ($key, $val) = each ($prow)) {
+		$$key=$val;
+	}				?>
+    <td width="260" align="left">
+
+
+	<span class="itemTitle"><? 
+	$string = strtolower($Product_Name);
+$string = substr_replace($string, strtoupper(substr($string, 0, 1)), 0, 1);
+	echo $string;
+	 ?></span><br />
+<? echo $Product_Desc ?>            <? if ($Product_Available==1) {?><p><a href="<? echo $Product_URL ?>" target="_blank" onmouseover="MM_swapImage('buy<? echo $rowat ?>','','media/buy_button_ro.png',1)" onmouseout="MM_swapImgRestore()"><img src="media/buy_button.png" alt="Buy Online Now" name="buy<? echo $rowat ?>" width="102" height="27" border="0" id="buy<? echo $rowat ?>" /></a></p><? } else { ?><p class="unavailable">Currently Unavailable</p><? } ?>
+          <p>&nbsp;</p></td>
+    <td width="100" align="center"><img width="86" src="<? echo $Product_Image ?>" class="img-border" /></td>
+		
+	<?
+	if ($col==0) {
+	?>
+	  <td width="20">&nbsp;</td>
+	<?
+	}	 
+	if ($col==1) {
+	?>
+	  </tr>
+  <tr valign="top">
+
+	<?
+	}
+	$col++;
+	if ($col==2) $col=0;
+
+}
+?>
+  
+</table>
+<? } else { 
+//search for
+?>
+<? if (mysql_num_rows($product_result)==0) { ?>
+Sorry, we couldn't find any products to match your search.
+<? } ?>
+<? 
+while ($prow=mysql_fetch_array($product_result,MYSQL_ASSOC)) { 
+	$rowat++;
+
+	
+	while (list ($key, $val) = each ($prow)) {
+		$$key=$val;
+	}				?>
+<a href="products.php?Category_Id=<? echo $Category_ID?>&Product_Id=<? echo $Product_ID ?>"><? echo $Product_Name ?></a><BR>
+<? } ?>
+
+<? } ?>
+</div>
+	<?php require_once("footer.php") ?>

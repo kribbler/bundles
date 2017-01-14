@@ -1,0 +1,84 @@
+body {
+	font-family: Helvetica, Arial, Sans-serif;
+	font-size: 0.75em;
+	background: #acbbcb;
+	color: #000256;
+}
+
+#emailFriendContainer {
+	position: relative;
+	width: 400px;
+	margin: 0 auto;
+	background: #e4ebf2;
+	padding: 20px;
+	padding-top: 5px;
+	border: 5px solid #000256;
+}
+
+#emailFriendContainer h1 {
+	font-size: 1.50em;
+	padding-bottom: 0px;
+	margin-bottom: 0;
+}
+
+
+#emailFriendContainer p.warning {
+	margin-top: 10px;
+	display: block;
+	width: 377px;
+	color: #f00;
+	font-weight: bold;
+	background: #f9aaaa;
+	border: 1px solid #f00;
+	padding: 10px 10px;
+}
+
+#emailFriendContainer p.success {
+	margin-top: 10px;
+	display: block;
+	width: 377px;
+	color: #00891d;
+	font-weight: bold;
+	background: #afffab;
+	border: 1px solid #00891d;
+	padding: 10px 10px;
+}
+
+#emailFriendContainer ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#emailFriendContainer li {
+	margin-top: 10px;
+}
+
+#emailFriendContainer label {
+	display: block;
+	float: left;
+	width: 100px;
+	padding-top: 5px;
+}
+
+#emailFriendContainer input {
+	border: 1px solid #7a89a8;
+	padding: 3px;
+	background: #f8faff;
+}
+
+#emailFriendContainer textarea {
+	margin-top: 10px;
+	width: 390px;
+	height: 100px;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 1em;
+	padding: 5px;
+	border: 1px solid #7a89a8;
+	background: #f8faff;
+}
+
+#emailFriendContainer #submit:hover {
+	color: #0052a4;
+	cursor: pointer;
+}

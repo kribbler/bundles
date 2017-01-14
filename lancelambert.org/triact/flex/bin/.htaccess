@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Restricted Area"
+AuthUserFile "/home/lance/.htpasswds/public_html/triact/flex/bin/passwd"
+require valid-user

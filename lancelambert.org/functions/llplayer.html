@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<style type="text/css">
+			.llplayer {
+				width: 256px;
+				height: 32px;
+				display: block;
+				border: 1px solid #C0C0C2;
+				border-radius: 4px 4px 4px 4px;
+				background-color: #F0F0F2;
+				position: relative;
+			}
+			
+			.llplayer > .dock {    
+				position: absolute;
+				display: block;
+				top: 0px;
+				left: 0px;
+				width: 32px;
+				height: 28px;
+				margin: 1px;
+				border-radius: 4px 0px 0px 4px;
+				background-color: #F0F0FF;
+				border: 1px solid #C0C0C2;
+			} 
+			
+			.llplayer > .controls {
+				position: absolute;
+				display: block;
+				top: 0px;
+				width: 32px; 
+				/* left: 35px; */
+				right: 0px;
+				margin: 1px;
+				height: 28px;
+				background-color: #F0F0FF;
+				border: 1px solid #C0C0C2;
+				border-radius: 0px 4px 4px 0px;				
+			}
+			
+			.llplayer > .status {
+				position: absolute;
+				display: block;
+				top: 0px;
+				width: 182px; 
+				left: 35px;
+				margin: 1px;
+				height: 28px;
+				background-color: #FAFAFE;
+				border: 1px solid #C0C0C2;
+				border-radius: 0px 0px 0px 0px;				
+			}
+			
+			.llplayer > .status > .ruler {
+				position: absolute;
+				height: 0px;
+				top: 15px;
+				width: 170px;
+				border-bottom: 1px solid #6D6D72;
+				left: 6px;
+			} 
+			
+			.llplayer > .status > .progress {
+				position: absolute;
+				height: 3px;
+				top: 12px;
+				width: 170px;				
+				left: 6px;			         
+				border: 0px;
+				margin: 0px;
+				padding: 0px;
+			}
+			
+			.llplayer > .status > .progress > .value {
+				background-color: #6D6D72;
+				height: 100%;
+			}
+			.llplayer > .status > .progress > #value {
+				width: 0%;
+			}
+			
+			.llplayer > .status > .time > span {
+				font-size: 6px;
+				font-family: sans-serif;
+				line-height: 6px; 
+				letter-spacing: 0.30em;
+			} 
+			
+			.llplayer > .status > .console > span {
+				font-size: 6px;
+				font-family: sans-serif;
+				line-height: 6px;  
+				letter-spacing: 0.30em;
+			}  
+			
+			.llplayer > .status > .console {
+				position: absolute;
+				bottom: 0px;
+				left: 6px;
+				margin: 0px;
+				padding: 0px;
+				border: 0px;
+			}
+			
+			.llplayer > .controls > a > .icon {
+				position: absolute;
+				left: 12px;
+				top: 10px;
+			}
+			
+			.llplayer > .controls > a {
+				width: 100%;
+				height: 100%;
+				display: block;
+				margin: 0px;
+				padding: 0px;
+				border: 0px;
+				border-radius: 0px 4px 4px 0px;
+			}
+			
+			.llplayer > .controls > a:hover {
+				background-color: #A0A0AC;
+			}
+			
+			.llplayer > .controls > a > .icon {
+				margin-top: -2px;
+			}
+		</style>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				const LLPLAYER_COLLAPSED_WIDTH = '71px';
+				const LLPLAYER_EXPANDED_WIDTH = '256px';
+				const CONTROLS_COLLAPSED_LEFT = '35px'; 
+				const CONTROLS_EXPANDED_LEFT = '220px';
+				var g_toggled = false;
+				
+				var zero_pad = function(number,length) {	  
+    			var str = '' + number;
+    			while (str.length < length) {
+      		  		str = '0' + str;
+			    }    
+			    return str;
+				};
+				
+				$(".llplayer").each(function(idx,el) {
+					$(el).css('width',LLPLAYER_COLLAPSED_WIDTH);
+				});
+				
+				$(".llplayer .controls").each(function(idx, el) {
+					$(el).css('left',CONTROLS_COLLAPSED_LEFT);
+				});
+				
+				var g_sample = document.getElementById('sample');
+				g_sample.controls = false;
+				
+				g_sample.addEventListener('timeupdate',function() {
+						var val = 0;
+						if(g_sample.currentTime > 0) {
+							val = Math.floor((100 / g_sample.duration) * g_sample.currentTime);
+							$('#value').css('width',val + '%');
+							$('#time').text(zero_pad(Math.floor(g_sample.currentTime / 60),2) + ':' + zero_pad(Math.floor((g_sample.currentTime - Math.floor(g_sample.currentTime / 60) * 60)),2));
+						}									
+				},false);
+				
+				g_sample.play();
+				g_sample.pause();
+
+				$(".llplayer .status").each(function(idx, el) {
+					$(el).hide();							
+				});				
+										
+				$("#button").click(function(evt) {
+						if(g_toggled) {
+							$('.llplayer .controls .icon').attr('src','llplayer_play.png');
+							g_toggled = false;
+							
+							$('.llplayer .status').fadeOut(null, function() {
+								$('.llplayer').animate({width: LLPLAYER_COLLAPSED_WIDTH});				
+								$('.llplayer .controls').animate({left: CONTROLS_COLLAPSED_LEFT},null,null,null);
+							});
+							g_sample.pause();					
+						}
+						else
+						if(!g_toggled) {							
+							$('.llplayer .controls .icon').attr('src','llplayer_pause.png');
+							g_toggled = true;
+				
+							$('.llplayer').animate({width: LLPLAYER_EXPANDED_WIDTH});				
+							$('.llplayer .controls').animate({left: CONTROLS_EXPANDED_LEFT},null,null,function() {
+								$('.llplayer .status').fadeIn();
+							});														
+							g_sample.play();														
+							
+						}
+				});										
+			});
+		</script>
+	</head>
+	<body>
+		<div class="llplayer">
+				<audio id="sample" controls style='text-indent: -9999em;' preload='auto'>
+					<source src="llplayer_sample.m4a" type="audio/mp4">
+					<source src="llplayer_sample.ogg" type="audio/ogg">
+				</audio>
+				<div class="dock">
+				</div>
+				<div class="controls">
+					<a id="button" href="#" title="Click here to commence the audio lecture.">
+						<img class="icon" src="llplayer_play.png" alt="Audio control play icon." width="12" height="12">
+					</a>
+				</div>
+				<div class="status">
+					<div class="progress">
+						<div class="value" id="value">
+						</div>
+					</div>
+					<div class="ruler">
+					</div>
+					<div class="console">
+						<span id="time">00:00</span>						
+						<span id="message">Buffering</span>
+					</div>
+					</div>					
+				</div>
+		</div>
+	</body>
+</html>

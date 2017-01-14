@@ -1,0 +1,47 @@
+#animatedheader {
+	width:100%;
+	margin:0 auto;
+	padding:0;
+	display:block;
+	list-style:none;
+	font-family: Arial, Helvetica, sans-serif;
+	top: -20px;
+	position: relative;
+	font-size:14px;
+}
+#animatedheader li {
+	display:inline-block;
+	width:100%;
+	text-align:center;
+	height:1.7em;
+	position:relative;
+	overflow:hidden;
+	font-weight:bolder;
+}
+.pos {
+	display:inline-block;
+	width:1px;
+	height:1.5em;
+}
+#animatedheader li > div {
+	height:0px;
+	position:absolute;
+	top:15px;
+	left:0px;
+	width:100%;
+	display:inline-block;
+}
+#animatedheader li > div > div {
+	position:absolute;
+	top:0px;	
+	left:0px;
+	width:100%;
+}
+#animatedheader li > span.arrow {
+	position:absolute;
+	display:none;
+	width:20px;
+	height:20px;
+	background:url(../images/arrow.png) no-repeat;
+	top:7px;
+}
