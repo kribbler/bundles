@@ -1,0 +1,13 @@
+[12-Feb-2014 23:44:27 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/imphouse/public_html/wp-content/themes/theme48103/includes/sidebar-init.php on line 50
+[14-Feb-2014 05:09:58 America/Chicago] PHP Fatal error:  Call to undefined function add_shortcode() in /home/imphouse/public_html/wp-content/themes/theme48103/includes/theme_shortcodes/carousel.php on line 210
+[14-Feb-2014 15:39:00 America/Chicago] PHP Fatal error:  Call to undefined function theme_locals() in /home/imphouse/public_html/wp-content/themes/theme48103/includes/class-tgm-plugin-activation.php on line 164
+[14-Feb-2014 21:32:37 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/imphouse/public_html/wp-content/themes/theme48103/includes/theme-init.php on line 2
+[15-Feb-2014 12:44:18 America/Chicago] PHP Fatal error:  Call to undefined function theme_locals() in /home/imphouse/public_html/wp-content/themes/theme48103/includes/class-tgm-plugin-activation.php on line 164
+[22-Apr-2014 14:24:01 America/Chicago] PHP Fatal error:  Call to undefined function add_shortcode() in /home/impressi/public_html/wp-content/themes/theme48103/includes/theme_shortcodes/carousel.php on line 217
+[24-Apr-2014 07:01:12 America/Chicago] PHP Fatal error:  Call to undefined function add_shortcode() in /home/impressi/public_html/wp-content/themes/theme48103/includes/theme_shortcodes/carousel.php on line 217
+[26-Dec-2014 03:35:13 America/Chicago] PHP Fatal error:  Call to undefined function add_shortcode() in /home/impressi/public_html/wp-content/themes/theme48103/includes/theme_shortcodes/carousel.php on line 217
+[26-Dec-2014 03:35:15 America/Chicago] PHP Fatal error:  Call to undefined function theme_locals() in /home/impressi/public_html/wp-content/themes/theme48103/includes/class-tgm-plugin-activation.php on line 164
+[27-Feb-2015 04:26:29 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/impressi/public_html/wp-content/themes/theme48103/includes/theme-init.php on line 2
+[27-Feb-2015 06:39:06 America/Chicago] PHP Fatal error:  Call to undefined function add_action() in /home/impressi/public_html/wp-content/themes/theme48103/includes/sidebar-init.php on line 50
+[27-Feb-2015 15:27:56 America/Chicago] PHP Fatal error:  Call to undefined function add_shortcode() in /home/impressi/public_html/wp-content/themes/theme48103/includes/theme_shortcodes/carousel.php on line 217
+[27-Feb-2015 17:18:33 America/Chicago] PHP Fatal error:  Call to undefined function theme_locals() in /home/impressi/public_html/wp-content/themes/theme48103/includes/class-tgm-plugin-activation.php on line 164
