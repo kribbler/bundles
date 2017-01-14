@@ -1,0 +1,37 @@
+<?php 
+$domain = 'responsive-child';
+
+		load_theme_textdomain( $domain, WP_LANG_DIR . '/responsive-child/' );
+		load_theme_textdomain( $domain, WP_LANG_DIR . '/responsive-child/' . '/languages/' );
+		load_theme_textdomain( $domain, WP_LANG_DIR . '/responsive-child/' . '/languages/' ); 
+		
+		
+	
+	
+function my_widget_title($title, $instance, $id_base) {
+      if ( is_singular() && 'my_post_type' == get_post_type() && 'recent-posts' == $id_base) {
+        return __('Recent entries from my_post_type');
+      }
+      else {
+      	//var_dump($instance);
+      	//var_dump($title);
+      	//_e( 'Categories', 'responsive-child' );
+      	//_e( 'Hagen Media - Nettsider og markedsføring.', 'responsive-child' );
+        return __( $title, 'responsive-child' );
+      }
+    }
+ 
+add_filter ( 'widget_title' , 'my_widget_title', 10, 3);
+
+__( 'Categories', 'responsive-child' );
+wp_register_script('jquery', ("http://code.jquery.com/jquery-latest.min.js"), false, '');
+wp_enqueue_script('jquery');
+
+wp_register_script('backstretch', (get_stylesheet_directory_uri() . "/jquery.backstretch.min.js"), false, '');
+wp_enqueue_script('backstretch');
+
+function get_post_content_by_slug($slug){
+	$post = get_page_by_path( $slug, OBJECT, 'post' );
+	$postcontent = apply_filters('the_content', $post->post_content); 
+	return $postcontent;
+}

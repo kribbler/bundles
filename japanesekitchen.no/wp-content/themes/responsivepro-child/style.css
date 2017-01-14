@@ -1,0 +1,446 @@
+/* 
+Theme Name: Responsive Pro Child
+Theme URI: http://cyberchimps.com/guide/child-theme-example/
+Description: Responsive Child Theme
+Template: responsivepro
+Version: 1.0.0
+Author: CyberChimps
+Author URI: https://cyberchimps.com/
+License: GNU General Public License
+License URI: license.txt
+Text Domain: responsive-child
+*/
+
+body.custom-background{
+	/*background-image: none !important;*/
+}
+
+
+a {
+	color: #222;
+}
+
+a:hover {
+	color: #555;
+}
+
+#logo{
+	text-align:center;
+	float:none;
+}
+
+#footer-info{
+	text-align:center;
+}
+#footer-info p{
+	padding: 0; margin: 0;
+	color: #666;
+}
+#footer-info p img{
+	margin: 0;
+	padding-right: 5px;
+}
+.mapp-layout{
+	width: auto !important;
+}
+
+#container {
+	margin: 0 auto 50px auto !important;
+	max-width:650px;
+}
+#content, #content-archive{
+	margin-top: 0;
+	width:100%;
+}
+
+#footer{
+	padding:0;
+}
+#footer, #footer a{
+	color:#999 !important;
+}
+
+#footer-holder {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.90);
+    bottom: 0;
+    color: #000;
+    font-size: 10px;
+    margin-top: 50px;
+    padding: 6px 0px;
+    position: fixed;
+    width: 100% !important;
+    max-width: 100% !important;
+    opacity: 100;
+	filter:alpha(opacity=100);
+}
+
+.top-widget{
+	width: 100% !important;
+	float:none !important;
+	text-align: center;
+}
+.top-widget .textwidget p{
+	color:#ccc;
+	font-size:11px;
+	margin: 0.5em;
+	
+}
+
+#wrapper{
+	background-color: #fff;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+	background-image: -webkit-linear-gradient(top, #fff, #fff);
+	background-image: -moz-linear-gradient(top, #fff, #fff);
+	background-image: -ms-linear-gradient(top, #fff, #fff);
+	background-image: -o-linear-gradient(top, #fff, #fff);
+	background-image: linear-gradient(top, #fff, #fff);
+	clear: both;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#fff, endColorstr=#fff);
+	
+	border-color: #ddd;
+	
+	color:#333;
+	
+	opacity: 0.90;
+	filter:alpha(opacity=90);
+}
+
+.menu {
+	background-color: #fff;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+	background-image: -webkit-linear-gradient(top, #fff, #fff);
+	background-image: -moz-linear-gradient(top, #fff, #fff);
+	background-image: -ms-linear-gradient(top, #fff, #fff);
+	background-image: -o-linear-gradient(top, #fff, #fff);
+	background-image: linear-gradient(top, #fff, #fff);
+	clear: both;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#fff, endColorstr=#fff);
+	margin: 0 auto;
+}
+
+.widget-wrapper{
+	background: none !important;
+	border-color: none;
+	border: none;
+	padding: 0;
+}
+
+.widget-title{
+	color: #eee;
+}
+
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .menu a,
+.widget-title, .widget-title-home h3{
+	font-weight: normal;
+}
+
+#menu-we-offer{
+	margin-bottom:0;
+}
+
+body.custom-background{
+	background-position: center !important;
+}
+
+.widget_qtranslate{
+	float:right;
+	margin-bottom:20px;
+	position:relative;
+	top: -10px;
+}
+.qtrans_language_chooser{
+	list-style-type: none;
+	margin-right: 0 !important;
+}
+.qtrans_flag{
+	width:30px !important;
+	position:relative;
+	top:10px;
+}
+.qtrans_language_chooser li{
+	float:left;
+	padding-left:1em;
+}
+
+#menu-we-offer {
+	list-style-type: none;
+}
+#menu-we-offer li {
+	border-bottom: 1px solid #555555;
+    font-family: Lucida Sans Unicode,Lucida Grande,sans-serif;
+    font-size: 1.1em;
+    line-height: 1.4em;
+    padding: 0.5em 0 0.5em 1em;
+    /*background: url(images/chopsticks.png) top left no-repeat;*/
+    
+}
+
+.breadcrumb-list{
+	display:none;
+}
+.title-archive{
+	display:none;
+}
+
+.item-text{
+	margin:0;
+	font-size:1em !important;
+}
+.desc{
+	margin:0;
+	font-size:12px;
+}
+.jsrm-ul{
+	margin-right: 0;	
+}
+.jsrm-ul div{
+	width:70%;
+}
+.jsrm-ul .value{
+	width:20%;
+	font-size:12px;
+	white-space: nowrap;
+}
+.jsrm-menu li div:last-child{float:right;}
+.jsrm-ul .value .value-1{display:none;}
+.jsrm-ul .value .value-2{text-align:right;}
+
+.jsrm-menu-header{
+	font-size:15px;
+	font-weight:bold;
+	padding:0.3em 1em;
+	border-bottom: 1px solid #b91017;
+	border-left: 5px solid #b91017;
+}
+
+.jsrm-menu ol, .jsrm-menu ul, .jsrm-menu li{
+	border:none;
+}
+
+/*
+.fb_like_button{
+	padding-right: 10px;
+	position: relative;
+    top: 5px;
+}*/
+
+#menu-reservation{
+	list-style-type: none;
+	margin: 0;
+	font-size:13px;
+}
+#menu-reservation li{
+	float:right;
+}
+
+.wpcf7-form table, .wpcf7-form td{
+	border: collapse !important;
+	border: none !important;
+}
+.wpcf7-form p{
+	clear:both;
+}
+.wpcf7-form td{
+	padding: 0.8em 0.3em 0 0;
+}
+
+.wpcf7-form .td_from, .wpcf7-form .td_number{
+	width:15%;
+	float:left;
+	padding-right:5px;
+}
+.wpcf7-form .td_number{
+	width: 25%;
+}
+.wpcf7-form .td_date{
+	width:20%;
+	float:left;
+	padding-right:5px;
+}
+
+.wpcf7-form .td_dd{
+	float: left;
+	width: 15%;
+}
+.wpcf7-form .td_mm{
+	float: left;
+	width: 20%;
+}
+.wpcf7-form .td_yy{
+	float: left;
+	width: 15%;
+}
+
+#res_table{
+	width: 100%;
+}
+span.wpcf7-not-valid-tip{
+	background: none;
+    border: none;
+    font-size: 8pt;
+    left: 1%;
+    padding: 2px;
+    position: absolute;
+    top: -12%;
+    width: 97%;
+    z-index: 100;
+    color: red;
+}
+
+.menu-callus-container{
+	width:100%;
+}
+.top-widget ul{
+	line-height:40px;
+	list-style-type: none;
+}
+#menu-callus li{
+	float:left !important;
+	white-space: nowrap;
+}
+
+#menu-callus li a{
+	padding-left: 40px;
+	background: url(images/phone2.png) no-repeat top left;
+	display:block;
+	color: #fff;
+}
+
+.facebook-follow{
+	background: url(images/fb_follow.png) no-repeat top left;
+	width: 20px; height: 20px;
+	display:inline-block;
+	position: relative;
+	top: 2px;
+}
+
+/*
+.fb_edge_widget_with_comment {
+    bottom: 5px;
+    position: relative !important;
+    right: 10px;
+}*/
+/*
+#qtranslate-4{float:right;}
+#nav_menu-2{float:left;}
+#text-3{float:left;}
+*/
+
+#text-3{float:left;top:10px;position:relative;left:5px}
+.header-hours{
+	font-size:0.8em;
+	color: #fff;
+}
+.header-hours p{
+	margin:0.2em;
+}
+
+.header-hours #text-2{
+	width: 50%;
+	background-color: #fff;
+	margin: 0 auto;
+	color: #333;
+}
+
+#top-widget #text-2{
+	float: left;
+    left: 5px;
+    position: relative;
+    top: 10px;
+}
+
+.wpcf7-select{
+	padding: 6px 8px;
+}
+
+.res_company, .res_name, .res_email, .res_phone, .res_nr, .your-name, .your-email, .your-subject{
+	display: block;
+	width:50%;
+}
+
+.res_phone{
+	width:25%;
+}
+
+.wpcf7-form .wpcf7-captchar{
+	width: 30%;
+}
+
+.menu a {
+	color: #000;
+	border-left: 1px solid #ddd;
+	text-shadow: 0 0 #000;
+	padding: 0 0.7em;
+}
+
+.menu .current_page_item a, .menu .current-menu-item a, .menu a:hover {
+	background-color: #F0F0F0;
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#F0F0F0), to(#d0d0d0));
+	background-image: -webkit-linear-gradient(top, #F0F0F0, #d0d0d0);
+	background-image: -moz-linear-gradient(top, #F0F0F0, #d0d0d0);
+	background-image: -ms-linear-gradient(top, #F0F0F0, #d0d0d0);
+	background-image: -o-linear-gradient(top, #F0F0F0, #d0d0d0);
+	background-image: linear-gradient(top, #F0F0F0, #3d0d0d0);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#F0F0F0, endColorstr=#d0d0d0);
+	color: #000;
+}
+
+@media screen and (max-width:510px) {
+	.wpcf7-form td.td_from, .wpcf7-form td.td_number, .wpcf7-form td.td_dd, .wpcf7-form td.td_mm, .wpcf7-form td.td_yy, .wpcf7-form .wpcf7-captchar{
+		width:50%;
+	}
+	.wpcf7-form td.td_date{
+		width:30%;
+	}
+	#res_table{
+		width: 100%;
+	}
+	
+	.wpcf7-form .td_date, .wpcf7-form .td_from, .wpcf7-form .td_number{
+		width:50% !important;
+	}
+	
+	#text-2{
+		width: 100%;
+		background-color: #fff;
+		margin: 0 auto;
+	}
+
+	.header-hours #text-2{
+		width: 100%;
+	}
+
+	#top-widget #text-2 {
+		float: left;
+	    left: 5px;
+	    position: relative;
+	    top: 10px;
+	    width: auto;
+	    background: none;
+	}
+}
+
+@media screen and (max-width:380px) {
+	.jsrm-ul div{
+		width:100%;
+	}
+	.jsrm-ul .value{
+		width:100%;
+		font-size:12px;
+		white-space: nowrap;
+		margin-top:0;
+		padding-top:0;
+	}
+	
+	.wpcf7-form .td_date, .wpcf7-form .td_from, .wpcf7-form .td_number{
+		width:100%;
+	}
+	
+	.res_company, .res_name, .res_email, .res_phone, .res_nr, .your-name, .your-email, .your-subject{
+		width: 100% !important;
+	}
+	
+	h1{
+		font-size: 1.6em;
+	}
+}
