@@ -1,0 +1,53 @@
+	
+.tTip {width: 200px; position: absolute; cursor: pointer; color: #666; font-size:16px; font-weight: bold;}
+.tip {color: #333;}
+	
+		#cloud1 {top:16px; left: 188px; width:50px; height:40px;}
+		#cloud2 {top:30px; left: 123px;  width:45px; height:35px;}
+		#cloud3 {top:35px; left: 322px; width:40px; height:40px;}
+		#cloud4 {top:60px; left: 147px; width:40px; height:35px;}
+		#cloud5 {top:75px; left: 84px; width:40px; height:20px;}
+		#cloud6 {top:85px; left: 44px; width:40px; height:20px;}
+		#cloud7 {top:95px; left: 98px; width:50px; height:20px;}
+		#cloud8 {top:130px; left: 9px; width:45px; height:45px;}
+		#cloud9 {top:175px; left: 87px; width:42px; height:35px;}
+		#cloud10{top:160px; left: 195px; width:48px; height:45px;}
+		#cloud11{top:200px; left: 225px; width:45px; height:32px;}
+		#cloud12{top:220px; left: 246px; width:45px; height:37px;}
+		#cloud13{top:254px; left: 241px; width:85px; height:55px;}
+		#cloud14{top:295px; left: 306px; width:48px; height:41px;}
+		#cloud15{bottom: 42px; left: 314px; width:73px; height:55px;}
+		#cloud16{top:107px; left:222px; width:20px; height:25px;}
+		#cloud17{top:126px; left:240px; width:43px; height:33px;}
+		#cloud18{top:218px; left:310px; width:68px; height:33px;}
+		#cloud19{bottom:118px; right:108px; width:96px; height:55px;}
+		#cloud20{bottom:130px; right:7px; width:56px; height:57px;}
+		#cloud21{bottom:40px; right:33px; width:34px; height:30px;}
+		#cloud22{top:74px; right:113px; width:45px; height:25px;}
+		#cloud23{top:78px; right:86px; width:27px; height:25px;}
+		#cloud24{top:109px; right:41px; width:47px; height:35px;}
+		#cloud25{top:118px; right:93px; width:47px; height:29px;}
+		#cloud26{top:126px; right:153px; width:40px; height:26px;}
+		#cloud27{top:153px; right:166px; width:46px; height:34px;}
+		#cloud28{top:158px; right:117px; width:46px; height:21px;}
+		#cloud29{top:183px; right:80px; width:34px; height:34px;}
+		
+				
+/*-----------------------------------------------------------------------------------------------*/
+/*                                         TOOLTIP STYLES                                        */
+/*-----------------------------------------------------------------------------------------------*/
+
+.tip {
+	width:170px;	
+	overflow: hidden;
+	display: none;
+	position: absolute;
+	z-index: 500;
+	background: #651f1d;
+	color:#fff;
+	padding:8px 10px;
+	text-align:center;
+	font: bold 14px Arial;
+	
+}
+	
