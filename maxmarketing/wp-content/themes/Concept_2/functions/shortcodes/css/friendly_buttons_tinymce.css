@@ -1,0 +1,6 @@
+#shortcode-dialog { }
+#shortcode-dialog div{ padding: 5px 0; height: 20px;}
+#shortcode-dialog label { display: block; float: left; margin: 0 8px 0 0; width: 80px; }
+#shortcode-dialog select, #shortcode-dialog input { display: block; float: right; width: 100px; padding: 3px 5px;}
+#shortcode-dialog select { width: 112px; }
+#shortcode-dialog #insert { display: block; line-height: 24px; text-align: center; margin: 10px 0 0 0; float: right;}

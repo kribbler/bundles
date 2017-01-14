@@ -1,0 +1,1070 @@
+
+/* FADE IN */
+
+.effect-wrapper[data-effect="fadeIn"] .effect-content {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -webkit-animation: fadeIn 900ms ease both;
+    -webkit-animation-play-state: paused;
+    -moz-animation: fadeIn 900ms ease both;
+    -moz-animation-play-state: paused;
+    -o-animation: fadeIn 900ms ease both;
+    -o-animation-play-state: paused;
+    animation: fadeIn 900ms ease both;
+    animation-play-state: paused;
+}
+.ie .effect-wrapper .effect-content{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)" !important;
+	filter: alpha(opacity=100) !important;
+    opacity: 1 !important;
+}
+.effect-wrapper[data-effect="fadeIn"].play .effect-content {
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+}
+
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* ZOOM IN */
+
+.effect-wrapper[data-effect="zoomIn"] .effect-content {
+    opacity: 0;
+    
+    -webkit-animation: zoomIn 900ms ease both;
+    -webkit-animation-play-state: paused;
+    -moz-animation: zoomIn 900ms ease both;
+    -moz-animation-play-state: paused;
+    -o-animation: zoomIn 900ms ease both;
+    -o-animation-play-state: paused;
+    animation: zoomIn 900ms ease both;
+    animation-play-state: paused;
+}
+
+.effect-wrapper[data-effect="zoomIn"].play .effect-content {
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+}
+
+@-webkit-keyframes zoomIn {
+    0% { opacity: 0; -webkit-transform: scale(1.8); }
+    100% { opacity: 1; -webkit-transform: scale(1); }
+}
+
+@-moz-keyframes zoomIn {
+    0% { opacity: 0; -moz-transform: scale(1.8); }
+    100% { opacity: 1; -moz-transform: scale(1); }
+}
+
+@-o-keyframes zoomIn {
+    0% { opacity: 0; -o-transform: scale(1.8); }
+    100% { opacity: 1; -o-transform: scale(1); }
+}
+
+@keyframes zoomIn {
+    0% { opacity: 0; transform: scale(1.8); }
+    100% { opacity: 1; transform: scale(1); }
+}
+
+/* ZOOM OUT */
+
+.effect-wrapper[data-effect="zoomOut"] .effect-content {
+    opacity: 0;
+    
+    -webkit-animation: zoomOut 900ms ease both;
+    -webkit-animation-play-state: paused;
+    -moz-animation: zoomOut 900ms ease both;
+    -moz-animation-play-state: paused;
+    -o-animation: zoomOut 900ms ease both;
+    -o-animation-play-state: paused;
+    animation: zoomOut 900ms ease both;
+    animation-play-state: paused;
+}
+
+.effect-wrapper[data-effect="zoomOut"].play .effect-content {
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+}
+
+@-webkit-keyframes zoomOut {
+    0% { opacity: 0; -webkit-transform: scale(.6); }
+    100% { opacity: 1; -webkit-transform: scale(1); }
+}
+
+@-moz-keyframes zoomOut {
+    0% { opacity: 0; -moz-transform: scale(.6); }
+    100% { opacity: 1; -moz-transform: scale(1); }
+}
+
+@-o-keyframes zoomOut {
+    0% { opacity: 0; -o-transform: scale(.6); }
+    100% { opacity: 1; -o-transform: scale(1); }
+}
+
+@keyframes zoomOut {
+    0% { opacity: 0; transform: scale(.6); }
+    100% { opacity: 1; transform: scale(1); }
+}
+
+/* SLIDE LEFT */
+
+.effect-wrapper[data-effect="slideLeft"] .effect-content {
+    opacity: 0;
+    
+    -webkit-animation: slideLeft 900ms ease both;
+    -webkit-animation-play-state: paused;
+    -moz-animation: slideLeft 900ms ease both;
+    -moz-animation-play-state: paused;
+    -o-animation: slideLeft 900ms ease both;
+    -o-animation-play-state: paused;
+    animation: slideLeft 900ms ease both;
+    animation-play-state: paused;
+}
+
+.effect-wrapper[data-effect="slideLeft"].play .effect-content {
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+}
+
+@-webkit-keyframes slideLeft {
+    0% { opacity: 0; left: -30px; }
+    100% { opacity: 1; left: 0; }
+}
+
+@-moz-keyframes slideLeft {
+    0% { opacity: 0; left: -30px; }
+    100% { opacity: 1; left: 0; }
+}
+
+@-o-keyframes slideLeft {
+    0% { opacity: 0; left: -30px; }
+    100% { opacity: 1; left: 0; }
+}
+
+@keyframes slideLeft {
+    0% { opacity: 0; left: -30px; }
+    100% { opacity: 1; left: 0; }
+}
+
+/* SLIDE RIGHT */
+
+.effect-wrapper[data-effect="slideRight"] .effect-content {
+    opacity: 0;
+    
+    -webkit-animation: slideRight 900ms ease both;
+    -webkit-animation-play-state: paused;
+    -moz-animation: slideRight 900ms ease both;
+    -moz-animation-play-state: paused;
+    -o-animation: slideRight 900ms ease both;
+    -o-animation-play-state: paused;
+    animation: slideRight 900ms ease both;
+    animation-play-state: paused;
+}
+
+.effect-wrapper[data-effect="slideRight"].play .effect-content {
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+}
+
+@-webkit-keyframes slideRight {
+    0% { opacity: 0; left: 30px; }
+    100% { opacity: 1; left: 0; }
+}
+
+@-moz-keyframes slideRight {
+    0% { opacity: 0; left: 30px; }
+    100% { opacity: 1; left: 0; }
+}
+
+@-o-keyframes slideRight {
+    0% { opacity: 0; left: 30px; }
+    100% { opacity: 1; left: 0; }
+}
+
+@keyframes slideRight {
+    0% { opacity: 0; left: 30px; }
+    100% { opacity: 1; left: 0; }
+}
+
+/* SLIDE TOP */
+
+.effect-wrapper[data-effect="slideTop"] .effect-content {
+    opacity: 0;
+    
+    -webkit-animation: slideTop 900ms ease both;
+    -webkit-animation-play-state: paused;
+    -moz-animation: slideTop 900ms ease both;
+    -moz-animation-play-state: paused;
+    -o-animation: slideTop 900ms ease both;
+    -o-animation-play-state: paused;
+    animation: slideTop 900ms ease both;
+    animation-play-state: paused;
+}
+
+.effect-wrapper[data-effect="slideTop"].play .effect-content {
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+}
+
+@-webkit-keyframes slideTop {
+    0% { opacity: 0; top: -30px; }
+    100% { opacity: 1; top: 0; }
+}
+
+@-moz-keyframes slideTop {
+    0% { opacity: 0; top: -30px; }
+    100% { opacity: 1; top: 0; }
+}
+
+@-o-keyframes slideTop {
+    0% { opacity: 0; top: -30px; }
+    100% { opacity: 1; top: 0; }
+}
+
+@keyframes slideTop {
+    0% { opacity: 0; top: -30px; }
+    100% { opacity: 1; top: 0; }
+}
+
+/* SLIDE BOTTOM */
+
+.effect-wrapper[data-effect="slideBottom"] .effect-content {
+    opacity: 0;
+    
+    -webkit-animation: slideBottom 900ms ease both;
+    -webkit-animation-play-state: paused;
+    -moz-animation: slideBottom 900ms ease both;
+    -moz-animation-play-state: paused;
+    -o-animation: slideBottom 900ms ease both;
+    -o-animation-play-state: paused;
+    animation: slideBottom 900ms ease both;
+    animation-play-state: paused;
+}
+
+.effect-wrapper[data-effect="slideBottom"].play .effect-content {
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -o-animation-play-state: running;
+    -ms-animation-play-state: running;
+    animation-play-state: running;
+}
+
+@-webkit-keyframes slideBottom {
+    0% { opacity: 0; top: 30px; }
+    100% { opacity: 1; top: 0; }
+}
+
+@-moz-keyframes slideBottom {
+    0% { opacity: 0; top: 30px; }
+    100% { opacity: 1; top: 0; }
+}
+
+@-o-keyframes slideBottom {
+    0% { opacity: 0; top: 30px; }
+    100% { opacity: 1; top: 0; }
+}
+
+@keyframes slideBottom {
+    0% { opacity: 0; top: 30px; }
+    100% { opacity: 1; top: 0; }
+}
+
+/* FLIP IN HORIZONTAL */
+
+.effect-wrapper[data-effect="flipInX"] .effect-content {
+    opacity: 0;
+    
+    -webkit-animation: flipInX 900ms ease both;
+    -webkit-animation-play-state: paused;
+    -webkit-backface-visibility: visible;
+    -moz-animation: flipInX 900ms ease both;
+    -moz-animation-play-state: paused;
+    -moz-backface-visibility: visible;
+    -o-animation: flipInX 900ms ease both;
+    -o-animation-play-state: paused;
+    -o-backface-visibility: visible;
+    animation: flipInX 900ms ease both;
+    animation-play-state: paused;
+    backface-visibility: visible;
+}
+
+.effect-wrapper[data-effect="flipInX"].play .effect-content {
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+}
+
+@-webkit-keyframes flipInX {
+    0% { opacity: 0; -webkit-transform: perspective(400px) rotateX(85deg); }
+    40% { -webkit-transform: perspective(400px) rotateX(-20deg); }
+    70% { -webkit-transform: perspective(400px) rotateX(15deg); }
+    90% { -webkit-transform: perspective(400px) rotateX(-5deg); }
+    100% { opacity: 1; -webkit-transform: perspective(400px) rotateX(0deg); }
+}
+
+@-moz-keyframes flipInX {
+    0% { opacity: 0; -moz-transform: perspective(400px) rotateX(85deg); }
+    40% { -moz-transform: perspective(400px) rotateX(-20deg); }
+    70% { -moz-transform: perspective(400px) rotateX(15deg); }
+    90% { -moz-transform: perspective(400px) rotateX(-5deg); }
+    100% { opacity: 1; -moz-transform: perspective(400px) rotateX(0deg); }
+}
+
+@-o-keyframes flipInX {
+    0% { opacity: 0; -o-transform: perspective(400px) rotateX(85deg); }
+    40% { -o-transform: perspective(400px) rotateX(-20deg); }
+    70% { -o-transform: perspective(400px) rotateX(15deg); }
+    90% { -o-transform: perspective(400px) rotateX(-5deg); }
+    100% { opacity: 1; -o-transform: perspective(400px) rotateX(0deg); }
+}
+
+@keyframes flipInX {
+    0% { opacity: 0; transform: perspective(400px) rotateX(85deg); }
+    40% { transform: perspective(400px) rotateX(-20deg); }
+    70% { transform: perspective(400px) rotateX(15deg); }
+    90% { transform: perspective(400px) rotateX(-5deg); }
+    100% { opacity: 1; transform: perspective(400px) rotateX(0deg); }
+}
+
+
+
+.effect-wrapper[data-effect="flipInY"] .effect-content {
+    opacity: 0;
+    
+    -webkit-animation: flipInY 900ms ease both;
+    -webkit-animation-play-state: paused;
+    -webkit-backface-visibility: visible;
+    -moz-animation: flipInY 900ms ease both;
+    -moz-animation-play-state: paused;
+    -moz-backface-visibility: visible;
+    -o-animation: flipInY 900ms ease both;
+    -o-animation-play-state: paused;
+    -o-backface-visibility: visible;
+    animation: flipInY 900ms ease both;
+    animation-play-state: paused;
+    backface-visibility: visible;
+}
+
+.effect-wrapper[data-effect="flipInY"].play .effect-content {
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+}
+
+@-webkit-keyframes flipInY {
+    0% { opacity: 0; -webkit-transform: perspective(400px) rotateY(80deg); }
+    40% { -webkit-transform: perspective(400px) rotateY(-20deg); }
+    70% { -webkit-transform: perspective(400px) rotateY(10deg); }
+    90% { -webkit-transform: perspective(400px) rotateY(-5deg); }
+    100% { opacity: 1; -webkit-transform: perspective(400px) rotateY(0deg); }
+}
+
+@-moz-keyframes flipInY {
+    0% { opacity: 0; -moz-transform: perspective(400px) rotateY(80deg); }
+    40% { -moz-transform: perspective(400px) rotateY(-20deg); }
+    70% { -moz-transform: perspective(400px) rotateY(10deg); }
+    90% { -moz-transform: perspective(400px) rotateY(-5deg); }
+    100% { opacity: 1; -moz-transform: perspective(400px) rotateY(0deg); }
+}
+
+@-o-keyframes flipInY {
+    0% { opacity: 0; -o-transform: perspective(400px) rotateY(80deg); }
+    40% { -o-transform: perspective(400px) rotateY(-20deg); }
+    70% { -o-transform: perspective(400px) rotateY(10deg); }
+    90% { -o-transform: perspective(400px) rotateY(-5deg); }
+    100% { opacity: 1; -o-transform: perspective(400px) rotateY(0deg); }
+}
+
+@keyframes flipInY {
+    0% { opacity: 0; -webkit-transform: perspective(400px) rotateY(80deg); }
+    40% { -webkit-transform: perspective(400px) rotateY(-20deg); }
+    70% { -webkit-transform: perspective(400px) rotateY(10deg); }
+    90% { -webkit-transform: perspective(400px) rotateY(-5deg); }
+    100% { opacity: 1; -webkit-transform: perspective(400px) rotateY(0deg); }
+}
+
+
+.effect-wrapper[data-effect="bounceIn"] .effect-content {
+    opacity: 0;
+    
+    -webkit-animation: bounceIn 900ms ease both;
+    -webkit-animation-play-state: paused;
+    -moz-animation: bounceIn 900ms ease both;
+    -moz-animation-play-state: paused;
+    -o-animation: bounceIn 900ms ease both;
+    -o-animation-play-state: paused;
+    animation: bounceIn 900ms ease both;
+    animation-play-state: paused;
+}
+
+.effect-wrapper[data-effect="bounceIn"].play .effect-content {
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+}
+
+@-webkit-keyframes bounceIn {
+    0% { opacity: 0; -webkit-transform: scale(.3); }
+    50% { -webkit-transform: scale(1.05); }
+    70% { -webkit-transform: scale(.9); }
+    100% { opacity: 1; -webkit-transform: scale(1); }
+}
+
+@-moz-keyframes bounceIn {
+    0% { opacity: 0; -moz-transform: scale(.3); }
+    50% { -moz-transform: scale(1.05); }
+    70% { -moz-transform: scale(.9); }
+    100% { opacity: 1; -moz-transform: scale(1); }
+}
+
+@-o-keyframes bounceIn {
+    0% { opacity: 0; -o-transform: scale(.3); }
+    50% { -o-transform: scale(1.05); }
+    70% { -o-transform: scale(.9); }
+    100% { opacity: 1; -o-transform: scale(1); }
+}
+
+@keyframes bounceIn {
+    0% { opacity: 0; transform: scale(.3); }
+    50% { transform: scale(1.05); }
+    70% { transform: scale(.9); }
+    100% { opacity: 1; transform: scale(1); }
+}
+
+
+.effect-wrapper[data-effect="bounceInUp"] .effect-content {
+    opacity: 0;
+    
+    -webkit-animation: bounceInUp 900ms ease both;
+    -webkit-animation-play-state: paused;
+    -moz-animation: bounceInUp 900ms ease both;
+    -moz-animation-play-state: paused;
+    -o-animation: bounceInUp 900ms ease both;
+    -o-animation-play-state: paused;
+    animation: bounceInUp 900ms ease both;
+    animation-play-state: paused;
+}
+
+.effect-wrapper[data-effect="bounceInUp"].play .effect-content {
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+}
+
+@-webkit-keyframes bounceInUp {
+    0% { opacity: 0; -webkit-transform: translateY(2000px); }
+    60% { -webkit-transform: translateY(-30px); }
+    80% { -webkit-transform: translateY(10px); }
+    100% { opacity: 1; -webkit-transform: translateY(0); }
+}
+
+@-moz-keyframes bounceInUp {
+    0% { opacity: 0; -moz-transform: translateY(2000px); }
+    60% { -moz-transform: translateY(-30px); }
+    80% { -moz-transform: translateY(10px); }
+    100% { opacity: 1; -moz-transform: translateY(0); }
+}
+
+@-o-keyframes bounceInUp {
+    0% { opacity: 0; -o-transform: translateY(2000px); }
+    60% { -o-transform: translateY(-30px); }
+    80% { -o-transform: translateY(10px); }
+    100% { opacity: 1; -o-transform: translateY(0); }
+}
+
+@keyframes bounceInUp {
+    0% { opacity: 0; transform: translateY(2000px); }
+    60% { transform: translateY(-30px); }
+    80% { transform: translateY(10px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+
+.effect-wrapper[data-effect="bounceInRight"] .effect-content {
+    opacity: 0;
+    
+    -webkit-animation: bounceInRight 900ms ease both;
+    -webkit-animation-play-state: paused;
+    -moz-animation: bounceInRight 900ms ease both;
+    -moz-animation-play-state: paused;
+    -o-animation: bounceInRight 900ms ease both;
+    -o-animation-play-state: paused;
+    animation: bounceInRight 900ms ease both;
+    animation-play-state: paused;
+}
+
+.effect-wrapper[data-effect="bounceInRight"].play .effect-content {
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+}
+
+@-webkit-keyframes bounceInRight {
+    0% { opacity: 0; -webkit-transform: translateX(2000px); }
+    60% { -webkit-transform: translateX(-30px); }
+    80% { -webkit-transform: translateX(10px); }
+    100% { opacity: 1; -webkit-transform: translateX(0); }
+}
+
+@-moz-keyframes bounceInRight {
+    0% { opacity: 0; -moz-transform: translateX(2000px); }
+    60% { -moz-transform: translateX(-30px); }
+    80% { -moz-transform: translateX(10px); }
+    100% { opacity: 1; -moz-transform: translateX(0); }
+}
+
+@-moz-keyframes bounceInRight {
+    0% { opacity: 0; -o-transform: translateX(2000px); }
+    60% { -o-transform: translateX(-30px); }
+    80% { -o-transform: translateX(10px); }
+    100% { opacity: 1; -o-transform: translateX(0); }
+}
+
+@keyframes bounceInRight {
+    0% { opacity: 0; transform: translateX(2000px); }
+    60% { transform: translateX(-30px); }
+    80% { transform: translateX(10px); }
+    100% { opacity: 1; transform: translateX(0); }
+}
+
+
+.effect-wrapper[data-effect="bounceInDown"] .effect-content {
+    opacity: 0;
+    
+    -webkit-animation: bounceInDown 900ms ease both;
+    -webkit-animation-play-state: paused;
+    -moz-animation: bounceInDown 900ms ease both;
+    -moz-animation-play-state: paused;
+    -o-animation: bounceInDown 900ms ease both;
+    -o-animation-play-state: paused;
+    animation: bounceInDown 900ms ease both;
+    animation-play-state: paused;
+}
+
+.effect-wrapper[data-effect="bounceInDown"].play .effect-content {
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+}
+
+@-webkit-keyframes bounceInDown {
+    0% { opacity: 0; -webkit-transform: translateY(-2000px); }
+    60% { -webkit-transform: translateY(30px); }
+    80% { -webkit-transform: translateY(-10px); }
+    100% { opacity: 1; -webkit-transform: translateY(0); }
+}
+
+@-moz-keyframes bounceInDown {
+    0% { opacity: 0; -moz-transform: translateY(-2000px); }
+    60% { -moz-transform: translateY(30px); }
+    80% { -moz-transform: translateY(-10px); }
+    100% { opacity: 1; -moz-transform: translateY(0); }
+}
+
+@-o-keyframes bounceInDown {
+    0% { opacity: 0; -o-transform: translateY(-2000px); }
+    60% { -o-transform: translateY(30px); }
+    80% { -o-transform: translateY(-10px); }
+    100% { opacity: 1; -o-transform: translateY(0); }
+}
+
+@keyframes bounceInDown {
+    0% { opacity: 0; transform: translateY(-2000px); }
+    60% { transform: translateY(30px); }
+    80% { transform: translateY(-10px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+
+.effect-wrapper[data-effect="bounceInLeft"] .effect-content {
+    opacity: 0;
+    
+    -webkit-animation: bounceInLeft 900ms ease both;
+    -webkit-animation-play-state: paused;
+    -moz-animation: bounceInLeft 900ms ease both;
+    -moz-animation-play-state: paused;
+    -o-animation: bounceInLeft 900ms ease both;
+    -o-animation-play-state: paused;
+    animation: bounceInLeft 900ms ease both;
+    animation-play-state: paused;
+}
+
+.effect-wrapper[data-effect="bounceInLeft"].play .effect-content {
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+}
+
+@-webkit-keyframes bounceInLeft {
+    0% { opacity: 0; -webkit-transform: translateX(-2000px); }
+    60% { -webkit-transform: translateX(30px); }
+    80% { -webkit-transform: translateX(-10px); }
+    100% { opacity: 1; -webkit-transform: translateX(0); }
+}
+
+@-moz-keyframes bounceInLeft {
+    0% { opacity: 0; -moz-transform: translateX(-2000px); }
+    60% { -moz-transform: translateX(30px); }
+    80% { -moz-transform: translateX(-10px); }
+    100% { opacity: 1; -moz-transform: translateX(0); }
+}
+
+@-o-keyframes bounceInLeft {
+    0% { opacity: 0; -o-transform: translateX(-2000px); }
+    60% { -o-transform: translateX(30px); }
+    80% { -o-transform: translateX(-10px); }
+    100% { opacity: 1; -o-transform: translateX(0); }
+}
+
+@keyframes bounceInLeft {
+    0% { opacity: 0; transform: translateX(-2000px); }
+    60% { transform: translateX(30px); }
+    80% { transform: translateX(-10px); }
+    100% { opacity: 1; transform: translateX(0); }
+}
+
+
+.effect-wrapper[data-effect="pageTop"] .effect-content {
+    opacity: 0;
+    
+    -webkit-animation: pageTop 900ms ease both;
+    -webkit-animation-play-state: paused;
+    -webkit-transform-origin: 50% 0%;
+    -moz-animation: pageTop 900ms ease both;
+    -moz-animation-play-state: paused;
+    -moz-transform-origin: 50% 0%;
+    -o-animation: pageTop 900ms ease both;
+    -o-animation-play-state: paused;
+    -o-transform-origin: 50% 0%;
+    animation: pageTop 900ms ease both;
+    animation-play-state: paused;
+    transform-origin: 50% 0%;
+}
+
+.effect-wrapper[data-effect="pageTop"].play .effect-content {
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+}
+
+@-webkit-keyframes pageTop {
+    0% { opacity: 0; -webkit-transform: perspective(400px) rotateX(90deg); }
+    100% { opacity: 1; -webkit-transform: perspective(400px) rotateX(0deg); }
+}
+
+@-moz-keyframes pageTop {
+    0% { opacity: 0; -moz-transform: perspective(400px) rotateX(90deg); }
+    100% { opacity: 1; -moz-transform: perspective(400px) rotateX(0deg); }
+}
+
+@-o-keyframes pageTop {
+    0% { opacity: 0; -o-transform: perspective(400px) rotateX(90deg); }
+    100% { opacity: 1; -o-transform: perspective(400px) rotateX(0deg); }
+}
+
+@keyframes pageTop {
+    0% { opacity: 0; transform: perspective(400px) rotateX(90deg); }
+    100% { opacity: 1; transform: perspective(400px) rotateX(0deg); }
+}
+
+
+.effect-wrapper[data-effect="pageTopBack"] .effect-content {
+    opacity: 0;
+    
+    -webkit-animation: pageTopBack 900ms ease both;
+    -webkit-animation-play-state: paused;
+    -webkit-transform-origin: 50% 0%;
+    -moz-animation: pageTopBack 900ms ease both;
+    -moz-animation-play-state: paused;
+    -moz-transform-origin: 50% 0%;
+    -o-animation: pageTopBack 900ms ease both;
+    -o-animation-play-state: paused;
+    -o-transform-origin: 50% 0%;
+    animation: pageTopBack 900ms ease both;
+    animation-play-state: paused;
+    transform-origin: 50% 0%;
+}
+
+.effect-wrapper[data-effect="pageTopBack"].play .effect-content {
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+}
+
+@-webkit-keyframes pageTopBack {
+    0% { opacity: 0; -webkit-transform: perspective(400px) rotateX(90deg); }
+    100% { opacity: 1; -webkit-transform: perspective(400px) rotateX(0deg); }
+}
+
+@-moz-keyframes pageTopBack {
+    0% { opacity: 0; -moz-transform: perspective(400px) rotateX(90deg); }
+    100% { opacity: 1; -moz-transform: perspective(400px) rotateX(0deg); }
+}
+
+@-o-keyframes pageTopBack {
+    0% { opacity: 0; -o-transform: perspective(400px) rotateX(90deg); }
+    100% { opacity: 1; -o-transform: perspective(400px) rotateX(0deg); }
+}
+
+@keyframes pageTopBack {
+    0% { opacity: 0; transform: perspective(400px) rotateX(90deg); }
+    100% { opacity: 1; transform: perspective(400px) rotateX(0deg); }
+}
+
+
+.effect-wrapper[data-effect="pageRight"] .effect-content {
+    opacity: 0;
+    
+    -webkit-animation: pageRight 900ms ease both;
+    -webkit-animation-play-state: paused;
+    -webkit-transform-origin: 100% 50%;
+    -moz-animation: pageRight 900ms ease both;
+    -moz-animation-play-state: paused;
+    -moz-transform-origin: 100% 50%;
+    -o-animation: pageRight 900ms ease both;
+    -o-animation-play-state: paused;
+    -o-transform-origin: 100% 50%;
+    animation: pageRight 900ms ease both;
+    animation-play-state: paused;
+    transform-origin: 100% 50%;
+}
+
+.effect-wrapper[data-effect="pageRight"].play .effect-content {
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+}
+
+@-webkit-keyframes pageRight {
+    0% { opacity: 0; -webkit-transform: perspective(400px) rotateY(90deg); }
+    100% { opacity: 1; -webkit-transform: perspective(400px) rotateY(0deg); }
+}
+
+@-moz-keyframes pageRight {
+    0% { opacity: 0; -moz-transform: perspective(400px) rotateY(90deg); }
+    100% { opacity: 1; -moz-transform: perspective(400px) rotateY(0deg); }
+}
+
+@-o-keyframes pageRight {
+    0% { opacity: 0; -o-transform: perspective(400px) rotateY(90deg); }
+    100% { opacity: 1; -o-transform: perspective(400px) rotateY(0deg); }
+}
+
+@keyframes pageRight {
+    0% { opacity: 0; transform: perspective(400px) rotateY(90deg); }
+    100% { opacity: 1; transform: perspective(400px) rotateY(0deg); }
+}
+
+
+.effect-wrapper[data-effect="pageRightBack"] .effect-content {
+    opacity: 0;
+    
+    -webkit-animation: pageRightBack 900ms ease both;
+    -webkit-animation-play-state: paused;
+    -webkit-transform-origin: 100% 50%;
+    -moz-animation: pageRightBack 900ms ease both;
+    -moz-animation-play-state: paused;
+    -moz-transform-origin: 100% 50%;
+    -o-animation: pageRightBack 900ms ease both;
+    -o-animation-play-state: paused;
+    -o-transform-origin: 100% 50%;
+    animation: pageRightBack 900ms ease both;
+    animation-play-state: paused;
+    transform-origin: 100% 50%;
+}
+
+.effect-wrapper[data-effect="pageRightBack"].play .effect-content {
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+}
+
+@-webkit-keyframes pageRightBack {
+    0% { opacity: 0; -webkit-transform: perspective(400px) rotateY(-90deg); }
+    100% { opacity: 1; -webkit-transform: perspective(400px) rotateY(0deg); }
+}
+
+@-moz-keyframes pageRightBack {
+    0% { opacity: 0; -moz-transform: perspective(400px) rotateY(-90deg); }
+    100% { opacity: 1; -moz-transform: perspective(400px) rotateY(0deg); }
+}
+
+@-o-keyframes pageRightBack {
+    0% { opacity: 0; -o-transform: perspective(400px) rotateY(-90deg); }
+    100% { opacity: 1; -o-transform: perspective(400px) rotateY(0deg); }
+}
+
+@keyframes pageRightBack {
+    0% { opacity: 0; transform: perspective(400px) rotateY(-90deg); }
+    100% { opacity: 1; transform: perspective(400px) rotateY(0deg); }
+}
+
+
+.effect-wrapper[data-effect="pageBottom"] .effect-content {
+    opacity: 0;
+    
+    -webkit-animation: pageBottom 900ms ease both;
+    -webkit-animation-play-state: paused;
+    -webkit-transform-origin: 50% 100%;
+    -moz-animation: pageBottom 900ms ease both;
+    -moz-animation-play-state: paused;
+    -moz-transform-origin: 50% 100%;
+    -o-animation: pageBottom 900ms ease both;
+    -o-animation-play-state: paused;
+    -o-transform-origin: 50% 100%;
+    animation: pageBottom 900ms ease both;
+    animation-play-state: paused;
+    transform-origin: 50% 100%;
+}
+
+.effect-wrapper[data-effect="pageBottom"].play .effect-content {
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+}
+
+@-webkit-keyframes pageBottom {
+    0% { opacity: 0; -webkit-transform: perspective(400px) rotateX(-90deg); }
+    100% { opacity: 1; -webkit-transform: perspective(400px) rotateX(0deg); }
+}
+
+@-moz-keyframes pageBottom {
+    0% { opacity: 0; -moz-transform: perspective(400px) rotateX(-90deg); }
+    100% { opacity: 1; -moz-transform: perspective(400px) rotateX(0deg); }
+}
+
+@-o-keyframes pageBottom {
+    0% { opacity: 0; -o-transform: perspective(400px) rotateX(-90deg); }
+    100% { opacity: 1; -o-transform: perspective(400px) rotateX(0deg); }
+}
+
+@keyframes pageBottom {
+    0% { opacity: 0; transform: perspective(400px) rotateX(-90deg); }
+    100% { opacity: 1; transform: perspective(400px) rotateX(0deg); }
+}
+
+
+.effect-wrapper[data-effect="pageBottomBack"] .effect-content {
+    opacity: 0;
+    
+    -webkit-animation: pageBottomBack 900ms ease both;
+    -webkit-animation-play-state: paused;
+    -webkit-transform-origin: 50% 100%;
+    -moz-animation: pageBottomBack 900ms ease both;
+    -moz-animation-play-state: paused;
+    -moz-transform-origin: 50% 100%;
+    -o-animation: pageBottomBack 900ms ease both;
+    -o-animation-play-state: paused;
+    -o-transform-origin: 50% 100%;
+    animation: pageBottomBack 900ms ease both;
+    animation-play-state: paused;
+    transform-origin: 50% 100%;
+}
+
+.effect-wrapper[data-effect="pageBottomBack"].play .effect-content {
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+}
+
+@-webkit-keyframes pageBottomBack {
+    0% { opacity: 0; -webkit-transform: perspective(400px) rotateX(90deg); }
+    100% { opacity: 1; -webkit-transform: perspective(400px) rotateX(0deg); }
+}
+
+@-moz-keyframes pageBottomBack {
+    0% { opacity: 0; -moz-transform: perspective(400px) rotateX(90deg); }
+    100% { opacity: 1; -moz-transform: perspective(400px) rotateX(0deg); }
+}
+
+@-o-keyframes pageBottomBack {
+    0% { opacity: 0; -o-transform: perspective(400px) rotateX(90deg); }
+    100% { opacity: 1; -o-transform: perspective(400px) rotateX(0deg); }
+}
+
+@keyframes pageBottomBack {
+    0% { opacity: 0; transform: perspective(400px) rotateX(90deg); }
+    100% { opacity: 1; transform: perspective(400px) rotateX(0deg); }
+}
+
+
+.effect-wrapper[data-effect="pageLeft"] .effect-content {
+    opacity: 0;
+    
+    -webkit-animation: pageLeft 900ms ease both;
+    -webkit-animation-play-state: paused;
+    -webkit-transform-origin: 0% 50%;
+    -moz-animation: pageLeft 900ms ease both;
+    -moz-animation-play-state: paused;
+    -moz-transform-origin: 0% 50%;
+    -o-animation: pageLeft 900ms ease both;
+    -o-animation-play-state: paused;
+    -o-transform-origin: 0% 50%;
+    animation: pageLeft 900ms ease both;
+    animation-play-state: paused;
+    transform-origin: 0% 50%;
+}
+
+.effect-wrapper[data-effect="pageLeft"].play .effect-content {
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+}
+
+@-webkit-keyframes pageLeft {
+    0% { opacity: 0; -webkit-transform: perspective(400px) rotateY(-90deg); }
+    100% { opacity: 1; -webkit-transform: perspective(400px) rotateY(0deg); }
+}
+
+@-moz-keyframes pageLeft {
+    0% { opacity: 0; -moz-transform: perspective(400px) rotateY(-90deg); }
+    100% { opacity: 1; -moz-transform: perspective(400px) rotateY(0deg); }
+}
+
+@-o-keyframes pageLeft {
+    0% { opacity: 0; -o-transform: perspective(400px) rotateY(-90deg); }
+    100% { opacity: 1; -o-transform: perspective(400px) rotateY(0deg); }
+}
+
+@keyframes pageLeft {
+    0% { opacity: 0; transform: perspective(400px) rotateY(-90deg); }
+    100% { opacity: 1; transform: perspective(400px) rotateY(0deg); }
+}
+
+
+.effect-wrapper[data-effect="pageLeftBack"] .effect-content {
+    opacity: 0;
+    
+    -webkit-animation: pageLeftBack 900ms ease both;
+    -webkit-animation-play-state: paused;
+    -webkit-transform-origin: 0% 50%;
+    -moz-animation: pageLeftBack 900ms ease both;
+    -moz-animation-play-state: paused;
+    -moz-transform-origin: 0% 50%;
+    -o-animation: pageLeftBack 900ms ease both;
+    -o-animation-play-state: paused;
+    -o-transform-origin: 0% 50%;
+    animation: pageLeftBack 900ms ease both;
+    animation-play-state: paused;
+    transform-origin: 0% 50%;
+}
+
+.effect-wrapper[data-effect="pageLeftBack"].play .effect-content {
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+}
+
+@-webkit-keyframes pageLeftBack {
+    0% { opacity: 0; -webkit-transform: perspective(400px) rotateY(90deg); }
+    100% { opacity: 1; -webkit-transform: perspective(400px) rotateY(0deg); }
+}
+
+@-moz-keyframes pageLeftBack {
+    0% { opacity: 0; -moz-transform: perspective(400px) rotateY(90deg); }
+    100% { opacity: 1; -moz-transform: perspective(400px) rotateY(0deg); }
+}
+
+@-o-keyframes pageLeftBack {
+    0% { opacity: 0; -o-transform: perspective(400px) rotateY(90deg); }
+    100% { opacity: 1; -o-transform: perspective(400px) rotateY(0deg); }
+}
+
+@keyframes pageLeftBack {
+    0% { opacity: 0; transform: perspective(400px) rotateY(90deg); }
+    100% { opacity: 1; transform: perspective(400px) rotateY(0deg); }
+}
+
+
+.effect-wrapper[data-effect="starwars"] .effect-content {
+    opacity: 0;
+    
+    -webkit-animation: starwars 900ms ease-out both;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-animation-play-state: paused;
+    -moz-animation: starwars 900ms ease-out both;
+    -moz-transform-origin: 50% 50%;
+    -moz-animation-play-state: paused;
+    -o-animation: starwars 900ms ease-out both;
+    -o-transform-origin: 50% 50%;
+    -o-animation-play-state: paused;
+    animation: starwars 900ms ease-out both;
+    transform-origin: 50% 50%;
+    animation-play-state: paused;
+}
+
+.effect-wrapper[data-effect="starwars"].play .effect-content {
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    -o-animation-play-state: running;
+    animation-play-state: running;
+}
+
+@-webkit-keyframes starwars {
+    0% { opacity: 0; -webkit-transform: perspective(200px) scale(3) translateY(180px) rotateX(80deg); }
+    80% { opacity: 1; -webkit-transform: perspective(200px) scale(1) rotateX(60deg) }
+    100% { opacity: 1; -webkit-transform: perspective(200px) scale(1) rotateX(0deg) }
+}
+
+@-moz-keyframes starwars {
+    0% { opacity: 0; -moz-transform: perspective(200px) scale(3) translateY(180px) rotateX(80deg); }
+    80% { opacity: 1; -moz-transform: perspective(200px) scale(1) rotateX(60deg) }
+    100% { opacity: 1; -moz-transform: perspective(200px) scale(1) rotateX(0deg) }
+}
+
+@-o-keyframes starwars {
+    0% { opacity: 0; -o-transform: perspective(200px) scale(3) translateY(180px) rotateX(80deg); }
+    80% { opacity: 1; -o-transform: perspective(200px) scale(1) rotateX(60deg) }
+    100% { opacity: 1; -o-transform: perspective(200px) scale(1) rotateX(0deg) }
+}
+
+@keyframes starwars {
+    0% { opacity: 0; transform: perspective(200px) scale(3) translateY(180px) rotateX(80deg); }
+    80% { opacity: 1; transform: perspective(200px) scale(1) rotateX(60deg) }
+    100% { opacity: 1; transform: perspective(200px) scale(1) rotateX(0deg) }
+}

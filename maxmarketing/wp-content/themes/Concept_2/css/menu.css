@@ -1,0 +1,122 @@
+.sf-menu a {
+	text-decoration:none!important;
+	font-size:12px;
+	display:block;
+	position:relative;
+	font-weight:normal;
+	color: #666;
+}
+.sf-menu > li > a {
+	font-size:12px;
+	padding:15px 18px;
+	text-transform:uppercase;
+}
+
+/* Drop down menu */
+.sf-menu li li {
+	text-align:left;
+	line-height:20px;
+	font-size:12px;
+	margin:0;
+	
+}
+.sf-menu, .sf-menu * {
+	margin:			0;
+	padding:		0;
+	list-style:		none;
+	font-size:13px;
+	
+}
+.sf-menu {
+	line-height:100%;
+	position:absolute;
+}
+.sf-menu ul {
+	position:absolute;
+	top:-999em;
+	width:27em; /* left offset of submenus need to match (see below) */
+	
+	outline: 0;
+}
+.sf-menu ul li {
+	width:			100%;
+	background: #fff;
+}
+.sf-menu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-menu > li {
+	line-height:22px;
+	float:left;
+	position:relative;
+	text-align:center;
+	-moz-transition: all 0.3s; 
+	-o-transition: all 0.3s; 
+	-webkit-transition: all 0.3s; 
+	-ms-transition: all 0.3s; 
+	transition: all 0.3s;
+}
+.sf-menu > li:hover > a{
+	
+}
+
+.sf-menu li li{margin:0px 0px;}
+
+
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left:			0px;
+	top:			6.1em; /* match top ul list item height */
+	z-index:		99;
+
+}
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			-1px;
+	margin-left:	0px;
+}
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+	top:			-999em;
+	
+}
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			-1px;
+	
+}
+.sf-menu ul li a{
+	color:#777;
+	padding:4px 20px;
+}
+.sf-menu ul li a:hover{
+	box-shadow:none;
+}
+.sf-menu a.sf-with-ul {
+	min-width:		1px; /* trigger IE7 hasLayout so spans position accurately */
+}
+.sf-sub-indicator {
+	position:		absolute;
+	display:		block;
+	right:			10px;
+	top:			1.05em; /* IE6 only */
+	width:			10px;
+	height:			10px;
+	text-indent: 	-999em;
+	overflow:		hidden;
+	display:none;
+}
+.sf-menu > li > ul  li{
+	position:relative;
+}
+.sub-menu a{
+	min-width:145px;
+}
+
+
