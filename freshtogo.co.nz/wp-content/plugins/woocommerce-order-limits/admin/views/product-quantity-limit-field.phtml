@@ -1,0 +1,32 @@
+</div><div class="options_group"> <!-- Close previous group and open new group -->
+
+<?php
+global $woocommerce;
+if( version_compare( $woocommerce->version, 2.1, '<' ) ) $description_styles = 'display: block; margin-left: 150px;';
+else $description_styles = 'display: block; margin-left: 0px;';
+?>
+
+<p class="form-field purchase_limit_field">
+	<label>Purchase Limit</label>
+	Min: <input class="input-text" type="number" min="0" step="1" placeholder="0" value="<?php echo $purchase_limit['min']; ?>" name="purchase_limit[min]" />
+	Max: <input class="input-text" type="number" min="0" step="1" placeholder="0" value="<?php echo $purchase_limit['max']; ?>" name="purchase_limit[max]" />
+	<img class="help_tip" data-tip="Make sure to only input numbers and in the correct order.<br /><br />Setting the Min value greater than the Max value will revert the Max value to 0." src="<?php echo $woocommerce->plugin_url(); ?>/assets/images/help.png" height="16" width="16" />
+	<span class="description">Enter 0 for no limit</span>
+	<span class="description show_if_variable" style="<?php echo $description_styles; ?>">The limit above will be applied to the total quantity of this product in the cart (total of all variations).<br />You can set limits for individual variations on the variations tab.</span>
+</p>
+
+<?php if( get_option( 'wpl_product_quantity_limit_type' ) == 'global' ){ ?>
+<p class="form-field purchase_limit_field">
+	<label>Override global limit?</label>
+	<input class="checkbox" type="checkbox" name="override_global_product_limit" <?php if( get_post_meta( $post->ID, 'override_global_product_limit', true ) == 'yes' ) echo 'checked'; ?> />
+	<span class="description">&nbsp;</span>
+	<span class="description" style="<?php echo $description_styles; ?>">The product purchase limit is currently set to use the global limit. You can override it with the limit set above.</span>
+</p>
+<?php } ?>
+
+<p class="form-field purchase_limit_field">
+	<label>Product required?</label>
+	<input class="checkbox" type="checkbox" name="wpl_product_required" <?php if( get_post_meta( $post->ID, 'wpl_product_required', true ) == 'yes' ) echo 'checked'; ?> />
+	<span class="description">&nbsp;</span>
+	<span class="description" style="<?php echo $description_styles; ?>">If checked, this product must be in the cart before the customer can checkout.</span>
+</p>

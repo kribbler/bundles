@@ -1,0 +1,19 @@
+<tr>
+	<td class="variation_purchase_limit_field">
+		<label>Purchase Limits: <a class="tips" data-tip="Make sure to only input numbers and in the correct order.<br /><br />Setting the Min value greater than the Max value will revert the Max value to 0." href="#">[?]</a></label>                
+		<table >
+			<tr>
+				<td style="padding: 0; text-align: center;">
+					<strong>Min</strong><br />
+					<input style="width: 75px; text-align: center;" type="number" min="0" step="1" placeholder="0" name="variable_purchase_limit[<?php echo $loop; ?>][min]" value="<?php echo $purchase_limit['min']; ?>" />
+				</td>
+				<td valign="bottom"> - 
+				</td>
+				<td style="padding: 0; text-align: center;">
+					<strong>Max</strong><br />
+					<input style="width: 75px; text-align: center;" type="number" min="0" step="1" placeholder="0" name="variable_purchase_limit[<?php echo $loop; ?>][max]" value="<?php echo $purchase_limit['max']; ?>" />
+				</td>
+			</tr>
+		</table>                
+	</td>
+</tr>

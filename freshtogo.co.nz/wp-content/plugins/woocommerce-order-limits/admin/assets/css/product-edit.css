@@ -1,0 +1,13 @@
+.purchase_limit_field input{
+	margin: 0 10px 0 5px;
+}
+
+.purchase_limit_field .input-text{
+    float: none !important;
+    width: 75px !important;
+}
+
+.variation_purchase_limit_field table{
+	background-color: transparent !important;
+	padding: 0 !important;
+}

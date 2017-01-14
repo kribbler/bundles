@@ -1,0 +1,1 @@
+[20-Mar-2015 14:54:32] PHP Fatal error:  Call to undefined function  __() in /home5/goutcare/public_html/wp-content/plugins/woocommerce/i18n/states/US.php on line 13

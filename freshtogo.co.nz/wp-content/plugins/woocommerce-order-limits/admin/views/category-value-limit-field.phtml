@@ -1,0 +1,25 @@
+<tr>
+	<th colspan="2"><h2>Value Purchase Limits</h2></th>
+</tr>
+<tr class="form-field">
+	<th>
+		Value Limit
+	</th>
+	<td class="purchase_limit_field">
+		Min: <?php echo get_woocommerce_currency_symbol(); ?><input style="width: 100px; text-align: center;" type="text" name="wpl_value_limit[min]" value="<?php echo $value_limit['min']; ?>" />
+		Max: <?php echo get_woocommerce_currency_symbol(); ?><input style="width: 100px; text-align: center;" type="text" name="wpl_value_limit[max]" value="<?php echo $value_limit['max']; ?>" />
+		<p class="description">The limit for the value of each category currently in the cart.</p>
+	</td>
+</tr>
+
+<?php if( get_option( 'wpl_category_value_limit_type' ) == 'global' ){ ?>
+<tr class="">
+	<th>
+		Override global value limit?
+	</th>
+	<td class="">
+		<input class="checkbox" type="checkbox" name="wpl_override_global_value_limit" <?php if( get_woocommerce_term_meta( $category->term_id, 'wpl_override_global_value_limit', true ) == 'yes' ) echo 'checked'; ?> />
+		<p class="description">The limit type is currently set to use the global limit. You can override it with the limit set above.</p>
+	</td>
+</tr>
+<?php } ?>

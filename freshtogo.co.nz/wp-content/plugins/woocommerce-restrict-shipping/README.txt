@@ -1,0 +1,1 @@
+See the documentation on our site. Navigate to WooCommerce Plugins -> Documentation

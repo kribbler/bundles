@@ -1,0 +1,38 @@
+<tr>
+	<th colspan="2"><h2>Quantity Purchase Limits</h2></th>
+</tr>
+<tr class="form-field">
+	<th>
+		Quantity Limits
+	</th>
+	<td class="purchase_limit_field">
+		Min: <input class="input-text" type="number" min="0" step="1" placeholder="0" value="<?php echo $quantity_limit['min']; ?>" name="wpl_quantity_limit[min]" />
+		Max: <input class="input-text" type="number" min="0" step="1" placeholder="0" value="<?php echo $quantity_limit['max']; ?>" name="wpl_quantity_limit[max]" />
+		<p class="description">This limit will be applied to the categories of the products in the cart.  If you would like to force the customer to purchase a product from this category, make sure you check the <strong>Product required</strong> field below.</p>
+	</td>
+</tr>
+
+<?php if( get_option( 'wpl_category_quantity_limit_type' ) == 'global' ){ ?>
+<tr class="">
+	<th>
+		Override global quantity limit?
+	</th>
+	<td class="">
+		<input class="checkbox" type="checkbox" name="wpl_override_global_quantity_limit" <?php if( get_woocommerce_term_meta( $category->term_id, 'wpl_override_global_quantity_limit', true ) == 'yes' ) echo 'checked'; ?> />
+		<p class="description">The limit type is currently set to use the global limit. You can override it with the limit set above.</p>
+	</td>
+</tr>
+<?php } ?>
+
+<tr class="">
+	<th>
+		Product required?
+	</th>
+	<td class="">
+		<input class="checkbox" type="checkbox" name="wpl_product_required" <?php if( get_woocommerce_term_meta( $category->term_id, 'wpl_product_required', true ) == 'yes' ) echo 'checked'; ?> />
+		<p class="description">If checked, a product from this category must be in the cart before the customer can checkout.</p>
+	</td>
+</tr>
+
+
+

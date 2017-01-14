@@ -1,0 +1,19 @@
+<tr valign="top">
+	<th scope="row" class="titledesc">
+		<label for="<?php echo esc_attr( $vid ); ?>"><?php echo esc_html( $title ); ?></label>
+		<?php echo $tip; ?>
+	</th>
+	<td class="forminp forminp-<?php echo sanitize_title( $type ) ?>">
+		<span>
+			<strong>Min: </strong>
+			<input style="width: 75px; text-align: center;" type="text" name="<?php echo esc_attr( $id ).'[min]'; ?>" value="<?php echo $limit['min']; ?>" />
+		</span>
+		
+		<span style="margin-left: 15px;">
+			<strong>Max: </strong>
+			<input style="width: 75px; text-align: center;" type="text" name="<?php echo esc_attr( $id ).'[max]'; ?>" value="<?php echo $limit['max']; ?>" />
+		</span>
+		
+		<p class="description"><?php echo $desc; ?></p>
+	</td>
+</tr>
