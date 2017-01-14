@@ -1,0 +1,1399 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Profile Builder v1.1.63\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-12-02 17:39+0200\n"
+"PO-Revision-Date: 2014-06-26 21:06:16+0000\n"
+"Last-Translator: Gabriel Barina <barinagabriel2007@yahoo.com>\n"
+"Language-Team: Reflection Media, Gabriel Barina\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: C:/Users/Gabriel/Desktop/test/profile-builder-pro\n"
+"X-Textdomain-Support: yes"
+
+#: classes/class.bulk.approve.unapprove.php:139
+#@ profilebuilder
+msgid "View or Edit"
+msgstr ""
+
+#: classes/class.bulk.approve.unapprove.php:144
+#@ profilebuilder
+msgid "delete this user?"
+msgstr ""
+
+#: classes/class.bulk.approve.unapprove.php:144
+#: classes/class.bulk.approve.unapprove.php:255
+#: classes/class.email.confirmation.php:106
+#: classes/class.email.confirmation.php:202
+#, fuzzy
+#@ profilebuilder
+#@ default
+msgid "Delete"
+msgstr "Standard"
+
+#: classes/class.bulk.approve.unapprove.php:147
+#@ profilebuilder
+msgid "unapprove this user?"
+msgstr ""
+
+#: classes/class.bulk.approve.unapprove.php:147
+#: classes/class.bulk.approve.unapprove.php:254
+#@ profilebuilder
+msgid "Unapprove"
+msgstr ""
+
+#: classes/class.bulk.approve.unapprove.php:149
+#@ profilebuilder
+msgid "approve this user?"
+msgstr ""
+
+#: classes/class.bulk.approve.unapprove.php:149
+#: classes/class.bulk.approve.unapprove.php:253
+#@ profilebuilder
+msgid "Approve"
+msgstr ""
+
+#: classes/class.bulk.approve.unapprove.php:197
+#: classes/class.email.confirmation.php:153
+#: front-end/wppb.edit.profile.php:883
+#: front-end/wppb.login.php:146
+#: front-end/wppb.register.php:1018
+#: functions/default.settings.php:27
+#: functions/general.settings.php:108
+#@ profilebuilder
+msgid "Username"
+msgstr "Brukernavn"
+
+#: classes/class.bulk.approve.unapprove.php:198
+#, fuzzy
+#@ profilebuilder
+msgid "Firstname"
+msgstr "Fornavn"
+
+#: classes/class.bulk.approve.unapprove.php:199
+#, fuzzy
+#@ profilebuilder
+msgid "Lastname"
+msgstr "Etternavn"
+
+#: classes/class.bulk.approve.unapprove.php:200
+#: classes/class.email.confirmation.php:154
+#: front-end/wppb.edit.profile.php:1016
+#: front-end/wppb.register.php:1006
+#: front-end/wppb.register.php:1120
+#: functions/default.settings.php:98
+#@ profilebuilder
+msgid "E-mail"
+msgstr "E-post"
+
+#: classes/class.bulk.approve.unapprove.php:201
+#@ profilebuilder
+msgid "Role"
+msgstr ""
+
+#: classes/class.bulk.approve.unapprove.php:202
+#: classes/class.email.confirmation.php:155
+#, fuzzy
+#@ profilebuilder
+msgid "Registered"
+msgstr "Registrer"
+
+#: classes/class.bulk.approve.unapprove.php:203
+#@ profilebuilder
+msgid "User-status"
+msgstr ""
+
+#: classes/class.bulk.approve.unapprove.php:283
+#@ profilebuilder
+msgid "Do you want to bulk approve the selected users?"
+msgstr ""
+
+#: classes/class.bulk.approve.unapprove.php:291
+#@ profilebuilder
+msgid "Do you want to bulk unapprove the selected users?"
+msgstr ""
+
+#: classes/class.bulk.approve.unapprove.php:297
+#@ profilebuilder
+msgid "Do you want to bulk delete the selected users?"
+msgstr ""
+
+#: classes/class.bulk.approve.unapprove.php:305
+#: classes/class.email.confirmation.php:263
+#@ profilebuilder
+msgid "Sorry, but you don't have permission to do that!"
+msgstr ""
+
+#: classes/class.bulk.approve.unapprove.php:338
+#@ profilebuilder
+msgid "Approved"
+msgstr ""
+
+#: classes/class.bulk.approve.unapprove.php:340
+#@ profilebuilder
+msgid "Unapproved"
+msgstr ""
+
+#: classes/class.bulk.approve.unapprove.php:512
+#@ profilebuilder
+msgid "Admin Approval"
+msgstr ""
+
+#: classes/class.bulk.approve.unapprove.php:515
+#: classes/class.email.confirmation.php:448
+#, fuzzy
+#@ profilebuilder
+msgid "All Users"
+msgstr "Legg til bruker"
+
+#: classes/class.email.confirmation.php:106
+#@ profilebuilder
+msgid "delete this user from the _signups table?"
+msgstr ""
+
+#: classes/class.email.confirmation.php:107
+#@ profilebuilder
+msgid "confirm this email yourself?"
+msgstr ""
+
+#: classes/class.email.confirmation.php:107
+#: classes/class.email.confirmation.php:203
+#@ profilebuilder
+msgid "Confirm Email"
+msgstr ""
+
+#: classes/class.email.confirmation.php:108
+#@ profilebuilder
+msgid "resend the activation link?"
+msgstr ""
+
+#: classes/class.email.confirmation.php:108
+#: classes/class.email.confirmation.php:204
+#@ profilebuilder
+msgid "Resend Activation Email"
+msgstr ""
+
+#: classes/class.email.confirmation.php:234
+#, fuzzy, php-format, php-format, php-format
+#@ profilebuilder
+msgid "%s couldn't be deleted"
+msgstr "Bildet ditt er slettet."
+
+#: classes/class.email.confirmation.php:238
+#, fuzzy
+#@ profilebuilder
+msgid "All users have been successfully deleted"
+msgstr "Endringene er lagret"
+
+#: classes/class.email.confirmation.php:248
+#, fuzzy
+#@ profilebuilder
+msgid "The selected users have been activated"
+msgstr "Bildet ditt er slettet."
+
+#: classes/class.email.confirmation.php:259
+#, fuzzy
+#@ profilebuilder
+msgid "The selected users have had their activation emails resent"
+msgstr "Bildet ditt er slettet."
+
+#: classes/class.email.confirmation.php:445
+#: functions/email.confirmation.php:48
+#@ profilebuilder
+msgid "Users with Unconfirmed Email Address"
+msgstr ""
+
+#: front-end/wppb.edit.profile.php:78
+#: front-end/wppb.register.php:269
+#, php-format
+#@ profilebuilder
+msgid "The information size you were trying to submit was larger than %1$sb!<br/>This is usually caused by a large file(s) trying to be uploaded.<br/>Since it was also larger than %2$sb no additional information is available.<br/>The user was NOT created!"
+msgstr ""
+
+#: front-end/wppb.edit.profile.php:307
+#: front-end/wppb.register.php:556
+#@ profilebuilder
+msgid "The following image extensions are NOT supported: bmp"
+msgstr ""
+
+#: front-end/wppb.edit.profile.php:778
+#@ profilebuilder
+msgid "You must be logged in to edit your profile."
+msgstr "Du må være innlogget for å redigere profilen din."
+
+#: front-end/wppb.edit.profile.php:788
+#@ profilebuilder
+msgid "The changes have been successfully saved."
+msgstr "Endringene er lagret"
+
+#: front-end/wppb.edit.profile.php:792
+#, fuzzy, php-format, php-format, php-format
+#@ profilebuilder
+msgid "The email address you entered is already registered to a different user.%1$sThe email address was %2$sNOT%3$s updated along with the rest of the information."
+msgstr "E-postadressen du skrev inn er allerede registrert på en annen bruker.<br/> E-postadressen var"
+
+#: front-end/wppb.edit.profile.php:797
+#, php-format
+#@ profilebuilder
+msgid "The email address you entered is invalid.%1$sThe email address was %2$sNOT%3$s updated along with the rest of the information."
+msgstr ""
+
+#: front-end/wppb.edit.profile.php:802
+#, php-format
+#@ profilebuilder
+msgid "The passwords you entered do not match.%1$sThe password was %2$sNOT%3$s updated along with the rest of the information."
+msgstr ""
+
+#: front-end/wppb.edit.profile.php:807
+#, fuzzy, php-format, php-format, php-format
+#@ profilebuilder
+msgid "You didn't complete both password fields.%1$sThe password was %2$sNOT%3$s updated along with the rest of the information."
+msgstr "Du fylte ikke ut begge passordfeltene riktig. <br/> Passordet var "
+
+#: front-end/wppb.edit.profile.php:812
+#@ profilebuilder
+msgid "Your profile was NOT updated, since not all required fields were completed!"
+msgstr ""
+
+#: front-end/wppb.edit.profile.php:822
+#, fuzzy
+#@ profilebuilder
+msgid "There was an error while trying to upload the following attachments:"
+msgstr "Det skjedde en feil når du prøvde å laste opp følgende vedlegg:<br/>"
+
+#: front-end/wppb.edit.profile.php:830
+#, php-format
+#@ profilebuilder
+msgid "Possible cause: the size was bigger than %1$sb. The listed attachements were %2$sNOT%3$s updated along with the rest of the information."
+msgstr ""
+
+#: front-end/wppb.edit.profile.php:837
+#, fuzzy
+#@ profilebuilder
+msgid "There was an error while trying to upload your avatar picture."
+msgstr "Det skjedde en feil når du prøvde å laste opp følgende vedlegg:<br/>"
+
+#: front-end/wppb.edit.profile.php:837
+#@ profilebuilder
+msgid "Possible cause: size/incorrect file-type."
+msgstr ""
+
+#: front-end/wppb.edit.profile.php:837
+#@ profilebuilder
+msgid "The avatar was"
+msgstr ""
+
+#: front-end/wppb.edit.profile.php:837
+#@ profilebuilder
+msgid "NOT"
+msgstr "IKKE"
+
+#: front-end/wppb.edit.profile.php:837
+#, fuzzy
+#@ profilebuilder
+msgid "updated along with the rest of the information."
+msgstr "oppdatert sammen med resten av informasjonen."
+
+#: front-end/wppb.edit.profile.php:845
+#: front-end/wppb.register.php:598
+#, fuzzy
+#@ profilebuilder
+msgid "There was an error while trying to upload the following attachment(s)"
+msgstr "Det skjedde en feil når du prøvde å laste opp følgende vedlegg:<br/>"
+
+#: front-end/wppb.edit.profile.php:852
+#, php-format
+#@ profilebuilder
+msgid "Only files with the following extension(s) can be uploaded: %1$s<br/>This file was %2$sNOT%3$s updated along with the rest of the information."
+msgstr ""
+
+#: front-end/wppb.edit.profile.php:867
+#: front-end/wppb.register.php:971
+#@ profilebuilder
+msgid "Name"
+msgstr "Navn"
+
+#: front-end/wppb.edit.profile.php:874
+#: front-end/wppb.login.php:144
+#: functions/general.settings.php:109
+#, fuzzy
+#@ profilebuilder
+msgid "Email"
+msgstr "E-post"
+
+#: front-end/wppb.edit.profile.php:875
+#, fuzzy
+#@ profilebuilder
+msgid "The email cannot be changed."
+msgstr "Brukernavn kan ikke endres."
+
+#: front-end/wppb.edit.profile.php:884
+#, fuzzy
+#@ profilebuilder
+msgid "The usernames cannot be changed."
+msgstr "Brukernavn kan ikke endres."
+
+#: front-end/wppb.edit.profile.php:894
+#: front-end/wppb.edit.profile.php:914
+#: front-end/wppb.edit.profile.php:934
+#: front-end/wppb.edit.profile.php:954
+#: front-end/wppb.edit.profile.php:1006
+#: front-end/wppb.edit.profile.php:1028
+#: front-end/wppb.edit.profile.php:1046
+#: front-end/wppb.edit.profile.php:1064
+#: front-end/wppb.edit.profile.php:1082
+#: front-end/wppb.edit.profile.php:1103
+#@ profilebuilder
+msgid "This field is marked as required by the administrator."
+msgstr ""
+
+#: front-end/wppb.edit.profile.php:897
+#: front-end/wppb.edit.profile.php:917
+#: front-end/wppb.edit.profile.php:937
+#: front-end/wppb.edit.profile.php:957
+#: front-end/wppb.edit.profile.php:1009
+#: front-end/wppb.edit.profile.php:1030
+#: front-end/wppb.edit.profile.php:1048
+#: front-end/wppb.edit.profile.php:1066
+#: front-end/wppb.edit.profile.php:1084
+#: front-end/wppb.edit.profile.php:1105
+#@ profilebuilder
+msgid "This field wasn't updated because you entered and empty string (It was marked as required by the administrator."
+msgstr ""
+
+#: front-end/wppb.edit.profile.php:904
+#: front-end/wppb.register.php:1043
+#: functions/default.settings.php:40
+#@ profilebuilder
+msgid "First Name"
+msgstr "Fornavn"
+
+#: front-end/wppb.edit.profile.php:924
+#: front-end/wppb.register.php:1067
+#: functions/default.settings.php:53
+#@ profilebuilder
+msgid "Last Name"
+msgstr "Etternavn"
+
+#: front-end/wppb.edit.profile.php:944
+#: front-end/wppb.register.php:1091
+#: functions/default.settings.php:66
+#@ profilebuilder
+msgid "Nickname"
+msgstr "Kallenavn"
+
+#: front-end/wppb.edit.profile.php:965
+#@ profilebuilder
+msgid "Display name publicly as"
+msgstr "Vis mitt navn offentlig som"
+
+#: front-end/wppb.edit.profile.php:997
+#: front-end/wppb.register.php:1097
+#@ profilebuilder
+msgid "Contact Info"
+msgstr "Kontaktinformasjon"
+
+#: front-end/wppb.edit.profile.php:1018
+#@ profilebuilder
+msgid "(required)"
+msgstr "(påkrevd)"
+
+#: front-end/wppb.edit.profile.php:1036
+#: front-end/wppb.register.php:1145
+#: functions/default.settings.php:111
+#@ profilebuilder
+msgid "Website"
+msgstr "Nettside"
+
+#: front-end/wppb.edit.profile.php:1054
+#: front-end/wppb.register.php:1169
+#: functions/default.settings.php:127
+#@ profilebuilder
+msgid "AIM"
+msgstr "AIM"
+
+#: front-end/wppb.edit.profile.php:1072
+#: front-end/wppb.register.php:1193
+#: functions/default.settings.php:140
+#@ profilebuilder
+msgid "Yahoo IM"
+msgstr "Yahoo IM"
+
+#: front-end/wppb.edit.profile.php:1090
+#: front-end/wppb.register.php:1217
+#: functions/default.settings.php:153
+#@ profilebuilder
+msgid "Jabber / Google Talk"
+msgstr "Jabber / Google Talk"
+
+#: front-end/wppb.edit.profile.php:1096
+#: front-end/wppb.register.php:1223
+#@ profilebuilder
+msgid "About Yourself"
+msgstr "Om deg selv"
+
+#: front-end/wppb.edit.profile.php:1111
+#: front-end/wppb.register.php:1244
+#: functions/default.settings.php:172
+#@ profilebuilder
+msgid "Biographical Info"
+msgstr "Litt om meg selv"
+
+#: front-end/wppb.edit.profile.php:1121
+#@ profilebuilder
+msgid "New Password"
+msgstr "Nytt passord"
+
+#: front-end/wppb.edit.profile.php:1126
+#: front-end/wppb.recover.password.php:254
+#: front-end/wppb.recover.password.php:285
+#: front-end/wppb.register.php:1283
+#@ profilebuilder
+msgid "Repeat Password"
+msgstr "Gjenta passord"
+
+#: front-end/wppb.edit.profile.php:1157
+#@ profilebuilder
+msgid "Update"
+msgstr "Oppdater"
+
+#: front-end/wppb.login.php:62
+#, fuzzy, php-format, php-format, php-format
+#@ profilebuilder
+msgid "You are currently logged in as %1$s. %2$s"
+msgstr "Du er logget inn som <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+
+#: front-end/wppb.login.php:62
+#@ profilebuilder
+msgid "Log out of this account"
+msgstr "Logg ut av denne kontoen"
+
+#: front-end/wppb.login.php:62
+#, fuzzy
+#@ profilebuilder
+msgid "Log out"
+msgstr "Logg ut &raquo;"
+
+#: front-end/wppb.login.php:73
+#, fuzzy, php-format, php-format, php-format
+#@ profilebuilder
+msgid "You have successfully logged in as %1$s"
+msgstr "Du har logget inn som <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+
+#: front-end/wppb.login.php:92
+#: front-end/wppb.login.php:101
+#, php-format
+#@ profilebuilder
+msgid "You will soon be redirected automatically. If you see this page for more than 1 second, please click %1$s"
+msgstr ""
+
+#: front-end/wppb.login.php:92
+#: front-end/wppb.login.php:101
+#: front-end/wppb.register.php:885
+#: front-end/wppb.register.php:915
+#@ profilebuilder
+msgid "here"
+msgstr ""
+
+#: front-end/wppb.login.php:116
+#: front-end/wppb.login.php:120
+#: front-end/wppb.recover.password.php:310
+#@ profilebuilder
+msgid "ERROR:"
+msgstr ""
+
+#: front-end/wppb.login.php:158
+#: front-end/wppb.recover.password.php:249
+#: front-end/wppb.recover.password.php:280
+#: front-end/wppb.register.php:1278
+#@ profilebuilder
+msgid "Password"
+msgstr "Passord"
+
+#: front-end/wppb.login.php:166
+#@ profilebuilder
+msgid "Log in"
+msgstr "Logg inn"
+
+#: front-end/wppb.login.php:171
+#@ profilebuilder
+msgid "Remember me"
+msgstr "Husk meg"
+
+#: front-end/wppb.login.php:186
+#: front-end/wppb.login.php:191
+#@ profilebuilder
+msgid "Lost password?"
+msgstr "Mistet passordet?"
+
+#: front-end/wppb.recover.password.php:16
+#: front-end/wppb.recover.password.php:100
+#: front-end/wppb.recover.password.php:150
+#@ profilebuilder
+msgid "ERROR"
+msgstr ""
+
+#: front-end/wppb.recover.password.php:16
+#@ profilebuilder
+msgid "Your account has to be confirmed by an administrator before you can use the \"Password Reset\" feature."
+msgstr ""
+
+#: front-end/wppb.recover.password.php:73
+#: front-end/wppb.recover.password.php:123
+#, php-format
+#@ profilebuilder
+msgid "A password reset email has been sent to %1$s.<br/>Following the link sent in the email address will reset the password."
+msgstr ""
+
+#: front-end/wppb.recover.password.php:88
+#: front-end/wppb.recover.password.php:138
+#, php-format
+#@ profilebuilder
+msgid "Someone requested that the password be reset for the following account: <b>%1$s</b><br/>If this was a mistake, just ignore this email and nothing will happen.<br/>To reset your password, visit the following link:%2$s"
+msgstr ""
+
+#: front-end/wppb.recover.password.php:100
+#, fuzzy, php-format, php-format, php-format
+#@ profilebuilder
+msgid "There was an error while trying to send the activation link to %1$s!"
+msgstr "Det skjedde en feil når du prøvde å laste opp følgende vedlegg:<br/>"
+
+#: front-end/wppb.recover.password.php:110
+#, fuzzy
+#@ profilebuilder
+msgid "The email address entered wasn't found in the database!"
+msgstr "E-postadressen du tastet inn er ikke gyldig. <br/> E-postadressen var"
+
+#: front-end/wppb.recover.password.php:110
+#@ profilebuilder
+msgid "Please check that you entered the correct email address."
+msgstr ""
+
+#: front-end/wppb.recover.password.php:150
+#, fuzzy
+#@ profilebuilder
+msgid "There was an error while trying to send the activation link to "
+msgstr "Det skjedde en feil når du prøvde å laste opp følgende vedlegg:<br/>"
+
+#: front-end/wppb.recover.password.php:158
+#@ profilebuilder
+msgid "The username entered wasn't found in the database!"
+msgstr "Brukernavnet angitt ble ikke funnet i databasen!"
+
+#: front-end/wppb.recover.password.php:158
+#@ profilebuilder
+msgid "Please check that you entered the correct username."
+msgstr "Vennligst sjekk at du har oppgitt korrekt brukernavn."
+
+#: front-end/wppb.recover.password.php:169
+#, fuzzy
+#@ profilebuilder
+msgid "Your password has been successfully changed!"
+msgstr "Endringene er lagret"
+
+#: front-end/wppb.recover.password.php:183
+#, fuzzy, php-format, php-format, php-format
+#@ profilebuilder
+msgid "You have successfully reset your password to: %1$s"
+msgstr "Du har logget inn som <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+
+#: front-end/wppb.recover.password.php:186
+#: front-end/wppb.recover.password.php:199
+#, fuzzy, php-format, php-format, php-format
+#@ profilebuilder
+msgid "Password Successfully Reset for %1$s on \"%2$s\""
+msgstr "\" er slettet."
+
+#: front-end/wppb.recover.password.php:196
+#, php-format
+#@ profilebuilder
+msgid "%1$s has requested a password change via the password reset feature.<br/>His/her new password is:%2$s"
+msgstr ""
+
+#: front-end/wppb.recover.password.php:214
+#: front-end/wppb.register.php:595
+#@ profilebuilder
+msgid "The entered passwords don't match!"
+msgstr "Passordene er ikke like"
+
+#: front-end/wppb.recover.password.php:261
+#: front-end/wppb.recover.password.php:292
+#, fuzzy
+#@ profilebuilder
+msgid "Reset Password"
+msgstr "Gjenta passord"
+
+#: front-end/wppb.recover.password.php:310
+#@ profilebuilder
+msgid "Invalid key!"
+msgstr ""
+
+#: front-end/wppb.recover.password.php:325
+#, fuzzy
+#@ profilebuilder
+msgid "Please enter your username or email address."
+msgstr "Du må skrive inn en gyldig e-postadresse"
+
+#: front-end/wppb.recover.password.php:325
+#@ profilebuilder
+msgid "You will receive a link to create a new password via email."
+msgstr "Du vil motta en lenke for å opprette et nytt passord via e-post."
+
+#: front-end/wppb.recover.password.php:333
+#, fuzzy
+#@ profilebuilder
+msgid "Username or E-mail"
+msgstr "Brukernavn"
+
+#: front-end/wppb.recover.password.php:342
+#, fuzzy
+#@ profilebuilder
+msgid "Get New Password"
+msgstr "Nytt passord"
+
+#: front-end/wppb.register.php:172
+#@ profilebuilder
+msgid "Invalid activation key!"
+msgstr ""
+
+#: front-end/wppb.register.php:193
+#: functions/email.confirmation.php:359
+#@ profilebuilder
+msgid "Could not create user!"
+msgstr ""
+
+#: functions/email.confirmation.php:362
+#, fuzzy
+#@ profilebuilder
+msgid "That username is already activated!"
+msgstr "Brukernavnet er allerede i bruk!"
+
+#: front-end/wppb.register.php:217
+#, fuzzy
+#@ profilebuilder
+msgid "The user was successfully activated."
+msgstr "Bildet ditt er slettet."
+
+#: front-end/wppb.register.php:219
+#, fuzzy
+#@ profilebuilder
+msgid "There was an error while trying to activate the user."
+msgstr "Det skjedde en feil når du prøvde å laste opp følgende vedlegg:<br/>"
+
+#: front-end/wppb.register.php:582
+#@ profilebuilder
+msgid "A username is required for registration."
+msgstr "Et brukernavn kreves for registrering."
+
+#: front-end/wppb.register.php:586
+#@ profilebuilder
+msgid "Sorry, that username already exists!"
+msgstr "Brukernavnet er allerede i bruk!"
+
+#: front-end/wppb.register.php:588
+#@ profilebuilder
+msgid "You must enter a valid email address."
+msgstr "Du må skrive inn en gyldig e-postadresse"
+
+#: front-end/wppb.register.php:590
+#@ profilebuilder
+msgid "Sorry, that email address is already used!"
+msgstr "Denne e-posten er allerede i bruk!"
+
+#: front-end/wppb.register.php:593
+#@ profilebuilder
+msgid "You didn't complete one of the password-fields!"
+msgstr "Du fylte ut feil i et av passordfeltene!"
+
+#: front-end/wppb.register.php:605
+#@ profilebuilder
+msgid "Only files with the following extension(s) can be uploaded:"
+msgstr ""
+
+#: front-end/wppb.register.php:605
+#: front-end/wppb.register.php:611
+#: front-end/wppb.register.php:613
+#, fuzzy
+#@ profilebuilder
+msgid "The account was NOT created!"
+msgstr "En bruker for %1$s har blitt lagt til."
+
+#: front-end/wppb.register.php:609
+#@ profilebuilder
+msgid "You must agree to the terms and conditions before registering!"
+msgstr ""
+
+#: front-end/wppb.register.php:613
+#@ profilebuilder
+msgid "(Several required fields were left uncompleted)"
+msgstr ""
+
+#: front-end/wppb.register.php:631
+#@ profilebuilder
+msgid "This username is already reserved to be used soon."
+msgstr ""
+
+#: front-end/wppb.register.php:631
+#: front-end/wppb.register.php:635
+#@ profilebuilder
+msgid "Please try a different one!"
+msgstr ""
+
+#: front-end/wppb.register.php:635
+#, fuzzy
+#@ profilebuilder
+msgid "This email address is already reserved to be used soon."
+msgstr "Denne e-posten er allerede i bruk!"
+
+#: front-end/wppb.register.php:853
+#@ profilebuilder
+msgid "You are logged in as"
+msgstr ""
+
+#: front-end/wppb.register.php:853
+#@ profilebuilder
+msgid "You don't need another account."
+msgstr ""
+
+#: front-end/wppb.register.php:853
+#, fuzzy
+#@ profilebuilder
+msgid "Log out of this account."
+msgstr "Logg ut av denne kontoen"
+
+#: front-end/wppb.register.php:853
+#, fuzzy
+#@ profilebuilder
+msgid "Logout"
+msgstr "Logg ut &raquo;"
+
+#: front-end/wppb.register.php:861
+#, php-format
+#@ profilebuilder
+msgid "An email has been sent to %1$s with information on how to activate his/her account."
+msgstr ""
+
+#: front-end/wppb.register.php:865
+#, fuzzy, php-format, php-format, php-format
+#@ profilebuilder
+msgid "A user account has been created for %1$s."
+msgstr "En bruker for %1$s har blitt lagt til."
+
+#: front-end/wppb.register.php:885
+#: front-end/wppb.register.php:915
+#, php-format
+#@ profilebuilder
+msgid "You will soon be redirected automatically. If you see this page for more than 3 seconds, please click %1$s.%2$s"
+msgstr ""
+
+#: front-end/wppb.register.php:891
+#@ profilebuilder
+msgid "An email has been sent to you with information on how to activate your account."
+msgstr ""
+
+#: front-end/wppb.register.php:895
+#, fuzzy, php-format, php-format, php-format
+#@ profilebuilder
+msgid "Thank you for registering %1$s."
+msgstr "Takk for at du registrerte deg, %1$s."
+
+#: front-end/wppb.register.php:922
+#@ profilebuilder
+msgid "An error occured while trying to send the notification email."
+msgstr ""
+
+#: front-end/wppb.register.php:927
+#@ profilebuilder
+msgid "An email containing activation instructions was successfully sent."
+msgstr ""
+
+#: front-end/wppb.register.php:932
+#@ profilebuilder
+msgid "An email containing the username and password was successfully sent."
+msgstr ""
+
+#: front-end/wppb.register.php:948
+#@ profilebuilder
+msgid "Users can register themselves or you can manually create users here."
+msgstr "Brukere kan registrere seg selv eller du kan gjøre det manuelt her."
+
+#: front-end/wppb.register.php:953
+#@ profilebuilder
+msgid "Users cannot currently register themselves, but you can manually create users here."
+msgstr "Brukere kan ikke registrere seg selv, men du som har administratorrettigheter kan manuelt legge til brukere her. "
+
+#: front-end/wppb.register.php:958
+#@ profilebuilder
+msgid "Only an administrator can add new users."
+msgstr "Kun en administrator kan legge til nye brukere."
+
+#: front-end/wppb.register.php:981
+#: front-end/wppb.register.php:1032
+#: front-end/wppb.register.php:1056
+#: front-end/wppb.register.php:1080
+#: front-end/wppb.register.php:1134
+#: front-end/wppb.register.php:1158
+#: front-end/wppb.register.php:1182
+#: front-end/wppb.register.php:1206
+#: front-end/wppb.register.php:1233
+#@ profilebuilder
+msgid "This field must be filled out before registering (It was marked as required by the administrator)"
+msgstr ""
+
+#: front-end/wppb.register.php:992
+#: front-end/wppb.register.php:1029
+#: front-end/wppb.register.php:1053
+#: front-end/wppb.register.php:1077
+#: front-end/wppb.register.php:1106
+#: front-end/wppb.register.php:1131
+#: front-end/wppb.register.php:1155
+#: front-end/wppb.register.php:1179
+#: front-end/wppb.register.php:1203
+#: front-end/wppb.register.php:1230
+#@ profilebuilder
+msgid "This field is marked as required by the administrator"
+msgstr ""
+
+#: front-end/wppb.register.php:1306
+#@ profilebuilder
+msgid "Anti-Spam"
+msgstr ""
+
+#: front-end/wppb.register.php:1327
+#, fuzzy
+#@ profilebuilder
+msgid "Send these credentials via email."
+msgstr "Send denne informasjon om brukernavn og passord på e-post"
+
+#: front-end/wppb.register.php:1343
+#@ profilebuilder
+msgid "Add User"
+msgstr "Legg til bruker"
+
+#: front-end/wppb.register.php:1345
+#@ profilebuilder
+msgid "Register"
+msgstr "Registrer"
+
+#: functions/admin.bar.php:13
+#: functions/admin.bar.php:14
+#@ profilebuilder
+msgid "Show/Hide the Admin Bar on Front End"
+msgstr "Vis/Skjul administratormeny på front-end"
+
+#: functions/admin.bar.php:18
+#@ profilebuilder
+msgid "User-group"
+msgstr "Brukergruppe"
+
+#: functions/admin.bar.php:19
+#: functions/default.settings.php:15
+#@ profilebuilder
+msgid "Visibility"
+msgstr "Synlighet"
+
+#: functions/admin.bar.php:30
+#: functions/general.settings.php:13
+#@ profilebuilder
+msgid "Default"
+msgstr "Standard"
+
+#: functions/admin.bar.php:31
+#: functions/default.settings.php:30
+#: functions/default.settings.php:43
+#: functions/default.settings.php:56
+#: functions/default.settings.php:69
+#: functions/default.settings.php:82
+#: functions/default.settings.php:101
+#: functions/default.settings.php:114
+#: functions/default.settings.php:130
+#: functions/default.settings.php:143
+#: functions/default.settings.php:156
+#: functions/default.settings.php:175
+#: functions/default.settings.php:189
+#@ profilebuilder
+msgid "Show"
+msgstr "Vis"
+
+#: functions/admin.bar.php:32
+#: functions/default.settings.php:31
+#: functions/default.settings.php:44
+#: functions/default.settings.php:57
+#: functions/default.settings.php:70
+#: functions/default.settings.php:83
+#: functions/default.settings.php:102
+#: functions/default.settings.php:115
+#: functions/default.settings.php:131
+#: functions/default.settings.php:144
+#: functions/default.settings.php:157
+#: functions/default.settings.php:176
+#: functions/default.settings.php:190
+#@ profilebuilder
+msgid "Hide"
+msgstr "Skjul"
+
+#: functions/admin.bar.php:43
+#: functions/default.settings.php:202
+#: functions/general.settings.php:120
+#@ default
+msgid "Save Changes"
+msgstr "Lagre endringer"
+
+#: functions/basic.info.php:5
+#: functions/basic.info.php:8
+#@ profilebuilder
+msgid "Profile Builder"
+msgstr "Profile Builder"
+
+#: functions/basic.info.php:6
+#@ profilebuilder
+msgid "Welcome to Profile Builder!"
+msgstr "Velkommen til Profile Builder"
+
+#: functions/basic.info.php:8
+#@ profilebuilder
+msgid " lets you customize your website by adding a front-end menu for all your users, giving them a more flexible way to modify their user-information or to register new users."
+msgstr "lar deg skreddersy dine nettsider ved å legge til en front-end meny for alle dine brukere, dette gir dem en mer fleksibel måte å endre sin brukerinformasjon eller for deg som administrator å registrere nye brukere."
+
+#: functions/basic.info.php:9
+#@ profilebuilder
+msgid "Also, grants users with administrator rights to customize basic fields or to add new ones."
+msgstr "Lar også brukere med administratorrettigheter mulighet til å skreddersy grunnleggende felter eller legge til nye"
+
+#: functions/basic.info.php:10
+#@ profilebuilder
+msgid "To achieve this, just create a new page, and give it an intuitive name(e.g. Edit Profile)."
+msgstr "For å legge til denne funksjonen, opprett en ny side og gi den et fornuftig nacn f.eks (Rediger min profil)"
+
+#: functions/basic.info.php:11
+#@ profilebuilder
+msgid "Now all you need to do is add the following shortcode(for the previous example): "
+msgstr "Alt du trenger å gjøre nå er å legge til følgende kode f.eks:"
+
+#: functions/basic.info.php:12
+#@ profilebuilder
+msgid "Publish your page and you are ready to go!"
+msgstr "Publiser din side og så er alt klart til bruk"
+
+#: functions/basic.info.php:13
+#@ profilebuilder
+msgid "You can use the following shortcodes:"
+msgstr "Du kan bruke følgende shortcodes:"
+
+#: functions/basic.info.php:14
+#@ profilebuilder
+msgid "for a log-in form."
+msgstr "for en innloggingsform."
+
+#: functions/basic.info.php:15
+#@ profilebuilder
+msgid "to add a registration form."
+msgstr "for å legge til en registreringsform"
+
+#: functions/basic.info.php:16
+#@ profilebuilder
+msgid "to grant users a front-end acces to their personal information(requires user to be logged in)."
+msgstr "for å gi tilgang til front-end aksess til brukerens personlige informasjon (krever at bruker er logget inn)"
+
+#: functions/basic.info.php:17
+#, fuzzy
+#@ profilebuilder
+msgid "to add a password recovery form."
+msgstr "for å legge til en registreringsform"
+
+#: functions/basic.info.php:19
+#, fuzzy
+#@ profilebuilder
+msgid "With the <strong>Pro</strong> version, users with administrator rights have access to the following features:"
+msgstr "Brukere med administrator rettigheter har tilgang til følgende:"
+
+#: functions/basic.info.php:20
+#@ profilebuilder
+msgid "add a custom stylesheet/inherit values from the current theme or use one of the following built into this plugin: default, white or black."
+msgstr "legg til en skreddersydd stylesheet fra din eksisterende theme eller bruk en av de allerede innebygde i denne pluginen: default, hvit, eller svart"
+
+#: functions/basic.info.php:21
+#@ profilebuilder
+msgid "select whether to display or not the admin bar in the front end for a specific user-group registered to the site."
+msgstr "velg om du ønsker å vise administratormenyen på front-endgrensesnittet for utvalgte brukergrupper registrert på siden."
+
+#: functions/basic.info.php:22
+#@ profilebuilder
+msgid "select which information-field can users see/modify. The hidden fields' values remain unmodified."
+msgstr "velg hvilke informasjonsfelter brukere kan se/endre. Skjulte felt forblir uendret"
+
+#: functions/basic.info.php:23
+#@ profilebuilder
+msgid "add custom fields to the existing ones, with several types to choose from: heading, text, textarea, select, checkbox, radio, and/or upload."
+msgstr "legg til skreddersydde felter til de eksisterende, med forskjellige typer å velge mellom: heading, tekst, tekstfelt, valg, checkbox, radio, og/eller opplasting."
+
+#: functions/basic.info.php:24
+#@ profilebuilder
+msgid "add an avatar field."
+msgstr "legg til et bildefelt (avatar)."
+
+#: functions/basic.info.php:25
+#@ profilebuilder
+msgid "create custom redirects."
+msgstr ""
+
+#: functions/basic.info.php:26
+#@ profilebuilder
+msgid "front-end userlisting using the"
+msgstr ""
+
+#: functions/basic.info.php:26
+#@ profilebuilder
+msgid "shortcode."
+msgstr ""
+
+#: functions/basic.info.php:29
+#: functions/general.settings.php:75
+#: functions/general.settings.php:92
+#@ profilebuilder
+msgid "NOTE:"
+msgstr "MERK:"
+
+#: functions/basic.info.php:30
+#@ profilebuilder
+msgid "this plugin only adds/removes fields in the front-end."
+msgstr "denne pluginen legger kun til/fjerner felter på front-end"
+
+#: functions/basic.info.php:31
+#@ profilebuilder
+msgid "The default information-fields will still be visible(and thus modifiable)"
+msgstr "Standard informasjonsfelter vil fortsatt bli synlige "
+
+#: functions/basic.info.php:32
+#@ profilebuilder
+msgid "from the back-end, while custom fields will only be visible in the front-end."
+msgstr "fra back-end, vil skreddersydde felter kun bli synlige på front-end"
+
+#: functions/default.settings.php:9
+#: functions/default.settings.php:10
+#: functions/options.php:89
+#@ profilebuilder
+msgid "Default Profile Fields"
+msgstr "Grunnleggende felter"
+
+#: functions/default.settings.php:14
+#@ profilebuilder
+msgid "Input Field Name"
+msgstr "Sett inn feltnavn"
+
+#: functions/default.settings.php:16
+#, fuzzy
+#@ profilebuilder
+msgid "Required"
+msgstr "(påkrevd)"
+
+#: functions/default.settings.php:21
+#@ profilebuilder
+msgid "Name:"
+msgstr "Navn:"
+
+#: functions/default.settings.php:34
+#: functions/default.settings.php:47
+#: functions/default.settings.php:60
+#: functions/default.settings.php:73
+#: functions/default.settings.php:86
+#: functions/default.settings.php:105
+#: functions/default.settings.php:118
+#: functions/default.settings.php:134
+#: functions/default.settings.php:147
+#: functions/default.settings.php:160
+#: functions/default.settings.php:179
+#: functions/default.settings.php:193
+#: functions/general.settings.php:30
+#: functions/general.settings.php:67
+#@ profilebuilder
+msgid "Yes"
+msgstr ""
+
+#: functions/default.settings.php:35
+#: functions/default.settings.php:48
+#: functions/default.settings.php:61
+#: functions/default.settings.php:74
+#: functions/default.settings.php:87
+#: functions/default.settings.php:106
+#: functions/default.settings.php:119
+#: functions/default.settings.php:135
+#: functions/default.settings.php:148
+#: functions/default.settings.php:161
+#: functions/default.settings.php:180
+#: functions/default.settings.php:194
+#: functions/general.settings.php:31
+#: functions/general.settings.php:68
+#, fuzzy
+#@ profilebuilder
+msgid "No"
+msgstr "Ingen"
+
+#: functions/default.settings.php:79
+#@ profilebuilder
+msgid "Display name publicly as..."
+msgstr "Vis mitt navn offentlig som"
+
+#: functions/default.settings.php:92
+#@ profilebuilder
+msgid "Contact Info:"
+msgstr "Kontaktinformasjon"
+
+#: functions/default.settings.php:166
+#@ profilebuilder
+msgid "About Yourself:"
+msgstr "Om meg selv:"
+
+#: functions/default.settings.php:186
+#, fuzzy
+#@ profilebuilder
+msgid "(New) Password"
+msgstr "Nytt passord"
+
+#: functions/email.confirmation.php:59
+#@ profilebuilder
+msgid "Do you want to"
+msgstr ""
+
+#: functions/email.confirmation.php:106
+#, fuzzy
+#@ profilebuilder
+msgid "The selected user couldn't be deleted"
+msgstr "Bildet ditt er slettet."
+
+#: functions/email.confirmation.php:117
+#@ profilebuilder
+msgid "Email notification resent to user"
+msgstr ""
+
+#: functions/email.confirmation.php:123
+#@ profilebuilder
+msgid "You either don't have permission for that action or there was an error!"
+msgstr ""
+
+#: functions/email.confirmation.php:320
+#, php-format
+#@ profilebuilder
+msgid "[%1$s] Activate %2$s"
+msgstr ""
+
+#: functions/email.confirmation.php:321
+#, php-format
+#@ profilebuilder
+msgid ""
+"To activate your user, please click the following link:\n"
+"\n"
+"%s%s%s\n"
+"\n"
+"After you activate, you will receive *another email* with your login.\n"
+"\n"
+msgstr ""
+
+#: functions/email.confirmation.php:382
+#, fuzzy
+#@ profilebuilder
+msgid "There was an error while trying to activate the user"
+msgstr "Det skjedde en feil når du prøvde å laste opp følgende vedlegg:<br/>"
+
+#: functions/email.confirmation.php:416
+#@ profilebuilder
+msgid "A new subscriber has (been) registered!"
+msgstr ""
+
+#: functions/email.confirmation.php:419
+#, php-format
+#@ profilebuilder
+msgid "New subscriber on %1$s.<br/><br/>Username:%2$s<br/>E-mail:%3$s<br/>"
+msgstr ""
+
+#: functions/email.confirmation.php:424
+#@ profilebuilder
+msgid "The \"Admin Approval\" feature was activated at the time of registration, so please remember that you need to approve this user before he/she can log in!"
+msgstr ""
+
+#: functions/email.confirmation.php:440
+#, fuzzy
+#@ profilebuilder
+msgid "A new account has been created for you."
+msgstr "En bruker for %1$s har blitt lagt til."
+
+#: functions/email.confirmation.php:443
+#, php-format
+#@ profilebuilder
+msgid "Welcome to %1$s!<br/><br/> Your username is:%2$s and password:%3$s"
+msgstr ""
+
+#: functions/email.confirmation.php:448
+#@ profilebuilder
+msgid "Before you can access your account, an administrator needs to approve it. You will be notified via email."
+msgstr ""
+
+#: functions/general.settings.php:9
+#: functions/general.settings.php:10
+#: functions/options.php:87
+#@ profilebuilder
+msgid "General Settings"
+msgstr ""
+
+#: functions/general.settings.php:11
+#, fuzzy
+#@ profilebuilder
+msgid "Stylesheet Used on the Front-End:"
+msgstr "Styelsheet brukt:"
+
+#: functions/general.settings.php:17
+#@ profilebuilder
+msgid "White"
+msgstr "Hvit"
+
+#: functions/general.settings.php:18
+#@ profilebuilder
+msgid "Black"
+msgstr "Svart"
+
+#: functions/general.settings.php:22
+#@ profilebuilder
+msgid "None"
+msgstr "Ingen"
+
+#: functions/general.settings.php:28
+#@ profilebuilder
+msgid "\"Email Confirmation\" Feature Activated:"
+msgstr ""
+
+#: functions/general.settings.php:40
+#@ profilebuilder
+msgid "Account Activation Landing Page:"
+msgstr ""
+
+#: functions/general.settings.php:43
+#@ profilebuilder
+msgid "Existing Pages"
+msgstr ""
+
+#: functions/general.settings.php:58
+#@ profilebuilder
+msgid "You need to (create) and specify the page where the users will see when trying to activate their account. This page can differ from the register page(s), and can be changed at any time, but if none selected, a simple, blank page will be displayed for the user."
+msgstr ""
+
+#: functions/general.settings.php:65
+#@ profilebuilder
+msgid "\"Admin Approval\" Feature Activated:"
+msgstr ""
+
+#: functions/general.settings.php:76
+#@ profilebuilder
+msgid "The black stylesheet is intended for sites/blogs with a dark background."
+msgstr ""
+
+#: functions/general.settings.php:77
+#@ profilebuilder
+msgid "The white stylesheet is intended for a sites/blogs with a light background color."
+msgstr ""
+
+#: functions/general.settings.php:78
+#@ profilebuilder
+msgid "On single-site installations the \"Email Confirmation\" feature only works in the front-end, so make sure you also use the \"Custom Redirects\" feature."
+msgstr ""
+
+#: functions/general.settings.php:79
+#: functions/general.settings.php:94
+#@ profilebuilder
+msgid "The \"Email Confirmation\" feature is active (by default) on WPMU installations."
+msgstr ""
+
+#: functions/general.settings.php:81
+#: functions/general.settings.php:96
+#, php-format
+#@ profilebuilder
+msgid "You can find a list of unconfirmed email addresses %1$shere%2$s."
+msgstr ""
+
+#: functions/general.settings.php:93
+#@ profilebuilder
+msgid "On single-site installations the \"Email Confirmation\" feature only works in the front-end."
+msgstr ""
+
+#: functions/general.settings.php:106
+#@ profilebuilder
+msgid "Allow Users to Log in With:"
+msgstr ""
+
+#: functions/options.php:64
+#, php-format
+#@ profilebuilder
+msgid "Your <strong>Profile Builder</strong> serial number is invalid or missing. Please %1$sregister your copy%2$s of <b>Profile Builder</b> to receive access to automatic updates and support. Need a license key? %3$sPurchase one now%4$s"
+msgstr ""
+
+#: functions/options.php:66
+#, php-format
+#@ profilebuilder
+msgid "Your <strong>Profile Builder</strong> 1 year licence has expired. Please %1$sRenew Your Licence%2$s to receive access to automatic updates and priority support. %3$sPurchase one now%4$s"
+msgstr ""
+
+#: functions/options.php:86
+#@ profilebuilder
+msgid "Basic Information"
+msgstr "Grunnleggende informasjon"
+
+#: functions/options.php:88
+#@ profilebuilder
+msgid "Show/Hide the Admin Bar on Front-end"
+msgstr "Vis/skjul administratormenyen fra front-end"
+
+#: functions/options.php:95
+#@ profilebuilder
+msgid "Extra Profile Fields"
+msgstr "Ekstra profilfelter"
+
+#: functions/options.php:98
+#@ profilebuilder
+msgid "Addons"
+msgstr ""
+
+#: functions/options.php:101
+#@ profilebuilder
+msgid "Register Your Version"
+msgstr "Registrer din versjon"
+
+#: front-end/wppb.login.php:116
+#@ profilebuilder
+msgid "Both fields are empty."
+msgstr ""
+
+#: front-end/wppb.login.php:120
+#@ profilebuilder
+msgid "The email field is empty."
+msgstr ""
+
+#: front-end/wppb.recover.password.php:91
+#: front-end/wppb.recover.password.php:141
+#, php-format
+#@ profilebuilder
+msgid "Password Reset from \"%1$s\""
+msgstr ""
+
+#: front-end/wppb.register.php:176
+#@ profilebuilder
+msgid "This username is now active!"
+msgstr ""
+
+#: front-end/wppb.register.php:196
+#@ profilebuilder
+msgid "This username is already activated!"
+msgstr ""
+
+#: functions/email.confirmation.php:98
+#@ profilebuilder
+msgid "There was an error performing that action!"
+msgstr ""
+

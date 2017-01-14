@@ -1,0 +1,1493 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP User Frontend v1.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-05-01 09:24:46+0000\n"
+"Last-Translator: admin <daniel.oraca@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: admin/custom-fields.php:45
+#: admin/settings.php:35
+#: admin/subscription.php:8
+#@ wpuf
+msgid "WP User Frontend"
+msgstr ""
+
+#: admin/custom-fields.php:45
+#: admin/settings.php:36
+#@ wpuf
+msgid "Custom Fields"
+msgstr ""
+
+#: admin/custom-fields.php:101
+#: admin/custom-fields.php:309
+#@ wpuf
+msgid "Field Name"
+msgstr ""
+
+#: admin/custom-fields.php:104
+#: admin/custom-fields.php:312
+#@ wpuf
+msgid "Name without space. Will be used to store the value in this custom field"
+msgstr ""
+
+#: admin/custom-fields.php:108
+#: admin/custom-fields.php:316
+#@ wpuf
+msgid "Label"
+msgstr ""
+
+#: admin/custom-fields.php:111
+#: admin/custom-fields.php:319
+#@ wpuf
+msgid "This will be used as your input fields title"
+msgstr ""
+
+#: admin/custom-fields.php:115
+#: admin/custom-fields.php:323
+#@ wpuf
+msgid "Help Text"
+msgstr ""
+
+#: admin/custom-fields.php:118
+#: admin/custom-fields.php:326
+#@ wpuf
+msgid "Text will be shown to user as help text"
+msgstr ""
+
+#: admin/custom-fields.php:122
+#: admin/custom-fields.php:330
+#@ wpuf
+msgid "Required"
+msgstr ""
+
+#: admin/custom-fields.php:125
+#: admin/custom-fields.php:333
+#: admin/settings-options.php:309
+#: admin/settings-options.php:320
+#: admin/settings-options.php:331
+#: admin/settings-options.php:377
+#: admin/settings-options.php:396
+#@ wpuf
+msgid "No"
+msgstr ""
+
+#: admin/custom-fields.php:126
+#: admin/custom-fields.php:334
+#: admin/settings-options.php:308
+#: admin/settings-options.php:319
+#: admin/settings-options.php:330
+#: admin/settings-options.php:376
+#: admin/settings-options.php:395
+#@ wpuf
+msgid "Yes"
+msgstr ""
+
+#: admin/custom-fields.php:128
+#: admin/custom-fields.php:336
+#@ wpuf
+msgid "A validation criteria. User must provide input in that field"
+msgstr ""
+
+#: admin/custom-fields.php:132
+#: admin/custom-fields.php:340
+#@ wpuf
+msgid "Region"
+msgstr ""
+
+#: admin/custom-fields.php:135
+#: admin/custom-fields.php:343
+#@ wpuf
+msgid "Top"
+msgstr ""
+
+#: admin/custom-fields.php:136
+#: admin/custom-fields.php:344
+#@ wpuf
+msgid "Before Description"
+msgstr ""
+
+#: admin/custom-fields.php:137
+#: admin/custom-fields.php:345
+#@ wpuf
+msgid "After Description"
+msgstr ""
+
+#: admin/custom-fields.php:138
+#: admin/custom-fields.php:346
+#@ wpuf
+msgid "Bottom"
+msgstr ""
+
+#: admin/custom-fields.php:140
+#: admin/custom-fields.php:348
+#@ wpuf
+msgid "Where do you want to show this input field?"
+msgstr ""
+
+#: admin/custom-fields.php:144
+#: admin/custom-fields.php:352
+#@ wpuf
+msgid "Order"
+msgstr ""
+
+#: admin/custom-fields.php:147
+#: admin/custom-fields.php:355
+#@ wpuf
+msgid "Which order this input field will show in a region"
+msgstr ""
+
+#: admin/custom-fields.php:151
+#: admin/custom-fields.php:359
+#@ wpuf
+msgid "Type"
+msgstr ""
+
+#: admin/custom-fields.php:154
+#: admin/custom-fields.php:362
+#@ wpuf
+msgid "Text Box"
+msgstr ""
+
+#: admin/custom-fields.php:155
+#: admin/custom-fields.php:363
+#@ wpuf
+msgid "Text Area"
+msgstr ""
+
+#: admin/custom-fields.php:156
+#: admin/custom-fields.php:364
+#@ wpuf
+msgid "Dropdown"
+msgstr ""
+
+#: admin/custom-fields.php:157
+#: admin/custom-fields.php:365
+#: admin/settings-options.php:182
+#@ wpuf
+msgid "Checkbox"
+msgstr ""
+
+#: admin/custom-fields.php:163
+#: admin/custom-fields.php:371
+#@ wpuf
+msgid "Values"
+msgstr ""
+
+#: admin/custom-fields.php:166
+#: admin/custom-fields.php:374
+#@ wpuf
+msgid "This will be used as option fields. Please separate values with comma"
+msgstr ""
+
+#: admin/custom-fields.php:172
+#: admin/taxonomy.php:86
+#@ wpuf
+#@ default
+msgid "Add Field"
+msgstr ""
+
+#: admin/custom-fields.php:380
+#: admin/taxonomy.php:241
+#@ wpuf
+#@ default
+msgid "Update Field"
+msgstr ""
+
+#: admin/custom-fields.php:384
+#@ wpuf
+msgid "Nothing found"
+msgstr ""
+
+#: admin/settings-options.php:12
+#@ wpuf
+msgid "Labels"
+msgstr ""
+
+#: admin/settings-options.php:16
+#@ wpuf
+msgid "Frontend Posting"
+msgstr ""
+
+#: admin/settings-options.php:20
+#@ wpuf
+msgid "Dashboard"
+msgstr ""
+
+#: admin/settings-options.php:24
+#@ wpuf
+msgid "Others"
+msgstr ""
+
+#: admin/settings-options.php:28
+#@ wpuf
+msgid "Payments"
+msgstr ""
+
+#: admin/settings-options.php:32
+#@ wpuf
+msgid "Support"
+msgstr ""
+
+#: admin/settings-options.php:47
+#@ wpuf
+msgid "Post title label"
+msgstr ""
+
+#: admin/settings-options.php:52
+#@ wpuf
+msgid "Post title help text"
+msgstr ""
+
+#: admin/settings-options.php:56
+#@ wpuf
+msgid "Post category label"
+msgstr ""
+
+#: admin/settings-options.php:61
+#@ wpuf
+msgid "Post category help text"
+msgstr ""
+
+#: admin/settings-options.php:65
+#@ wpuf
+msgid "Post description label"
+msgstr ""
+
+#: admin/settings-options.php:70
+#@ wpuf
+msgid "Post description help text"
+msgstr ""
+
+#: admin/settings-options.php:74
+#@ wpuf
+msgid "Post tag label"
+msgstr ""
+
+#: admin/settings-options.php:79
+#@ wpuf
+msgid "Post tag help text"
+msgstr ""
+
+#: admin/settings-options.php:83
+#@ wpuf
+msgid "Post submit button label"
+msgstr ""
+
+#: admin/settings-options.php:88
+#@ wpuf
+msgid "Post update button label"
+msgstr ""
+
+#: admin/settings-options.php:93
+#@ wpuf
+msgid "Post updating button label"
+msgstr ""
+
+#: admin/settings-options.php:94
+#@ wpuf
+msgid "the text will be used when the submit button is pressed"
+msgstr ""
+
+#: admin/settings-options.php:99
+#@ wpuf
+msgid "Featured image label"
+msgstr ""
+
+#: admin/settings-options.php:104
+#@ wpuf
+msgid "Featured Button image label"
+msgstr ""
+
+#: admin/settings-options.php:109
+#@ wpuf
+msgid "Attachment Label"
+msgstr ""
+
+#: admin/settings-options.php:114
+#@ wpuf
+msgid "Attachment Help"
+msgstr ""
+
+#: admin/settings-options.php:119
+#@ wpuf
+msgid "Attachment upload button"
+msgstr ""
+
+#: admin/settings-options.php:126
+#@ wpuf
+msgid "Post Status"
+msgstr ""
+
+#: admin/settings-options.php:127
+#@ wpuf
+msgid "Default post status after user submits a post"
+msgstr ""
+
+#: admin/settings-options.php:138
+#@ wpuf
+msgid "Post Author"
+msgstr ""
+
+#: admin/settings-options.php:139
+#@ wpuf
+msgid "Set the new post's post author by default"
+msgstr ""
+
+#: admin/settings-options.php:143
+#@ wpuf
+msgid "Original Author"
+msgstr ""
+
+#: admin/settings-options.php:144
+#@ wpuf
+msgid "Map to other user"
+msgstr ""
+
+#: admin/settings-options.php:149
+#@ wpuf
+msgid "Map posts to poster"
+msgstr ""
+
+#: admin/settings-options.php:150
+#@ wpuf
+msgid "If <b>Map to other user</b> selected, new post's post author will be this user by default"
+msgstr ""
+
+#: admin/settings-options.php:156
+#@ wpuf
+msgid "Allow to choose category?"
+msgstr ""
+
+#: admin/settings-options.php:157
+#@ wpuf
+msgid "Allow users to choose category while posting?"
+msgstr ""
+
+#: admin/settings-options.php:163
+#@ wpuf
+msgid "Exclude category ID's"
+msgstr ""
+
+#: admin/settings-options.php:164
+#@ wpuf
+msgid "Exclude categories fro the dropdown"
+msgstr ""
+
+#: admin/settings-options.php:169
+#@ wpuf
+msgid "Default post category"
+msgstr ""
+
+#: admin/settings-options.php:170
+#@ wpuf
+msgid "If users are not allowed to choose any category, this category will be used instead"
+msgstr ""
+
+#: admin/settings-options.php:176
+#@ wpuf
+msgid "Category Selection type"
+msgstr ""
+
+#: admin/settings-options.php:180
+#@ wpuf
+msgid "Normal"
+msgstr ""
+
+#: admin/settings-options.php:181
+#@ wpuf
+msgid "Ajaxified"
+msgstr ""
+
+#: admin/settings-options.php:187
+#@ wpuf
+msgid "Featured Image upload"
+msgstr ""
+
+#: admin/settings-options.php:188
+#@ wpuf
+msgid "Gives ability to upload an image as featured image"
+msgstr ""
+
+#: admin/settings-options.php:192
+#: admin/settings-options.php:203
+#: admin/settings-options.php:407
+#@ wpuf
+msgid "Enable"
+msgstr ""
+
+#: admin/settings-options.php:193
+#: admin/settings-options.php:204
+#: admin/settings-options.php:406
+#@ wpuf
+msgid "Disable"
+msgstr ""
+
+#: admin/settings-options.php:198
+#@ wpuf
+msgid "Allow attachments"
+msgstr ""
+
+#: admin/settings-options.php:199
+#@ wpuf
+msgid "Will the users be able to add attachments on posts?"
+msgstr ""
+
+#: admin/settings-options.php:209
+#@ wpuf
+msgid "Number of attachments"
+msgstr ""
+
+#: admin/settings-options.php:210
+#@ wpuf
+msgid "How many attachments can be attached on a post. Put <b>0</b> for unlimited attachment"
+msgstr ""
+
+#: admin/settings-options.php:216
+#@ wpuf
+msgid "Attachment max size"
+msgstr ""
+
+#: admin/settings-options.php:217
+#@ wpuf
+msgid "Enter the maximum file size in <b>KILOBYTE</b> that is allowed to attach"
+msgstr ""
+
+#: admin/settings-options.php:223
+#@ wpuf
+msgid "Content editor type"
+msgstr ""
+
+#: admin/settings-options.php:227
+#@ wpuf
+msgid "Rich Text (tiny)"
+msgstr ""
+
+#: admin/settings-options.php:228
+#@ wpuf
+msgid "Rich Text (full)"
+msgstr ""
+
+#: admin/settings-options.php:229
+#@ wpuf
+msgid "Plain Text"
+msgstr ""
+
+#: admin/settings-options.php:234
+#@ wpuf
+msgid "Allow post tags"
+msgstr ""
+
+#: admin/settings-options.php:235
+#@ wpuf
+msgid "Users will be able to add post tags"
+msgstr ""
+
+#: admin/settings-options.php:241
+#@ wpuf
+msgid "Enable custom fields"
+msgstr ""
+
+#: admin/settings-options.php:242
+#@ wpuf
+msgid "You can use additional fields on your post submission form. Add new fields by going <b>Custom Fields</b> option page."
+msgstr ""
+
+#: admin/settings-options.php:247
+#@ wpuf
+msgid "Enable post date input"
+msgstr ""
+
+#: admin/settings-options.php:248
+#@ wpuf
+msgid "This will enable users to input the post published date"
+msgstr ""
+
+#: admin/settings-options.php:253
+#@ wpuf
+msgid "Enable Post expiration"
+msgstr ""
+
+#: admin/settings-options.php:254
+#@ wpuf
+msgid "Users will be able to select a duration, after that time from post publish date, post will be set to draft. This feature depends on <strong>Post Expirator</strong> plugin. "
+msgstr ""
+
+#: admin/settings-options.php:261
+#@ wpuf
+msgid "Show post type"
+msgstr ""
+
+#: admin/settings-options.php:262
+#@ wpuf
+msgid "Select the post type that the user will see"
+msgstr ""
+
+#: admin/settings-options.php:268
+#@ wpuf
+msgid "Posts per page"
+msgstr ""
+
+#: admin/settings-options.php:269
+#@ wpuf
+msgid "How many posts will be listed in a page"
+msgstr ""
+
+#: admin/settings-options.php:275
+#@ wpuf
+msgid "Show user bio"
+msgstr ""
+
+#: admin/settings-options.php:276
+#@ wpuf
+msgid "Users biographical info will be shown"
+msgstr ""
+
+#: admin/settings-options.php:282
+#@ wpuf
+msgid "Show post count"
+msgstr ""
+
+#: admin/settings-options.php:283
+#@ wpuf
+msgid "Show how many posts are created by the user"
+msgstr ""
+
+#: admin/settings-options.php:289
+#@ wpuf
+msgid "Show Featured Image"
+msgstr ""
+
+#: admin/settings-options.php:290
+#@ wpuf
+msgid "Show featured image of the post"
+msgstr ""
+
+#: admin/settings-options.php:295
+#@ wpuf
+msgid "Featured Image size"
+msgstr ""
+
+#: admin/settings-options.php:303
+#@ wpuf
+msgid "New post notification"
+msgstr ""
+
+#: admin/settings-options.php:304
+#@ wpuf
+msgid "A mail will be sent to admin when a new post is created"
+msgstr ""
+
+#: admin/settings-options.php:314
+#@ wpuf
+msgid "Users can edit post?"
+msgstr ""
+
+#: admin/settings-options.php:315
+#@ wpuf
+msgid "Users will be able to edit their own posts"
+msgstr ""
+
+#: admin/settings-options.php:325
+#@ wpuf
+msgid "User can delete post?"
+msgstr ""
+
+#: admin/settings-options.php:326
+#@ wpuf
+msgid "Users will be able to delete their own posts"
+msgstr ""
+
+#: admin/settings-options.php:336
+#@ wpuf
+msgid "Edit Page"
+msgstr ""
+
+#: admin/settings-options.php:337
+#@ wpuf
+msgid "Select the page where [wpuf_editpost] is located"
+msgstr ""
+
+#: admin/settings-options.php:343
+#@ wpuf
+msgid "Admin area access"
+msgstr ""
+
+#: admin/settings-options.php:344
+#@ wpuf
+msgid "Allow you to block specific user role to WordPress admin area."
+msgstr ""
+
+#: admin/settings-options.php:348
+#@ wpuf
+msgid "Admin Only"
+msgstr ""
+
+#: admin/settings-options.php:349
+#@ wpuf
+msgid "Admins, Editors"
+msgstr ""
+
+#: admin/settings-options.php:350
+#@ wpuf
+msgid "Admins, Editors, Authors"
+msgstr ""
+
+#: admin/settings-options.php:351
+#@ wpuf
+msgid "Admins, Editors, Authors, Contributors"
+msgstr ""
+
+#: admin/settings-options.php:352
+#@ wpuf
+msgid "Default"
+msgstr ""
+
+#: admin/settings-options.php:357
+#@ wpuf
+msgid "Show custom fields in the post"
+msgstr ""
+
+#: admin/settings-options.php:358
+#@ wpuf
+msgid "If you want to show the custom field data in the post added by the plugin."
+msgstr ""
+
+#: admin/settings-options.php:364
+#@ wpuf
+msgid "Show attachments in the post"
+msgstr ""
+
+#: admin/settings-options.php:365
+#@ wpuf
+msgid "If you want to show the uploaded attachments in the post"
+msgstr ""
+
+#: admin/settings-options.php:371
+#@ wpuf
+msgid "Override the post edit link"
+msgstr ""
+
+#: admin/settings-options.php:372
+#@ wpuf
+msgid "Users see the edit link in post if s/he is capable to edit the post/page. Selecting <strong>Yes</strong> will override the default WordPress link"
+msgstr ""
+
+#: admin/settings-options.php:382
+#@ wpuf
+msgid "Custom CSS codes"
+msgstr ""
+
+#: admin/settings-options.php:383
+#@ wpuf
+msgid "If you want to add your custom CSS code, it will be added on page header wrapped with style tag"
+msgstr ""
+
+#: admin/settings-options.php:390
+#@ wpuf
+msgid "Charge for posting"
+msgstr ""
+
+#: admin/settings-options.php:391
+#@ wpuf
+msgid "Charge user for submitting a post"
+msgstr ""
+
+#: admin/settings-options.php:401
+#@ wpuf
+msgid "Force pack purchase"
+msgstr ""
+
+#: admin/settings-options.php:402
+#@ wpuf
+msgid "When active, users must have to buy a pack for posting"
+msgstr ""
+
+#: admin/settings-options.php:412
+#@ wpuf
+msgid "Currency"
+msgstr ""
+
+#: admin/settings-options.php:444
+#@ wpuf
+msgid "Currency Symbol"
+msgstr ""
+
+#: admin/settings-options.php:450
+#@ wpuf
+msgid "Cost"
+msgstr ""
+
+#: admin/settings-options.php:451
+#@ wpuf
+msgid "Cost per post"
+msgstr ""
+
+#: admin/settings-options.php:457
+#@ wpuf
+msgid "Enable demo/sandbox mode"
+msgstr ""
+
+#: admin/settings-options.php:458
+#@ wpuf
+msgid "When sandbox mode is active, all payment gateway will be used in demo mode"
+msgstr ""
+
+#: admin/settings-options.php:464
+#@ wpuf
+msgid "Payment Page"
+msgstr ""
+
+#: admin/settings-options.php:465
+#@ wpuf
+msgid "This page will be used to process payment options"
+msgstr ""
+
+#: admin/settings-options.php:471
+#@ wpuf
+msgid "Payment Success Page"
+msgstr ""
+
+#: admin/settings-options.php:472
+#@ wpuf
+msgid "After payment users will be redirected here"
+msgstr ""
+
+#: admin/settings-options.php:478
+#@ wpuf
+msgid "Payment Gateways"
+msgstr ""
+
+#: admin/settings-options.php:479
+#@ wpuf
+msgid "Active payment gateways"
+msgstr ""
+
+#: admin/settings-options.php:487
+#@ wpuf
+msgid "Need Help?"
+msgstr ""
+
+#: admin/settings.php:38
+#@ wpuf
+msgid "Subscription"
+msgstr ""
+
+#: admin/settings.php:39
+#@ wpuf
+msgid "Transaction"
+msgstr ""
+
+#: admin/subscription.php:8
+#@ wpuf
+msgid "Subscription Manager"
+msgstr ""
+
+#: admin/subscription.php:79
+#: admin/subscription.php:238
+#@ wpuf
+msgid "Subscription Pack Details"
+msgstr ""
+
+#: admin/subscription.php:85
+#: admin/subscription.php:244
+#@ wpuf
+msgid "Pack Name"
+msgstr ""
+
+#: admin/subscription.php:88
+#: admin/subscription.php:247
+#@ wpuf
+msgid "subscription pack name"
+msgstr ""
+
+#: admin/subscription.php:92
+#: admin/subscription.php:251
+#@ wpuf
+msgid "Pack Description"
+msgstr ""
+
+#: admin/subscription.php:98
+#: admin/subscription.php:257
+#@ wpuf
+msgid "Pack Cost"
+msgstr ""
+
+#: admin/subscription.php:101
+#: admin/subscription.php:260
+#@ wpuf
+msgid "price/cost of the pack"
+msgstr ""
+
+#: admin/subscription.php:105
+#: admin/subscription.php:264
+#@ wpuf
+msgid "Pack validity"
+msgstr ""
+
+#: admin/subscription.php:108
+#: admin/subscription.php:267
+#@ wpuf
+msgid "How many days this pack will remain valid? Enter <strong>0</strong> for unlimited."
+msgstr ""
+
+#: admin/subscription.php:112
+#: admin/subscription.php:271
+#@ wpuf
+msgid "Number of Posts"
+msgstr ""
+
+#: admin/subscription.php:115
+#: admin/subscription.php:274
+#@ wpuf
+msgid "How many posts the user can list with this pack? Enter <strong>0</strong> for unlimited."
+msgstr ""
+
+#: admin/subscription.php:121
+#: admin/subscription.php:280
+#@ wpuf
+msgid "Add Package"
+msgstr ""
+
+#: lib/attachment.php:53
+#: wpuf.php:152
+#@ default
+msgid "Allowed Files"
+msgstr ""
+
+#: lib/attachment.php:133
+#@ wpuf
+msgid "Insert Song Title"
+msgstr ""
+
+#: lib/attachment.php:136
+#: wpuf-dashboard.php:165
+#: wpuf-edit-user.php:100
+#@ wpuf
+msgid "Delete"
+msgstr ""
+
+#: lib/gateway/paypal.php:32
+#@ wpuf
+msgid "Paypal Email"
+msgstr ""
+
+#: lib/gateway/paypal.php:64
+#, php-format
+#@ wpuf
+msgid "Click here to complete the purchase on %s"
+msgstr ""
+
+#: wpuf-add-post.php:29
+#: wpuf-dashboard.php:32
+#: wpuf-edit-post.php:21
+#: wpuf-edit-user.php:37
+#: wpuf-editprofile.php:27
+#, php-format
+#@ wpuf
+msgid "This page is restricted. Please %s to view this page."
+msgstr ""
+
+#: wpuf-add-post.php:63
+#@ default
+msgid "Cheating?"
+msgstr ""
+
+#: wpuf-add-post.php:69
+#@ wpuf
+msgid "Post It!"
+msgstr ""
+
+#: wpuf-add-post.php:103
+#: wpuf-edit-post.php:117
+#@ wpuf
+msgid "Your theme doesn't support featured image"
+msgstr ""
+
+#: wpuf-add-post.php:130
+#: wpuf-add-post.php:132
+#: wpuf-ajax.php:23
+#: wpuf-edit-post.php:152
+#: wpuf-edit-post.php:154
+#@ wpuf
+msgid "-- Select --"
+msgstr ""
+
+#: wpuf-add-post.php:515
+#@ default
+msgctxt "timezone date format"
+msgid "Y-m-d G:i:s"
+msgstr ""
+
+#: wpuf-add-post.php:534
+#@ wpuf
+msgid "Publish Time:"
+msgstr ""
+
+#: wpuf-add-post.php:570
+#@ wpuf
+msgid "Expiration Time:"
+msgstr ""
+
+#: wpuf-add-post.php:579
+#@ wpuf
+msgid "days"
+msgstr ""
+
+#: wpuf-add-post.php:584
+#@ wpuf
+msgid "Post expiration time in day after publishing."
+msgstr ""
+
+#: wpuf-add-post.php:617
+#@ wpuf
+msgid "Empty product title"
+msgstr ""
+
+#: wpuf-add-post.php:626
+#: wpuf-add-post.php:628
+#: wpuf-add-post.php:631
+#: wpuf-edit-post.php:254
+#: wpuf-edit-post.php:256
+#: wpuf-edit-post.php:259
+#@ wpuf
+msgid "Please choose a category"
+msgstr ""
+
+#: wpuf-add-post.php:638
+#: wpuf-edit-post.php:265
+#@ wpuf
+msgid "Empty post content"
+msgstr ""
+
+#: wpuf-add-post.php:675
+#: wpuf-edit-post.php:291
+#, php-format
+#@ wpuf
+msgid "\"%s\" is missing"
+msgstr ""
+
+#: wpuf-add-post.php:695
+#@ wpuf
+msgid "Invalid date"
+msgstr ""
+
+#: wpuf-dashboard.php:60
+#@ wpuf
+msgid "Post Deleted"
+msgstr ""
+
+#: wpuf-dashboard.php:76
+#, php-format
+#@ wpuf
+msgid "%s's Dashboard"
+msgstr ""
+
+#: wpuf-dashboard.php:80
+#, php-format
+#@ wpuf
+msgid "You have created <span>%d</span> %s"
+msgstr ""
+
+#: wpuf-dashboard.php:97
+#@ wpuf
+msgid "Featured Image"
+msgstr ""
+
+#: wpuf-dashboard.php:100
+#@ wpuf
+msgid "Title"
+msgstr ""
+
+#: wpuf-dashboard.php:101
+#@ wpuf
+msgid "Status"
+msgstr ""
+
+#: wpuf-dashboard.php:104
+#@ wpuf
+msgid "Payment"
+msgstr ""
+
+#: wpuf-dashboard.php:107
+#@ wpuf
+msgid "Options"
+msgstr ""
+
+#: wpuf-dashboard.php:122
+#@ wpuf
+msgid "No Image"
+msgstr ""
+
+#: wpuf-dashboard.php:134
+#, php-format
+#@ wpuf
+msgid "Permalink to %s"
+msgstr ""
+
+#: wpuf-dashboard.php:159
+#: wpuf-edit-user.php:99
+#@ wpuf
+msgid "Edit"
+msgstr ""
+
+#: wpuf-dashboard.php:178
+#@ wpuf
+msgid "&laquo;"
+msgstr ""
+
+#: wpuf-dashboard.php:179
+#@ wpuf
+msgid "&raquo;"
+msgstr ""
+
+#: wpuf-dashboard.php:192
+#, php-format
+#@ wpuf
+msgid "No %s found"
+msgstr ""
+
+#: wpuf-dashboard.php:212
+#@ wpuf
+msgid "Author Info"
+msgstr ""
+
+#: wpuf-dashboard.php:216
+#: wpuf-edit-user.php:97
+#, php-format
+#@ wpuf
+msgid "%s"
+msgstr ""
+
+#: wpuf-dashboard.php:248
+#@ wpuf
+msgid "You are not the post author. Cheeting huh!"
+msgstr ""
+
+#: wpuf-edit-post.php:43
+#@ wpuf
+msgid "Post Editing is disabled"
+msgstr ""
+
+#: wpuf-edit-post.php:49
+#@ wpuf
+msgid "Invalid post"
+msgstr ""
+
+#: wpuf-edit-post.php:54
+#@ wpuf
+msgid "You are not allowed to edit"
+msgstr ""
+
+#: wpuf-edit-post.php:245
+#@ wpuf
+msgid "Empty post title"
+msgstr ""
+
+#: wpuf-edit-post.php:326
+#@ wpuf
+msgid "Post updated successfully."
+msgstr ""
+
+#: wpuf-edit-user.php:23
+#@ wpuf
+msgid "User doesn't exists"
+msgstr ""
+
+#: wpuf-edit-user.php:34
+#@ wpuf
+msgid "You don't have permission for this purpose"
+msgstr ""
+
+#: wpuf-edit-user.php:77
+#@ wpuf
+msgid "User Deleted"
+msgstr ""
+
+#: wpuf-edit-user.php:92
+#: wpuf-edit-user.php:144
+#: wpuf-editprofile.php:96
+#@ wpuf
+#@ default
+msgid "Username"
+msgstr ""
+
+#: wpuf-edit-user.php:93
+#@ wpuf
+msgid "Action"
+msgstr ""
+
+#: wpuf-edit-user.php:119
+#: wpuf-edit-user.php:177
+#@ wpuf
+msgid "Add New User"
+msgstr ""
+
+#: wpuf-edit-user.php:132
+#@ wpuf
+msgid "User Added"
+msgstr ""
+
+#: wpuf-edit-user.php:152
+#@ wpuf
+msgid "Email"
+msgstr ""
+
+#: wpuf-edit-user.php:160
+#@ wpuf
+msgid "Role"
+msgstr ""
+
+#: wpuf-edit-user.php:204
+#@ default
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr ""
+
+#: wpuf-edit-user.php:206
+#@ default
+msgid "<strong>ERROR</strong>: This username is invalid because it uses illegal characters. Please enter a valid username."
+msgstr ""
+
+#: wpuf-edit-user.php:209
+#@ default
+msgid "<strong>ERROR</strong>: This username is already registered, please choose another one."
+msgstr ""
+
+#: wpuf-edit-user.php:214
+#@ default
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr ""
+
+#: wpuf-edit-user.php:216
+#@ default
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr ""
+
+#: wpuf-edit-user.php:219
+#@ default
+msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
+msgstr ""
+
+#: wpuf-edit-user.php:242
+#, php-format
+#@ default
+msgid "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a href=\"mailto:%s\">webmaster</a> !"
+msgstr ""
+
+#: wpuf-editprofile.php:66
+#@ wpuf
+msgid "<strong>Success</strong>: Profile updated"
+msgstr ""
+
+#: wpuf-editprofile.php:92
+#@ default
+msgid "Name"
+msgstr ""
+
+#: wpuf-editprofile.php:97
+#@ default
+msgid "Usernames cannot be changed."
+msgstr ""
+
+#: wpuf-editprofile.php:100
+#@ default
+msgid "First Name"
+msgstr ""
+
+#: wpuf-editprofile.php:105
+#@ default
+msgid "Last Name"
+msgstr ""
+
+#: wpuf-editprofile.php:110
+#@ default
+msgid "Nickname"
+msgstr ""
+
+#: wpuf-editprofile.php:110
+#: wpuf-editprofile.php:151
+#@ default
+msgid "(required)"
+msgstr ""
+
+#: wpuf-editprofile.php:115
+#@ default
+msgid "Display to Public as"
+msgstr ""
+
+#: wpuf-editprofile.php:147
+#@ default
+msgid "Contact Info"
+msgstr ""
+
+#: wpuf-editprofile.php:151
+#@ default
+msgid "E-mail"
+msgstr ""
+
+#: wpuf-editprofile.php:156
+#@ default
+msgid "Website"
+msgstr ""
+
+#: wpuf-editprofile.php:174
+#@ default
+msgid "About Yourself"
+msgstr ""
+
+#: wpuf-editprofile.php:178
+#@ wpuf
+msgid "Biographical Info"
+msgstr ""
+
+#: wpuf-editprofile.php:180
+#@ default
+msgid "Share a little biographical information to fill out your profile. This may be shown publicly."
+msgstr ""
+
+#: wpuf-editprofile.php:183
+#@ wpuf
+msgid "New Password"
+msgstr ""
+
+#: wpuf-editprofile.php:189
+#@ wpuf
+msgid "Confirm Password"
+msgstr ""
+
+#: wpuf-editprofile.php:191
+#@ default
+msgid "Type your new password again."
+msgstr ""
+
+#: wpuf-editprofile.php:196
+#@ wpuf
+msgid "Password Strength"
+msgstr ""
+
+#: wpuf-editprofile.php:198
+#@ default
+msgid "Strength indicator"
+msgstr ""
+
+#: wpuf-editprofile.php:221
+#@ wpuf
+msgid "Update Profile"
+msgstr ""
+
+#: wpuf-editprofile.php:240
+#@ wpuf
+msgid "WPUF Post Lock"
+msgstr ""
+
+#: wpuf-editprofile.php:243
+#@ wpuf
+msgid "Lock Post:"
+msgstr ""
+
+#: wpuf-editprofile.php:249
+#@ wpuf
+msgid "Lock user from creating new post."
+msgstr ""
+
+#: wpuf-editprofile.php:254
+#@ wpuf
+msgid "Lock Reason:"
+msgstr ""
+
+#: wpuf-editprofile.php:274
+#@ wpuf
+msgid "WPUF Subscription"
+msgstr ""
+
+#: wpuf-editprofile.php:278
+#@ wpuf
+msgid "Pack:"
+msgstr ""
+
+#: wpuf-editprofile.php:284
+#@ wpuf
+msgid "Post Count:"
+msgstr ""
+
+#: wpuf-editprofile.php:290
+#: wpuf-subscription.php:277
+#@ wpuf
+msgid "Validity:"
+msgstr ""
+
+#: wpuf-functions.php:44
+#@ wpuf
+msgid "Live"
+msgstr ""
+
+#: wpuf-functions.php:48
+#@ wpuf
+msgid "Offline"
+msgstr ""
+
+#: wpuf-functions.php:52
+#@ wpuf
+msgid "Awaiting Approval"
+msgstr ""
+
+#: wpuf-functions.php:55
+#@ wpuf
+msgid "Scheduled"
+msgstr ""
+
+#: wpuf-functions.php:107
+#, php-format
+#@ default
+msgid "[%s] New Post Submission"
+msgstr ""
+
+#: wpuf-functions.php:109
+#, php-format
+#@ default
+msgid "A new post has been submitted on %s"
+msgstr ""
+
+#: wpuf-functions.php:110
+#, php-format
+#@ default
+msgid "Author : %s"
+msgstr ""
+
+#: wpuf-functions.php:111
+#, php-format
+#@ default
+msgid "Author Email : %s"
+msgstr ""
+
+#: wpuf-functions.php:112
+#, php-format
+#@ default
+msgid "Title : %s"
+msgstr ""
+
+#: wpuf-functions.php:113
+#, php-format
+#@ default
+msgid "Permalink : %s"
+msgstr ""
+
+#: wpuf-functions.php:114
+#, php-format
+#@ default
+msgid "Edit Link : %s"
+msgstr ""
+
+#: wpuf-functions.php:230
+#@ default
+msgid "Attachment file is too big"
+msgstr ""
+
+#: wpuf-functions.php:235
+#@ default
+msgid "Invalid attachment file type"
+msgstr ""
+
+#: wpuf-functions.php:580
+#@ wpuf
+msgid "Remove Image"
+msgstr ""
+
+#: wpuf-functions.php:678
+#, php-format
+#@ wpuf
+msgid "You need to set your <a href=\"%1$s\">permalink custom structure</a> to at least contain <b>/&#37;postname&#37;/</b> before WP User Frontend will work properly."
+msgstr ""
+
+#: wpuf-functions.php:745
+#@ wpuf
+msgid "You must purchase a pack before posting"
+msgstr ""
+
+#: wpuf-payment.php:58
+#@ wpuf
+msgid "You are not logged in"
+msgstr ""
+
+#: wpuf-payment.php:74
+#@ wpuf
+msgid "Choose Your Payment Method"
+msgstr ""
+
+#: wpuf-payment.php:96
+#@ wpuf
+msgid "Proceed"
+msgstr ""
+
+#: wpuf-payment.php:100
+#@ wpuf
+msgid "No Payment gateway found"
+msgstr ""
+
+#: wpuf-payment.php:201
+#, php-format
+#@ wpuf
+msgid "[%s] Payment Received"
+msgstr ""
+
+#: wpuf-payment.php:202
+#, php-format
+#@ wpuf
+msgid "New payment received at %s"
+msgstr ""
+
+#: wpuf-subscription.php:259
+#@ wpuf
+msgid "Unlimited duration"
+msgstr ""
+
+#: wpuf-subscription.php:261
+#@ wpuf
+msgid "Expired"
+msgstr ""
+
+#: wpuf-subscription.php:275
+#@ wpuf
+msgid "Subscription Details"
+msgstr ""
+
+#: wpuf-subscription.php:278
+#@ wpuf
+msgid "Post Left:"
+msgstr ""
+
+#: wpuf-subscription.php:308
+#@ wpuf
+msgid "Buy Now"
+msgstr ""
+
+#: wpuf-subscription.php:325
+#, php-format
+#@ wpuf
+msgid "This will cost you <strong>%s</strong>. to add a new post. You may buy some bulk package too. "
+msgstr ""
+
+#: wpuf.php:140
+#@ wpuf
+msgid "Are you sure?"
+msgstr ""
+
+#: wpuf.php:176
+#@ wpuf
+msgid "Access Denied. Your site administrator has blocked your access to the WordPress back-office."
+msgstr ""
+

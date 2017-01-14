@@ -1,0 +1,79 @@
+<?php
+/*
+Template Name: HOME Page
+*/
+?>
+
+<?php get_header(); ?>
+<div class="container_12">
+
+    <div class="grid_8">
+
+        <div id="primary" class="content-area">
+            <div id="content" class="site-content" role="main">
+                <div class="entry-content">
+                    <div class="content_wrapper">
+                        <h1><?php the_title(); ?></h1>
+
+                        <h2>Velg drivstoff</h2>
+                        <?php
+                        $terms = get_terms("pa_drivstoff", array('hide_empty' => false));
+                        foreach ($terms as $term){?>
+                            <div class="content_grid_4">
+                                <a href="<?php echo get_term_link( $term->slug, $term->taxonomy );?>" title="<?php echo $term->name;?>"><?php echo $term->name;?></a>
+                            </div>    
+                        <?php } ?>
+                        
+                        <div class="clear"></div>
+                        
+                        <h2>Velg karosseri</h2>
+                        <?php
+                        $bodies = get_terms("pa_karosseri", array('hide_empty' => false));
+                        foreach ($bodies as $body){?>
+                            <div class="content_grid_4">
+                                <a href="<?php echo get_term_link( $body->slug, $body->taxonomy );?>" title="<?php echo $body->name;?>"><?php echo $body->name;?></a>
+                            </div>    
+                        <?php } ?>
+                        
+                        <div class="clear"></div>
+                        
+                        <h2>Velg merke og modell</h2>
+                        <?php
+                        $models = get_terms("pa_modell", array('hide_empty' => false, 'parent' => NULL));
+                        foreach ($models as $model){?>
+                            <div class="content_grid_4">
+                                <a href="<?php echo get_term_link( $model->slug, $model->taxonomy );?>" title="<?php echo $model->name;?>"><?php echo $model->name;?></a>
+                            </div>    
+                        <?php } ?>
+                        
+                    </div>
+                </div>
+                <?php while ( have_posts() ) : the_post(); ?>
+
+                <?php get_template_part( 'content', 'page' ); ?>
+                
+                
+                
+                <?php endwhile; // end of the loop. ?>
+
+            </div><!-- #content .site-content -->
+        </div><!-- #primary .content-area -->
+        
+    </div>
+
+	<div id="right_sidebar">
+		<?php
+        if ( is_active_sidebar( 'right_banner' ) ){?>
+            <div class="top_banner_wrapper">        
+				<?php dynamic_sidebar('right_banner'); ?>
+            </div>
+
+        <?php } ?>
+	</div>
+
+</div>
+
+<?php get_template_part("light_footer"); ?>
+<?php get_template_part("dark_footer"); ?>
+
+<?php get_footer(); ?>

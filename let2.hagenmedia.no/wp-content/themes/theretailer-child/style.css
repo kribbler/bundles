@@ -1,0 +1,850 @@
+/*
+Theme Name: The Retailer Child Theme
+Theme URI: http://theretailer.getbowtied.com/
+Description: This is a child theme for The Retailer.
+Author: Get Bowtied
+Author URI: http: //www.getbowtied.com/
+Template: theretailer
+Version: 1.6
+*/
+
+@import url("../theretailer/style.css");
+
+/****************************************************************/
+/*************** ADD YOUR CUSTOM CSS IN THIS AREA ***************/
+/****************************************************************/
+a, .gbtr_tools_info, .default-slider-next i, .default-slider-prev i, li.product h3:hover, .product_item h3 a, div.product .product_brand, div.product div.product_meta a:hover, #content div.product div.product_meta a:hover, #reviews a, div.product .woocommerce_tabs .panel a, #content div.product .woocommerce_tabs .panel a, div.product .woocommerce-tabs .panel a, #content div.product .woocommerce-tabs .panel a, .product_navigation .nav-back a, table.shop_table td.product-name .product_brand, .woocommerce table.shop_table td.product-name .product_brand, table.my_account_orders td.order-actions a:hover, ul.digital-downloads li a:hover, .addresses a:hover, .gbtr_login_register_switch ul li, .entry-meta a:hover, footer.entry-meta .comments-link a, #nav-below .nav-previous-single a:hover, #nav-below .nav-next-single a:hover, .gbtr_dark_footer_wrapper .widget_nav_menu ul li a:hover, .gbtr_dark_footer_wrapper a:hover, .shortcode_meet_the_team .role, .accordion .accordion-title a:hover, .testimonial_left_author h5, .testimonial_right_author h5, #comments a:hover, .portfolio_item a:hover, .emm-paginate a:hover span, .emm-paginate a:active span, .emm-paginate .emm-prev:hover, .emm-paginate .emm-next:hover, .mc_success_msg, .page_archive_items a:hover, .gbtr_product_share ul li a, div.product form.cart .variations .reset_variations, #content div.product form.cart .variations .reset_variations, table.my_account_orders .order-number a, .gbtr_dark_footer_wrapper .tagcloud a:hover{
+	color: #000 !important;
+}
+
+form input[type="submit"]{
+	background-color: #652d86;
+    background-image: -moz-linear-gradient(center top , rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0));
+    
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0));
+	background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0));
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0));
+	background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0));
+	background-image: linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0));
+	
+    background-position: 0 50%;
+    background-repeat: repeat-x;
+    border-radius: 3px !important;
+    clear: none !important;
+    color: #fff;
+    font-family: arial !important;
+    font-size: 15px !important;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin: 0 10px 5px 0 !important;
+    padding: 5px 10px;
+    text-shadow: none;
+    text-transform: none !important;
+    white-space: nowrap;
+}
+
+form input[type="submit"]:hover{
+	background-image: -moz-linear-gradient(center top , rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.125)) !important;
+	
+	background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.125)) !important;
+	background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.5)4, rgba(255, 255, 255, 0.125)) !important;
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.125)) !important;
+	background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.125)) !important;
+	background-image: linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.125)) !important;
+	
+	background-color:#652d86 !important;
+}
+
+.gbtr_poduct_details_right_col_mobile{
+	display: none;
+}
+.content_grid_6 input[type="text"], .content_grid_6 input[type="email"], .content_grid_6 input[type="password"]{
+	border: 1px solid #ccc;
+    color: #777;
+    font-size: 12px;
+    padding: 8px 9px;
+    width: 418px;
+}
+
+.user-forms strong{
+	margin-top: 5px;
+	font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+    font-family: "Helvetica Neue",Helvetica,"vera-sans-1","vera-sans-2",Arial,sans-serif;
+}
+.user-forms label{
+	font-weight: normal;
+}
+
+.gbtr_logo{
+	top: -10px;
+}
+#home_content ul{
+	display: none;
+}
+
+#home_content a{
+	font-size: 13px !important;
+}
+
+#home_content h1{
+	color: #6b267f !important;
+	font-weight: bold;
+	font-size: 30px;
+	background-color: #e1e1e3;
+	padding: 10px;
+}
+.top_banner_wrapper{
+	margin: 1em 0;
+}
+.listing_products{
+	width: 100%;
+}
+
+.content_wrapper{
+	width: 100%;
+}
+.container_12 .grid_8{
+	width: 710px;
+}
+.content_grid_4{
+	width: 20%;
+}
+.entry-content h2{
+	margin-top: 2em;
+	clear: both;
+}
+#right_sidebar{
+	width: 220px;
+	min-height: 500px;
+	background: none;
+	/*border-left: 1px solid #555;*/
+	margin-bottom: 1em;
+	float: right;
+	margin-top: -100px;
+}
+.clear{clear: both;}
+
+.product_info{
+	clear: both;
+	background-color: #fff;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+.beskrivelse strong{
+	font-weight: normal !important;
+}
+
+.product_info p{
+	font-size: 14px;
+	line-height: 24px;
+}
+.dl_product{
+	line-height: 24px;
+	font-size: 14px;
+}
+.dl_product dt{
+	float: left; 
+	width: 50%;
+	color: #666;
+}
+.dl_product dd{
+	font-size: 14px;
+	font-weight: normal;
+	width: 50%;
+	float: left;
+}
+
+.gbtr_poduct_details_left_col h2{
+	font-size: 13pt;
+	font-weight: bold;
+	margin: 3em 0 1em;
+}
+
+.product_item{
+	float: none;
+	width: 100%;
+	height: auto;
+	border: 1px solid #eee;
+	background-color: #fff;
+}
+
+.product_item p{
+	padding: 1em 0;
+}
+
+.product_item .image_container{
+	margin: 1em;
+	float: left;
+}
+
+.gbtr_poduct_details_right_col{
+	width: 180px;
+	margin-right: 20px;
+	float: left;
+}
+
+.gbtr_poduct_details_right_col #send_message h2{
+	font-size: 17px;
+	margin: 20px 0 10px 0;
+}
+
+.gbtr_poduct_details_left_col{
+	margin-right: 0;
+	width: 480px;
+	float: right;
+}
+
+div.product .summary span.price, div.product .summary p.price, #content div.product .summary span.price, #content div.product .summary p.price{
+	font-size: 18pt;
+}
+
+.summary{
+	margin-bottom: 0em !important;
+}
+
+.summary .amount, .grtr_product_header_mobiles .amount{
+	color: #6c2780;
+}
+
+#wpuf-post-area h3{
+	font-weight: bold;
+	background-color: #eee;
+	line-height: 1.5em;
+	padding: .5em;
+	margin: 2em 0 1em 0;
+}
+
+.wpuf-post-form label{
+	min-width: 200px;
+	text-align: left; 
+}
+.wpuf-post-form p.description{
+	padding-left: 210px;
+}
+.wpuf-post-form select{
+	min-width: 300px;
+}
+.wpuf-post-form textarea{
+	width: 100%;
+}
+
+.Utstyr_col{ width: 30%; float: left;}
+
+.product_item p, .product_item p a{
+	display: block;
+}
+
+#wpuf_new_post_form .wpuf-post-form{
+	padding-left: 0px;
+	padding-bottom: 0 !important;
+}
+
+#wpuf-ft-upload-pickfiles{
+	clear: both;
+	width: 20%;
+}
+
+#wpuf-ft-upload-filelist{
+	margin-bottom: 1em;
+}
+
+#wpuf-ft-upload-filelist .button{
+	clear: both;
+	width: 81%
+}
+
+.wpuf-item{float: left; margin: 1em}
+
+.small1e{
+	clear: both;
+	color: #666666;
+	float: left;
+	padding-right: 1em;
+}
+.small1n{
+	font-weight:bold;
+	float: left;
+}
+.onehalf{float: left;width: 25%;}
+
+.widget .year_slider_wrapper {
+    margin: 20px 0 0 !important;
+}
+
+
+	
+.woocommerce .widget_year_filter .year_slider_wrapper .ui-widget-content, .woocommerce-page .widget_year_filter .year_slider_wrapper .ui-widget-content{
+	background: -moz-linear-gradient(center top , #1E1E1E 0px, #6A6A6A 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 1em;
+}
+
+.widget_year_filter .year_slider_wrapper .ui-widget-content{
+	background: none repeat scroll 0 0 #D7D7D7 !important;
+    border-radius: 1em !important;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset !important;
+}
+
+.woocommerce .widget_year_filter .ui-slider, .woocommerce-page .widget_year_filter .ui-slider{
+	position: relative;
+    text-align: left;
+}
+
+.woocommerce .widget_year_filter .year_slider, .woocommerce-page .widget_year_filter .year_slider{
+	margin-bottom: 1em;
+}
+
+.woocommerce .widget_year_filter .ui-slider-horizontal .ui-slider-range, .woocommerce-page .widget_year_filter .ui-slider-horizontal .ui-slider-range{
+	height: 100%;
+    top: 0;
+}
+
+.woocommerce .widget_year_filter .ui-slider .ui-slider-range, .woocommerce-page .widget_year_filter .ui-slider .ui-slider-range{
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAADCAYAAABS3WWCAAAAFUlEQVQIHWP4//9/PRMDA8NzEPEMADLLBU76a5idAAAAAElFTkSuQmCC") repeat-x scroll center top #AD74A2;
+    border: 0 none;
+    border-radius: 1em;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5) inset;
+    display: block;
+    font-size: 0.7em;
+    position: absolute;
+    z-index: 1;
+}
+
+.widget_year_filter .ui-slider .ui-slider-range{
+	background: none repeat scroll 0 0 #B39964 !important;
+    border: 0 none !important;
+    border-radius: 0 !important;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5) inset !important;
+    display: block !important;
+    font-size: 0.7em !important;
+    position: absolute !important;
+    z-index: 1 !important;
+}
+
+.woocommerce .widget_year_filter .ui-slider .ui-slider-handle, .woocommerce-page .widget_year_filter .ui-slider .ui-slider-handle {
+    background: -moz-linear-gradient(center top , #AD74A2 0px, #96588A 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #150D14;
+    border-radius: 1em;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(255, 255, 255, 0.65) inset;
+    cursor: pointer;
+    height: 0.9em;
+    outline: 0 none;
+    position: absolute;
+    top: -0.3em;
+    width: 0.9em;
+    z-index: 2;
+}
+
+.widget_year_filter .ui-slider .ui-slider-handle {
+    background: none repeat scroll 0 0 #717171 !important;
+    border: 1px solid #CCCCCC !important;
+    border-radius: 1em !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 0 0 3px inset;
+    cursor: pointer !important;
+    height: 0.9em !important;
+    outline: medium none !important;
+    position: absolute !important;
+    top: -0.3em !important;
+    width: 0.9em !important;
+    z-index: 2 !important;
+}
+
+.woocommerce .widget_year_filter .ui-slider .ui-slider-handle:last-child, .woocommerce-page .widget_year_filter .ui-slider .ui-slider-handle:last-child {
+    margin-left: -1em;
+}
+
+.woocommerce .widget_year_filter .ui-slider .ui-slider-handle, .woocommerce-page .widget_year_filter .ui-slider .ui-slider-handle {
+    background: -moz-linear-gradient(center top , #AD74A2 0px, #96588A 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #150D14;
+    border-radius: 1em;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(255, 255, 255, 0.65) inset;
+    cursor: pointer;
+    height: 0.9em;
+    outline: 0 none;
+    position: absolute;
+    top: -0.3em;
+    width: 0.9em;
+    z-index: 2;
+}
+
+.widget_year_filter .ui-slider .ui-slider-handle {
+    background: none repeat scroll 0 0 #717171 !important;
+    border: 1px solid #CCCCCC !important;
+    border-radius: 1em !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 0 0 3px inset;
+    cursor: pointer !important;
+    height: 0.9em !important;
+    outline: medium none !important;
+    position: absolute !important;
+    top: -0.3em !important;
+    width: 0.9em !important;
+    z-index: 2 !important;
+}
+
+.woocommerce .widget_year_filter .year_slider_amount, .woocommerce-page .widget_year_filter .year_slider_amount {
+    font-size: 0.8751em;
+    line-height: 2.4em;
+    text-align: right;
+}
+
+.widget_year_filter .year_slider_amount {
+    margin: 20px 0 0 !important;
+}
+
+.widget_year_filter .year_label {
+    padding: 5px 0;
+    text-align: left !important;
+}
+
+.woocommerce .widget_year_filter .year_slider_amount .button, .woocommerce-page .widget_year_filter .year_slider_amount .button{
+	float: left;
+    font-size: 1.15em;
+}
+
+a.button, button.button, input.button, #respond input#submit, #content input.button, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit, .woocommerce #content input.button{
+	background-color: #652d86;
+}
+
+.widget_year_filter .year_slider_amount .button {
+    float: right !important;
+    padding: 10px 15px !important;
+}
+
+.widget_year_filter .year_label {
+    padding: 5px 0;
+    text-align: left !important;
+}
+
+.count{
+	color: #777777;
+    float: right;
+    font-size: 1em;
+    margin-left: 6px;
+    padding: 1px 0;
+}
+
+.top_banner_wrapper .widget{
+	padding: 0 !important;
+}
+
+.message_green{
+	border-radius: 4px;
+	background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #3c763d;
+    padding: 1em 35px 1em 25px !important;
+}
+.message_red{
+	border-radius: 4px;
+	background-color: #f2dede;
+    border-color: #ebccd1;
+    color: #a94442;
+    padding: 1em 35px 1em 25px !important;
+}
+
+#send_message{
+	margin-top: 10px;
+}
+#send_message .wpcf7-text, #send_message .wpcf7-textarea, #send_message .wpcf7-captchar{
+	width: 100% !important;
+}
+
+.wpcf7-form .wpcf7-submit{
+	margin-top: 10px !important;
+}
+
+.home_search_box{
+	background-color: #fff;
+	border: 1px solid #eee;
+	padding: 20px;
+	margin-bottom: 30px;
+}
+.home_search_box h2{
+	margin-top: .3em;
+	color: #6c2780 !important;
+	font-weight: bold;
+}
+
+.home_search_box a{
+	font-size: 15px !important;
+}
+#global_wrapper{
+	background-color: #f9f9f9;
+}
+.gbtr_header_wrapper{
+	background-color: #f9f9f9;
+}
+
+.menus_wrapper{
+	margin-right: 10px !important;
+}
+.widget h1.widget-title{
+	color: #6c2780 !important;
+	font-weight: normal !important;
+	font-size: 20px !important;
+}
+
+.widget_layered_nav ul li.chosen a{
+	background-color: #652d86 !important;
+	border: 0 !important;
+}
+
+.sf-menu a, .sf-menu a:visited{
+	color: #6c2780 !important;
+}
+.product_main_infos{
+	border-bottom: 0;
+}
+
+.push_down_10{
+	margin-top: 20px;
+}
+
+.product_item h1{
+	font-family: 'Lato',Arial,Helvetica,sans-serif !important;
+    font-size: 18px !important;
+    font-weight: normal !important;
+    line-height: 25px !important;
+    margin-bottom: 1em;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.product_item h1 a{
+	color: #6c2780 !important;
+	text-transform: none;
+}
+
+.product_item p{
+	color: #6c6f70 !important;
+	line-height: 20px;
+}
+
+.product_item .product_price{
+	margin-top: 10px !important;
+}
+
+.product_item p b{
+	color: #000 !important;
+}
+
+.wpuf-post-form input[type="submit"], .wpuf-submit, .wpuf-button{
+	font-family: 'Lato', Arial, Helvetica, sans-serif !important;
+}
+
+#change_search{
+	display: none;
+}
+
+.h_ref, .h_ref_m{
+	border-bottom: 1px solid #aaa;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+.h_ref_m{
+	margin-top: 20px;
+}
+
+.single-product .push_down_10{
+	margin-top: 0;
+}
+
+.grtr_product_price_desktops .price{
+	padding: 10px 0 15px 0 !important;
+}
+
+.bottom_wrapper ul{
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+}
+.bottom_wrapper ul li a{
+	font-size: 14px;
+	color: #fff !important;
+}
+
+.gbtr_second_menu{
+	display: none;
+}
+
+#kaross .content_grid_4{
+	width: 30%;
+}
+.kaross_annet{
+	background: url(images/chassis3.png) 0 -585px no-repeat;
+	text-indent: 62px;
+	display: block;
+	height: 32px;
+	line-height: 32px;
+}
+.kaross_cabriolet{
+	background: url(images/chassis3.png) 0 -218px no-repeat;
+	text-indent: 62px;
+	display: block;
+	height: 32px;
+	line-height: 32px;
+}
+
+.kaross_coupe_hyundai{
+	background: url(images/chassis3.png) 0 -178px no-repeat;
+	text-indent: 62px;
+	display: block;
+	height: 32px;
+	line-height: 32px;
+}
+
+.kaross_flerbruksbil{
+	background: url(images/chassis3.png) 0 -141px no-repeat;
+	text-indent: 62px;
+	display: block;
+	height: 32px;
+	line-height: 32px;
+}
+
+.kaross_kasse{
+	background: url(images/chassis3.png) 0 -329px no-repeat;
+	text-indent: 62px;
+	display: block;
+	height: 32px;
+	line-height: 32px;
+}
+
+.kaross_kombi-3-dors{
+	background: url(images/chassis3.png) 0 10px no-repeat;
+	text-indent: 62px;
+	display: block;
+	height: 32px;
+	line-height: 32px;
+}
+
+.kaross_kombi-5-dors{
+	background: url(images/chassis3.png) 0 -29px no-repeat;
+	text-indent: 62px;
+	display: block;
+	height: 32px;
+	line-height: 32px;
+}
+
+.kaross_pickup{
+	background: url(images/chassis3.png) 0 -253px no-repeat;
+	text-indent: 62px;
+	display: block;
+	height: 32px;
+	line-height: 32px;
+}
+
+.kaross_sedan{
+	background: url(images/chassis3.png) 0 -66px no-repeat;
+	text-indent: 62px;
+	display: block;
+	height: 32px;
+	line-height: 32px;
+}
+
+.kaross_stasjonsvogn{
+	background: url(images/chassis3.png) 0 -103px no-repeat;
+	text-indent: 62px;
+	display: block;
+	height: 32px;
+	line-height: 32px;
+}
+
+.kaross_suvoffroad{
+	background: url(images/chassis3.png) 0 -291px no-repeat;
+	text-indent: 62px;
+	display: block;
+	height: 32px;
+	line-height: 32px;
+}
+
+@media screen and (max-width: 959px) {
+	.container_12 .grid_8{
+		width: auto;
+	}
+	.container_12 .grid_2{
+		display: none;
+	}
+	.container_12 .grid_9{
+		width: 100%;
+	}
+	.content_grid_4{
+		float: none;
+	}
+	.gbtr_poduct_details_right_col {
+		float:none;
+		margin:30px auto 0 auto;
+		width:510px;
+	}
+	.gbtr_poduct_details_left_col {
+		float:none;
+		margin:0 auto;
+	}
+}
+
+@media only screen and (max-width: 719px) {
+	#right_sidebar, .top_banner_wrapper{
+		display: none;
+	}
+	.gbtr_logo{
+		width: 173px;
+	}
+	.gbtr_header_wrapper{
+		padding: 0 !important;
+		margin-bottom: 5px;
+	}
+	#home_content h1{
+		font-size: 20px;
+	}
+	.container_12 .grid_9{
+		width: auto;
+	}
+	.gbtr_poduct_details_left_col {
+		width:100%;
+		float:none;
+		margin:0 auto;
+	}
+	
+	.gbtr_poduct_details_right_col{
+		width: 100%;
+	}
+	#send_message{
+		width: 100%;
+	}	
+	#send_message .wpcf7-text, #send_message .wpcf7-textarea{
+		width: auto !important;
+	}
+	
+	.gbtr_poduct_details_right_col_mobile #send_message h2{
+		display: block !important;
+		font-size: 17px !important;
+    	margin: 20px 0 10px !important;
+	}
+	
+	.product_item .image_container{
+		width: 130px;
+	}
+	
+	.content_wrapper br{
+		display: none;
+	}
+	
+	.entry-content{
+		margin: 5px 0;
+	}
+	.entry-content p{
+		padding-bottom: 5px;
+	}
+	.home_search_box{
+		margin-bottom: 5px;
+	}
+	
+	.bottom_wrapper{
+		padding: 5px 0;
+	}
+	.widget{
+		padding: 0 0 5px;
+	}
+	.gbtr_footer_widget_copyrights{
+		margin-top: 0;
+	}
+	.gbtr_poduct_details_left_col h2{
+		margin: 15px 0 5px 0;
+	}
+	.product_navigation{
+		height: 0;
+	}
+	
+	.gbtr_poduct_details_right_col{
+		display: none;
+	}
+	#send_message .wpcf7-text, #send_message .wpcf7-textarea, #send_message .wpcf7-captchar{
+		width: 100% !important;
+	}
+	
+	.gbtr_poduct_details_right_col_mobile{
+		/*border-top: 1px solid #ccc;*/
+		padding-top: 10px;
+		margin: 15px 0 5px 0;
+		display: block;
+	}
+	
+	.gbtr_poduct_details_right_col_mobile h2{
+		border-bottom: 1px solid #ccc;
+	    margin-bottom: 20px;
+	    padding-bottom: 10px;
+	}
+	.naf_widget{
+		border-top: 1px solid #ccc;
+	    margin-top: 20px;
+	    padding-top: 10px;
+	}
+	
+	.listing_products .page-title, .filter_wrapper{
+		display: none;
+	}
+	
+	hr.padding30.fixbottom10, .hr.padding30.fixbottom10{
+		margin: 10px 0;
+	}
+	
+	.product_item{
+		margin: 0 0 5px !important;
+	}
+	.product_item p{
+		padding-left: 154px !important;
+	}
+	
+	#search_bar{
+		display: none;
+		position: absolute;
+		top: 200px;
+		width: 100%;
+		background-color: #f9f9f9;
+		margin: 0;
+	}
+	.gbtr_aside_column_left{
+		padding: 10px;
+	}
+	#change_search{
+		background-color: #652d86;
+	    background-image: -moz-linear-gradient(center top , rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0)) !important;
+	    background-position: 0 50%;
+	    background-repeat: repeat-x;
+	    border-radius: 3px !important;
+	    clear: none !important;
+	    color: #fff;
+	    font-family: 'Lato',Arial,Helvetica,sans-serif !important;
+	    font-size: 15px !important;
+	    font-weight: 600;
+	    letter-spacing: 1px;
+	    line-height: 20px;
+	    margin: 0 10px 5px 0 !important;
+	    padding: 5px 10px;
+	    text-shadow: none;
+	    text-transform: none !important;
+	    white-space: nowrap;
+	    display: block;
+	    float: right;
+	    cursor: pointer;
+	}
+	
+	.wpcf7-form{
+		font-size: 13px;
+	}
+	.wpcf7-form p{
+		margin-bottom: 10px;
+	}
+	
+	.utstyr p{
+		width: 100% !important;
+		float: none !important;
+	}
+}
+
+
+
+/****************************************************************/
+/****************************************************************/
+/****************************************************************/
