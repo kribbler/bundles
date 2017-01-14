@@ -1,0 +1,200 @@
+/*
+Theme Name: Architecture Child
+Theme URI: -
+Description: Architecture Wordpress Theme
+Version: 1.04
+Author: Goodlayers
+Author URI: http://goodlayers.com
+License:
+License URI:
+Template: architecture-v1-04
+*/
+
+@import url("../architecture-v1-04/style.css");
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+h1, h2, h3, h4, h5, h6, p{
+	font-family: 'Open Sans', sans-serif;
+}
+
+p{
+	color: #666 !important;
+}
+
+h3{
+	color: #a1a1a1 !important;
+}
+.clearfix{
+	clear: both;
+}
+
+div.header-navigation-wrapper{
+	margin-right: 160px;
+}
+
+div.header-navigation ul.menu li a{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+div.page-header-wrapper{
+	display: none;
+}
+.right_align{
+	text-align: right;
+}
+
+#home_block1, #home_block2, #home_block3, #home_block4, #home_block5{
+	margin: 40px auto;
+}
+
+#home_block3{
+	background-color: #999999;
+}
+
+#home_block3 div.gdl-carousel-testimonial .testimonial-content{
+	background: url("images/bg_testimonial.png") no-repeat center center;
+	padding: 60px 0;
+	height: 180px;
+}
+
+#home_block3 .testimonial-item-wrapper{
+	height: 300px !important;
+}
+
+#home_block3 .testimonial-content{
+	color: #fff;
+	text-align: center;
+	font-style: normal;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#home_block3 .testimonial-content p{
+	color: #fff !important;
+}
+#home_block3 .testimonial-info{
+	display: none;
+}
+
+#home_block4 h2{
+	color: #525252;
+}
+#home_block4 h3{
+	font-weight: normal;
+	color: #666;
+}
+#home_block4 h4, #home_block2 h4, h3.gdl-header-title{
+	font-size: 20px;
+	font-weight: 700;
+	color: #999;
+}
+
+#home_block5{
+	margin-bottom: 40px;
+}
+
+h4.gdl-header-title {
+    float: left;
+    font-size: 21px;
+    font-weight: 200;
+    margin-bottom: 0;
+    margin-right: 16px;
+    margin-top: 4px;
+}
+#home_block5 h3{
+	height: 60px;
+	
+}
+#home_block5 img{
+	margin: 0;
+	position: relative;
+	top: 16px;
+	padding-right: 16px;
+}
+
+#home_block5 .shortcode1-3 {
+	border-top: 10px solid #e8e8e8;
+}
+
+#home_block5 a{
+	color: #666;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+}
+
+div.footer-wrapper .container{
+	margin-top: 20px;
+}
+
+div.footer-wrapper .row{
+	margin-bottom: 20px;
+}
+
+div.footer-wrapper .social-icon-wrapper{
+	margin-top: 10px;
+}
+
+div.footer-wrapper h5{
+	margin-bottom: 5px;
+}
+
+.row_upper_border{
+	margin-top: 20px;
+	padding-top: 20px;
+	border-top: 1px solid #fff;
+}
+
+div.footer-wrapper{
+	margin-top: 40px;
+}
+div.footer-wrapper .alignnone{
+	margin-bottom: 0;
+}
+
+div.footer-wrapper h2, div.footer-wrapper h3{
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #888 !important;
+}
+
+div.footer-wrapper .recent-port-widget-thumbnail{
+	background: none !important;
+	padding: 0 !important;
+}
+
+div.footer-wrapper .textwidget{
+	padding-top: 0;
+}
+
+.footer-container, .copyright-outer-wrapper{
+	display: none;
+}
+
+.view-all-projects{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-style: normal !important;
+	color: #c2c2c2;
+}
+
+.view-all-projects:hover{
+	color: #aaa;
+}
+
+.portfolio-item .portfolio-context .portfolio-title a{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.portfolio-item .portfolio-context .portfolio-tag, .portfolio-item .portfolio-context .portfolio-tag a{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+}
