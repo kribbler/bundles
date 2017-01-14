@@ -1,0 +1,75 @@
+RewriteEngine On
+
+# Unless directory, remove trailing slash
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^([^/]+)/$ http://example2.com/folder/$1 [R=301,L]
+
+# Redirect external .php requests to extensionless url
+#RewriteCond %{THE_REQUEST} ^(.+)\.php([#?][^\ ]*)?\ HTTP/
+#RewriteRule ^(.+)\.php$ http://example3.com/folder/$1 [R=301,L]
+
+# Resolve .php file for extensionless php urls
+RewriteRule ^([^/.]+)$ $1.php [L]
+
+Options FollowSymLinks
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_URI} !^.*\.html$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ %{REQUEST_FILENAME}.html
+
+
+
+RewriteRule ^(the-lasting-happiness-and-success-formula-live-the-life-you-deserve.html)$ product.php?product=$1 [NC]
+RewriteRule ^(learn-to-strum-your-guitar-like-a-pro-with-jamorama-learn-guitar-product.html)$ product.php?product=$1 [NC]
+RewriteRule ^(an-impact-of-the-super-mind-evaluation-system.html)$ product.php?product=$1 [NC]
+RewriteRule ^(tapping-the-hidden-power-of-your-subconscious.html)$ product.php?product=$1 [NC]
+RewriteRule ^(discover-the-secrets-of-the-universal-laws-with-revolutioniz.html)$ product.php?product=$1 [NC]
+RewriteRule ^(resolve-your-regular-blushing-problem-with-blushing-breakthrough.html)$ product.php?product=$1 [NC]
+RewriteRule ^(using-public-speaking-crush-it-to-achieve-success.html)$ product.php?product=$1 [NC]
+
+RewriteRule ^(reprogram-your-cellular-memory.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(future-life-vision.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(shaping-your-future.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(cellular-memory.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(become-successful.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(achieve-wealth.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(learn-lead-guitar-free.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(learn-lead-guitar.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(learn-jazz-guitar.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(learn-how-to-read-guitar-tab.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(learn-how-to-read-guitar-music.html)$ tags.php?tag=$1 [NC]
+
+
+RewriteRule ^(learn-how-to-play-guitar-chord.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(brain-power.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(brain-evolution-system.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(super-mind.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(super-mind-power.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(super-mind-power-system.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(brain-evolution-system-review.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(achieve-impossible-results.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(capacity-of-the-subconscious-mind.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(unlock-brain.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(unlock-your-brain.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(curing-cancer-without-medication.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(secrets-of-the-brain.html)$ tags.php?tag=$1 [NC] 
+RewriteRule ^(stop-your-blushing.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(controlling-blush.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(reasons-of-blushing.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(try-to-control-blushing.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(control-blushing.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(blushing-breakthrough.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(public-speaking-crush-it.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(how-to-go-about-public-speaking.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(public-speaking-art.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(learn-public-speaking.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(elements-of-public-speaking.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(public-speaking-prowess.html)$ tags.php?tag=$1 [NC]
+
+RewriteRule ^(index.php)$ index.php [NC]
+
+RewriteRule ^(privacy.html)$ single.php?page=$1 [NC]
+RewriteRule ^(disclaimer.html)$ single.php?page=$1 [NC]

@@ -1,0 +1,64 @@
+RewriteEngine On
+
+RewriteRule ^([^/.]+)$ $1.php [L]
+
+Options FollowSymLinks
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_URI} !^.*\.html$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ %{REQUEST_FILENAME}.html
+
+
+
+RewriteRule ^(solve-all-your-problems-with-quantum-confidence-program.html)$ product.php?product=$1 [NC]
+RewriteRule ^(curing-your-panic-attacks-with-the-charles-linden-method.html)$ product.php?product=$1 [NC]
+RewriteRule ^(are-you-shy-or-suffering-from-social-anxiety.html)$ product.php?product=$1 [NC]
+RewriteRule ^(the-perfect-counter-attack-program-for-panic-attacks.html)$ product.php?product=$1 [NC]
+RewriteRule ^(an-impact-of-the-super-mind-evaluation-system.html)$ product.php?product=$1 [NC]
+RewriteRule ^(panic-miracle-could-be-the-end-to-your-debilitating-worries.html)$ product.php?product=$1 [NC]
+RewriteRule ^(change-your-life-with-conversation-confidence.html)$ product.php?product=$1 [NC]
+
+RewriteRule ^(renovate-confidence.html)$ tags.php?tag=$1 [NC] 
+RewriteRule ^(developing-confidence-while-conversing.html)$ tags.php?tag=$1 [NC] 
+RewriteRule ^(developing-confidence.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(gain-confidence.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(person-confidence')$ tags.php?tag=$1 [NC]
+RewriteRule ^(ocd-treatment.html)$ tags.php?tag=$1 [NC] 
+RewriteRule ^(panic-attacks-cure.html)$ tags.php?tag=$1 [NC] 
+RewriteRule ^(anxiety-cure.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(agoraphobia-cure.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(ocd-treatment')$ tags.php?tag=$1 [NC]
+RewriteRule ^(brain-power.html)$ tags.php?tag=$1 [NC] 
+RewriteRule ^(brain-evolution-system.html)$ tags.php?tag=$1 [NC] 
+RewriteRule ^(super-mind.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(mind-control-method.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(real-mind-power')$ tags.php?tag=$1 [NC]
+RewriteRule ^(fear.html)$ tags.php?tag=$1 [NC] 
+RewriteRule ^(anxiety.html)$ tags.php?tag=$1 [NC] 
+RewriteRule ^(depression.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(agoraphobia-panic-attacks.html)$ tags.php?tag=$1 [NC] 
+RewriteRule ^(anxiety-herbs')$ tags.php?tag=$1 [NC]
+RewriteRule ^(shyness.html)$ tags.php?tag=$1 [NC] 
+RewriteRule ^(panic-disorder.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(anxiety.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(social-anxiety-cures.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(cure-social-anxiety')$ tags.php?tag=$1 [NC]
+RewriteRule ^(agoraphobia-treatment.html)$ tags.php?tag=$1 [NC] 
+RewriteRule ^(agoraphobia-cure.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(ocd-treatment.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(anxiety-attacks.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(anxiety-cure')$ tags.php?tag=$1 [NC]
+RewriteRule ^(hyponsis.html)$ tags.php?tag=$1 [NC] 
+RewriteRule ^(brainwave-entertainment.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(morry-method.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(quantum-confidence.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(strengthen-confidence')$ tags.php?tag=$1 [NC]
+
+
+RewriteRule ^(index.php)$ index.php [NC]
+
+RewriteRule ^(privacy.html)$ single.php?page=$1 [NC]
+RewriteRule ^(disclaimer.html)$ single.php?page=$1 [NC]

@@ -1,0 +1,55 @@
+RewriteEngine On
+
+# Unless directory, remove trailing slash
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^([^/]+)/$ http://example2.com/folder/$1 [R=301,L]
+
+# Redirect external .php requests to extensionless url
+#RewriteCond %{THE_REQUEST} ^(.+)\.php([#?][^\ ]*)?\ HTTP/
+#RewriteRule ^(.+)\.php$ http://example3.com/folder/$1 [R=301,L]
+
+# Resolve .php file for extensionless php urls
+RewriteRule ^([^/.]+)$ $1.php [L]
+
+Options FollowSymLinks
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_URI} !^.*\.html$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ %{REQUEST_FILENAME}.html
+
+
+
+RewriteRule ^(affilorama-affiliate-marketing-made-easy.html)$ product.php?product=$1 [NC]
+RewriteRule ^(wealthy-through-google-sniper-2-0.html)$ product.php?product=$1 [NC]
+RewriteRule ^(cb-pAssive-income-3-0.html)$ product.php?product=$1 [NC]
+RewriteRule ^(profit-bank-by-millionaire-society.html)$ product.php?product=$1 [NC]
+RewriteRule ^(viral-traffic-optimizer-2-0-offers-business-growth.html)$ product.php?product=$1 [NC]
+RewriteRule ^(earning-money-with-mobile-pages-made-easy.html)$ product.php?product=$1 [NC]
+#RewriteRule ^(lose-weight-by-using-the-xtreme-fat-loss-diet.html)$ product.php?product=$1 [NC]
+
+RewriteRule ^(affiliate-marketing.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(carlton-sheets.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(advertising-on-the-internet.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(fitness.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(diet.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(affiliate-internet-marketing.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(affiliate-marketing-for-dummies.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(affiliate-marketing-classes.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(online-community.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(learn-online-business.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(affiliate-marketing.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(online-make-money.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(to-make-big-money.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(affiliate-program-product.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(to-make-extra-money.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(pay-per-click.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(affiliate-marketing-partnership.html)$ tags.php?tag=$1 [NC]
+
+
+RewriteRule ^(index.php)$ index.php [NC]
+
+RewriteRule ^(privacy.html)$ single.php?page=$1 [NC]
+RewriteRule ^(disclaimer.html)$ single.php?page=$1 [NC]

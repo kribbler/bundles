@@ -1,0 +1,74 @@
+RewriteEngine On
+
+# Unless directory, remove trailing slash
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^([^/]+)/$ http://example2.com/folder/$1 [R=301,L]
+
+# Redirect external .php requests to extensionless url
+#RewriteCond %{THE_REQUEST} ^(.+)\.php([#?][^\ ]*)?\ HTTP/
+#RewriteRule ^(.+)\.php$ http://example3.com/folder/$1 [R=301,L]
+
+# Resolve .php file for extensionless php urls
+RewriteRule ^([^/.]+)$ $1.php [L]
+
+Options FollowSymLinks
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_URI} !^.*\.html$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ %{REQUEST_FILENAME}.html
+
+
+
+RewriteRule ^(learn-to-strum-your-guitar-like-a-pro-with-jamorama-learn-guitar-product.html)$ product.php?product=$1 [NC]
+RewriteRule ^(you-can-sing-like-a-professional-with-singorama.html)$ product.php?product=$1 [NC]
+RewriteRule ^(learning-piano-is-trouble-free-with-pianoforall.html)$ product.php?product=$1 [NC]
+RewriteRule ^(learn-piano-from-home-with-rocket-piano.html)$ product.php?product=$1 [NC]
+RewriteRule ^(violin-master-pro-a-complete-violin-playing-guide-with-fantastic-features.html)$ product.php?product=$1 [NC]
+RewriteRule ^(the-long-awaited-answer-to-ultimate-beat-making-software-sonic-producer.html)$ product.php?product=$1 [NC]
+RewriteRule ^(make-professional-beats-with-your-pc-or-mac.html)$ product.php?product=$1 [NC]
+
+RewriteRule ^(learn-lead-guitar-free.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(learn-lead-guitar.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(learn-jazz-guitar.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(learn-how-to-read-guitar-tab.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(online-guitar-lesson.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(learning-singing.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(vocal-classes.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(learning-to-sing-in-tune.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(free-voice-lessons.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(how-to-learn-to-sing-better.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(piano-lessons.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(piano-for-all.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(learn-perfect-piano-skills.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(piano-learners.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(playing-music.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(pianos.html)$ tags.php?tag=$1 [NC] 
+RewriteRule ^(piano-music.html)$ tags.php?tag=$1 [NC] 
+RewriteRule ^(rocket-piano.html)$ tags.php?tag=$1 [NC] 
+RewriteRule ^(rocket-piano-review.html)$ tags.php?tag=$1 [NC] 
+RewriteRule ^(how-to-play-piano.html)$ tags.php?tag=$1 [NC] 
+RewriteRule ^(learn-to-play-violin.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(master-the-violin-immediately.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(100-video-lessons-by-the-master.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(violinmasterprocom.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(violin-lessons.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(beat-machine.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(make-music-online.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(music-maker-software.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(produce-music-software.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(make-beats-with-software.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(beat-production-software-download.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(beat-making-tutorials.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(hot-to-produce-beats.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(hip-hop-beatz.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(make-your-own-hip-hop-beat.html)$ tags.php?tag=$1 [NC]
+
+
+
+RewriteRule ^(index.php)$ index.php [NC]
+
+RewriteRule ^(privacy.html)$ single.php?page=$1 [NC]
+RewriteRule ^(disclaimer.html)$ single.php?page=$1 [NC]

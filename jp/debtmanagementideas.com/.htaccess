@@ -1,0 +1,71 @@
+RewriteEngine On
+
+# Unless directory, remove trailing slash
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^([^/]+)/$ http://example2.com/folder/$1 [R=301,L]
+
+# Redirect external .php requests to extensionless url
+#RewriteCond %{THE_REQUEST} ^(.+)\.php([#?][^\ ]*)?\ HTTP/
+#RewriteRule ^(.+)\.php$ http://example3.com/folder/$1 [R=301,L]
+
+# Resolve .php file for extensionless php urls
+RewriteRule ^([^/.]+)$ $1.php [L]
+
+Options FollowSymLinks
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_URI} !^.*\.html$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ %{REQUEST_FILENAME}.html
+
+
+
+RewriteRule ^(how-to-beat-the-debt-collectors.html)$ product.php?product=$1 [NC]
+RewriteRule ^(no-more-midnight-money-sweats-is-the-leading-guide-to-getting-debt-free.html)$ product.php?product=$1 [NC]
+RewriteRule ^(discover-a-new-view-on-debt-in-what-does-the-bible-say-about-debt.html)$ product.php?product=$1 [NC]
+RewriteRule ^(build-a-business-for-the-future-with-the-5-step-system-debt-negotiation.html)$ product.php?product=$1 [NC]
+RewriteRule ^(keep-your-home-with-home-foreclosure-survival-tactics.html)$ product.php?product=$1 [NC]
+RewriteRule ^(understanding-the-7-weeks-to-700-legal-credit-repair.html)$ product.php?product=$1 [NC]
+#RewriteRule ^(lose-weight-by-using-the-xtreme-fat-loss-diet.html)$ product.php?product=$1 [NC]
+
+RewriteRule ^(debt.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(lawyer.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(lawyers.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(debt-problems.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(debt-collector.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(chasing-debts.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(debt-free.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(no-more-midnight-money-sweats.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(money-sweats.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(midnight-money.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(about-finance.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(win-money.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(what-does-the-bible-say-about-debt.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(investing-money.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(invest-money.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(win-more-money.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(debt-negotiation.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(negotiate-debt.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(5-step-system-debt-negotiation.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(set-up-business.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(shortcut-the-business-start-up.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(best-negotiation-strategies.html)$ tags.php?tag=$1 [NC] 
+RewriteRule ^(foreclosure-process.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(home-foreclosure.html)$ tags.php?tag=$1 [NC] 
+RewriteRule ^(stop-home-foreclosure.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(avoid-home-foreclosure.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(how-to-stop-foreclosure.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(stopping-foreclosure.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(credit-repair.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(credit-repair-tips.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(legal-credit-repair.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(credit-repair-program.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(repair-credit-score.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(credit-repair-programs.html)$ tags.php?tag=$1 [NC]
+
+RewriteRule ^(index.php)$ index.php [NC]
+
+RewriteRule ^(privacy.html)$ single.php?page=$1 [NC]
+RewriteRule ^(disclaimer.html)$ single.php?page=$1 [NC]

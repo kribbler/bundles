@@ -1,0 +1,59 @@
+RewriteEngine On
+
+# Unless directory, remove trailing slash
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^([^/]+)/$ http://example2.com/folder/$1 [R=301,L]
+
+# Redirect external .php requests to extensionless url
+#RewriteCond %{THE_REQUEST} ^(.+)\.php([#?][^\ ]*)?\ HTTP/
+#RewriteRule ^(.+)\.php$ http://example3.com/folder/$1 [R=301,L]
+
+# Resolve .php file for extensionless php urls
+RewriteRule ^([^/.]+)$ $1.php [L]
+
+Options FollowSymLinks
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_URI} !^.*\.html$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ %{REQUEST_FILENAME}.html
+
+
+
+RewriteRule ^(take-advantage-of-linkedinfluence-for-success.html)$ product.php?product=$1 [NC]
+RewriteRule ^(seo-consultant-in-90-days-helps-you-realize-your-dream.html)$ product.php?product=$1 [NC]
+RewriteRule ^(wealthy-through-google-sniper-2-0.html)$ product.php?product=$1 [NC]
+RewriteRule ^(make-use-of-bring-the-fresh.html)$ product.php?product=$1 [NC]
+RewriteRule ^(using-rankbuilder-2-0-for-niche-marketing-success.html)$ product.php?product=$1 [NC]
+RewriteRule ^(try-your-hands-on-pageone-curator-and-experience-internet-success.html)$ product.php?product=$1 [NC]
+#RewriteRule ^(using-the-upsell-equation-for-success.html)$ product.php?product=$1 [NC]
+
+RewriteRule ^(affiliate-marketing.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(seo-video-course.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(offline-consultant.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(offline-marketing-consultant.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(pay-affiliates.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(home-security-affiliate-program.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(affiliate-program-software.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(search-engine-submitting.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(search-engine-submission-tips.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(search-engine-submission-list.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(engine-search-submission.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(cheap-search-engine-submission.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(best-search-engine-submitter.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(submit-url-to-search-engines.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(submit-your-blog-to-search-engines.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(average-equation.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(upsell-equation.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(equation.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(internet-marketing.html)$ tags.php?tag=$1 [NC]
+RewriteRule ^(the-upsell-equation.html)$ tags.php?tag=$1 [NC]
+
+
+
+RewriteRule ^(index.php)$ index.php [NC]
+
+RewriteRule ^(privacy.html)$ single.php?page=$1 [NC]
+RewriteRule ^(disclaimer.html)$ single.php?page=$1 [NC]
