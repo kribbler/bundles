@@ -1,0 +1,88 @@
+
+<div id="footer">Copyright 2013 Moving Forward Consulting and Wellness Services   <span style="padding-left:15px;padding-right:15px;color:#8d8d8d;">|</span>  <a href="http://divinedesigns.ca/" target="_blank">Website&nbsp;Design:&nbsp;<span style="font-style:italic;font-weight:550;color:#606060;">Divine&nbsp;Designs.ca</span>&nbsp;–&nbsp;<span style="font-style:italic;">Divinely&nbsp;Inspired&nbsp;Web&nbsp;Design</span></a></div>
+</div>
+</body>
+<script type="text/javascript">
+	var f = document.getElementById('filter');
+	if (f) {
+		f.setAttribute('action', '#contact');
+	}
+</script>
+<script type="text/javascript">
+	function ready(fn) {
+		console.log(document.readyState);
+		if (document.readyState != 'loading') {
+			fn();
+		} else {
+			document.addEventListener('DOMContentLoaded', fn);
+		}
+	}
+	function addEvent(elem, type, eventHandle) {
+		if (elem == null || typeof (elem) == 'undefined')
+			return;
+		if (elem.addEventListener) {
+			elem.addEventListener(type, eventHandle, false);
+		} else if (elem.attachEvent) {
+			elem.attachEvent("on" + type, eventHandle);
+		} else {
+			elem["on" + type] = eventHandle;
+		}
+	}
+	;
+	function getStyle(oElm, strCssRule) {
+		var strValue = "";
+		if (document.defaultView && document.defaultView.getComputedStyle) {
+			strValue = document.defaultView.getComputedStyle(oElm, "").getPropertyValue(strCssRule);
+		}
+		else if (oElm.currentStyle) {
+			strCssRule = strCssRule.replace(/\-(\w)/g, function (strMatch, p1) {
+				return p1.toUpperCase();
+			});
+			strValue = oElm.currentStyle[strCssRule];
+		}
+		return strValue;
+	}
+	function fix_cta_heights() {
+		var intro = document.getElementById('intro');
+		var cta1 = document.getElementById('cta1');
+		var cta2 = document.getElementById('cta2');
+		var include_intro = true;
+		if (typeof intro === undefined || intro === null ||
+			typeof cta1 === undefined || cta1 === null ||
+			typeof cta2 === undefined || cta2  === null)
+			return;
+		if (document.body.clientWidth < 960) {
+			intro.style.height = "";
+			include_intro = false;
+		}
+		intro.style.height = intro_padding = "";
+		cta1.style.height = "";
+		cta2.style.height = "";
+		var intro_height = cta1_height = cta2_height = 0;
+		if (include_intro && (typeof intro !== undefined || intro !== null)) {
+			var intro_padding = getStyle(intro, 'padding-top').replace(/[^0-9]/g, '');
+			intro_height = intro.clientHeight;
+		}
+		if (typeof cta1 !== undefined || cta1 !== null) {
+			var cta1_padding = getStyle(cta1, 'padding-top').replace(/[^0-9]/g, '');
+			cta1_height = cta1.clientHeight;
+		}
+		if (typeof cta1 !== undefined || cta2 !== null) {
+			var cta2_padding = getStyle(cta2, 'padding-top').replace(/[^0-9]/g, '');
+			cta2_height = cta2.clientHeight;
+		}
+		var max_height = Math.max(intro_height, cta1_height, cta2_height);
+
+		if (max_height > 0) {
+			if (include_intro)
+				intro.style.height = max_height - intro_padding + "px";
+			cta1.style.height = max_height - cta1_padding + "px";
+			cta2.style.height = max_height - cta2_padding + "px";
+		}
+	}
+
+	fix_cta_heights();
+	addEvent(window, "resize", fix_cta_heights);
+
+</script>
+</html>

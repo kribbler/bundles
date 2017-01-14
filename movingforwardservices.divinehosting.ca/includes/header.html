@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+	<head>
+		<title><?php echo $page_title; ?></title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="description" content="<?php echo $page_description; ?>">
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1">
+		<meta name="keywords" content="<?php echo $page_keywords; ?>">
+		<meta name="copyright" content="moving forward consulting and wellness services">
+		<meta name="Charset" content="UTF-8">
+		<meta name="Distribution" content="Global">
+		<meta name="Rating" content="General">
+		<meta name="Robots" content="INDEX.FOLLOW">
+		<meta name="Revisit-after" content="1 Day">
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<script type="text/javascript">
+
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-1757818-37']);
+			_gaq.push(['_trackPageview']);
+
+			(function () {
+				var ga = document.createElement('script');
+				ga.type = 'text/javascript';
+				ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(ga, s);
+			})();
+
+		</script>
+	</head>
+	<?php
+	$address = $_SERVER['REQUEST_URI'];
+	switch($address) {
+	case '/index.php':
+	case '/':
+	$bg = 'images/bg.jpg';
+	break;
+	case '/consult.php':
+	case '/asd-consultant-training-coaching':
+	$bg= 'images/bg_consult.jpg';
+	break;
+	case '/wellness.php':
+	case '/yoga-meditation-wellness-services':
+	$bg = 'images/bg.jpg';
+	break;
+	default:
+	$bg = 'images/bg.jpg';
+	break;
+	}
+	?>
+	<body background="<?php echo $bg; ?>">
+		<div id="wrap">
+			<div id="header">
+				<div id="logo"><img src="images/logo.png"></div>
+				<div id="head">
+					<div id="menua"><a href="index.php">Home</a> <span class="style2" style="padding-left:5px;">|</span></div>
+					<div id="menud"><a href="links.php">Links</a> <span class="style2">|</span></div>
+					<div id="menub"><a href="consult.php">Consulting Services</a> <span class="style2" style="padding-left:5px;">|</span></div>
+					<div id="menuc"><a href="wellness.php">Wellness Services</a></div>
+				</div>
+				<div id="banner"><?php 
+					$address = $_SERVER['REQUEST_URI'];
+					switch($address) {
+					case '/index.php':
+					case '/':
+					$file = 'mainbanner1.png';
+					break;
+					case '/consult.php':
+					case '/asd-consultant-training-coaching':
+					$file = 'ASDconsulting-services-20150811.jpg';
+					break;
+					case '/wellness.php':
+					case '/yoga-meditation-wellness-services':
+					$file = 'wellness-services-20150811.jpg';
+					break;
+					case '/asd-consultant-links-resources':
+					$file='asd-links-banner.jpg';
+					break;
+					default:
+					$file = '/mainbanner1.png';
+					break;
+					}
+					echo '<img src="images/'.$file.'" alt="'.$page_title.'" title="'.$page_title.'" />';
+					?>
+				</div>
+			</div>
