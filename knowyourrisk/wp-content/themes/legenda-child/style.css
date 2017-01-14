@@ -1,0 +1,451 @@
+/*
+ Theme Name: LEGENDA Child - 8theme WordPress theme
+Theme URI: http://8theme.com/
+Author: 8theme
+Author URI: http://themeforest.net/user/8theme
+Description: ThemeForest Premium Theme
+Version: 1.0
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template:       legenda
+*/
+
+@import url("../legenda/style.css");
+
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+@font-face {
+ font-family: 'Museo_Slab_300';
+ src: url('fonts/Museo_Slab_300.otf');
+ src: url('fonts/Museo_Slab_300.otf?#iefix') format('embedded-opentype'),
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: 'Museo_Slab_500';
+ src: url('fonts/Museo_Slab_500.otf');
+ src: url('fonts/Museo_Slab_500.otf?#iefix') format('embedded-opentype'),
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: 'Museo_Slab_700';
+ src: url('fonts/Museo_Slab_700.otf');
+ src: url('fonts/Museo_Slab_700.otf?#iefix') format('embedded-opentype'),
+ font-weight: normal;
+ font-style: normal;
+}
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+body {
+	font-family: "Museo_Slab_300", sans-serif;
+        font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+	font-family: "Museo_Slab_500", sans-serif;
+	text-transform: none;
+}
+
+.home_slider{
+	position: relative;
+	z-index: 9;
+}
+.main-nav{
+	position: relative;
+	z-index: 10;
+}
+.main-nav .menu > li > a{
+	font-family: "Museo_Slab_500", sans-serif;
+}
+
+.fixed-header-area{
+	display: none;
+}
+
+.double-border, .main-nav{
+	padding: 0 !important;
+}
+
+.double-border{
+	height: 125px;
+	background: none;
+	background: url(images/bg-header.png) left top repeat;
+}
+
+#header_top_text{
+	text-align: right;
+	margin-top: -30px;
+	font-size: 16px;
+}
+
+#header_top_text br{
+	display: none;
+}
+
+#header_phone{
+	background: url(images/header-phone.png) left center no-repeat;
+	padding-left: 20px;
+	color: #fff;
+}
+
+#header_email{
+	background: url(images/header-email.png) left center no-repeat;
+	padding-left: 20px;
+	color: #fff;
+	margin-left: 40px;
+}
+
+.header-type-3 .main-nav .menu > li{
+	padding: 0 !important;
+}
+.header-type-3 .main-nav .menu, .header-type-4 .main-nav .menu{
+	margin-right: 0;
+}
+
+.header-type-3 .main-nav {
+    background-image: url("http://know-your-risk.com/wp-content/uploads/2014/12/nav_bground.png");
+    border-top: medium none;
+}
+
+.header-type-3 .main-nav .menu > li.current-menu-parent > a, .header-type-3 .main-nav .menu > li.current-menu-item > a,
+.header-type-3 .main-nav .menu > li a:hover{
+	text-decoration: none;
+	background: #339eb1 !important;
+	color: #fff !important;
+	padding: 5px 20px !important;
+}
+
+.fixed-header .menu > li .nav-sublist-dropdown .container > ul > li a, .main-nav .menu > li .nav-sublist-dropdown .container > ul > li a {
+    border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+    border-top: 1px solid #dbdbdb;
+    box-sizing: border-box;
+    display: block;
+    padding: 5px 20px;
+    background-color: #fff;
+    width: 280px;
+}
+
+.clear{
+	clear: both;
+}
+.main-nav .menu > li > a{
+	padding: 20px 20px 0 20px !important;
+	color: #fff;
+}
+
+#my_accordion{
+	margin-bottom: 30px;
+}
+#my_accordion .item{
+	display: block;
+	padding: 10px 80px 10px 20px;
+	margin-bottom: 2px;
+	background: #efefef;
+	position: relative;
+	cursor: pointer;
+}
+.arrow_up{
+	background: url(images/arrow_up.png) no-repeat !important;
+}
+.arrow_down{
+	background: url(images/arrow_down.png) no-repeat !important;
+}
+#my_accordion .arrow{
+	background: url(images/arrow_down.png) no-repeat;
+	display: block;
+	width: 13px;
+	height: 7px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	cursor: pointer;
+}
+
+#my_accordion .item .inside{
+	color: #666666;
+	display: none;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+}
+
+#my_accordion a{
+	color: #081f31;
+	font-weight: 700;
+}
+#home_block1{
+	background: #0062ad;
+	padding: 30px 0;
+}
+
+#home_block1 h2{
+	color: #fff;
+	font-size: 25px;
+	padding: 10px 0;
+	margin-bottom: 0;
+}
+
+#home_block1 .container{
+	background: url(images/img-magnifier.png) left center no-repeat;
+	padding-left: 90px;
+}
+
+#home_block1 .span4{
+	background: url(images/big-play.png) left center no-repeat;
+}
+
+#home_block1 a{
+	color: #fff;
+}
+#home_block1 .span4 h2{
+	font-size: 20px;
+    padding-left: 100px;
+    position: relative;
+    top: 10px;
+}
+
+#home_block1 .span4 h3{
+	padding-left: 100px;
+	font-size: 16px;
+	color: #fff;
+}
+
+#home_block2{
+	padding-bottom: 30px;
+}
+#home_block2 .span8{
+	margin-top: 30px;
+}
+
+#home_block2 h1{
+	color: #005fac;
+	font-size: 25px;
+}
+
+#home_block2 h3, #home_block2 h3 strong{
+	color: #339eb1;
+	font-size: 20px;
+	line-height: 25px;
+}
+
+#home_block2 .span4, .my_sidebar{
+	background: url(images/ipad-in-hands.png) center top no-repeat;
+	padding-top: 420px;
+	margin-top: -40px;
+}
+
+#home_block2 #inner_pad, .my_sidebar #inner_pad{
+	background: #0062ad;
+	padding: 20px;
+	margin-top: -20px;
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+}
+
+.blackish{
+	background: #081f31;
+	padding: 20px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.blackish h2{
+	color: #fff;
+}
+
+.blackish a{
+	display: inline-block;
+	background: #0060af;
+	padding: 15px 30px;
+	color: #fff;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	margin-bottom: 20px;
+}
+
+#home_block2 #inner_pad h4, .my_sidebar h4{
+	color: #fff;
+	font-size: 20px;
+}
+
+#home_block3{
+	background: url(images/home_block3_pattern.png) repeat;
+}
+
+#home_block3 .container{
+	background: url(images/home_block3_woman.png) left top no-repeat;
+	padding: 40px 0;
+}
+
+#home_block3 h2{
+	color: #fff;
+	text-align: center;
+}
+
+#home_block3 h4{
+	color: #fff;
+	display: block;
+    height: 45px;
+}
+#home_block3 p{
+	padding: 0 30px;
+	color: #ddd;
+}
+
+#home_block4 {
+	background: #339eb1 url(images/ipad-start.png) center bottom no-repeat;
+	padding: 40px 0;
+}
+
+#home_block4 h1{
+	color: #fff;
+}
+#home_block4 .span6 p{
+	padding-right: 300px;
+	color: #fff;
+	font-size: 16px;
+}
+#home_block4 .span5{
+	margin-top: 70px;
+	color: #fff;
+	text-align: right;
+}
+
+#home_block4 .wpcf7 input, .wpcf7 textarea{
+	width: 60%;
+}
+#footer_top, #footer_bottom{
+	padding-top: 40px;
+	padding-bottom: 30px;
+	background: #222222;
+}
+
+#footer_top h2{
+	color: #fff;
+	font-size: 24px;
+}
+#footer_top p{
+	color: #999999;
+}
+#footer_top a{
+	color: #0062ad;
+}
+
+#footer_phone{
+	background: url(images/footer-phone.png) left center no-repeat;
+	padding-left: 30px;
+	font-size: 20px;
+	color: #aaaaaa;
+}
+
+#footer_email{
+	background: url(images/footer-email.png) left center no-repeat;
+	padding-left: 30px;
+	font-size: 18px;
+	color: #aaa;
+}
+.dotted_border{
+	background: url(images/dots.png) left bottom repeat-x;
+	margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+#footer_bottom .span6{
+	text-align: right;
+}
+#footer_bottom .white_a{
+	text-align: left;
+}
+
+#footer_bottom img{
+	margin-top: -5px;
+}
+
+.wpcf7 input, .wpcf7 textarea{
+	font-family: 'Lato', sans-serif;
+}
+
+.wpcf7 input[type="submit"]{
+	background: none repeat scroll 0 0 #091f30;
+    border: 0 none;
+    -webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+    color: #fff;
+    font-family: "Lato",sans-serif;
+    font-size: 14px;
+    padding: 10px 30px;
+}
+
+.d_footer .wpcf7 input[type="submit"]{
+	background: none repeat scroll 0 0 #0062ad;
+    border: 0 none;
+    -webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+    color: #fff;
+    font-family: "Lato",sans-serif;
+    font-size: 14px;
+    padding: 10px 30px;
+}
+
+.inner_page{
+	background: url(images/bg-inner-page.png) top left repeat;
+	padding: 40px 0;
+}
+
+.inner_page h1{
+	font-size: 30px;
+	color: #005fac;
+}
+
+.inner_page .blue_arrows{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.inner_page .blue_arrows li{
+	font-weight: 700;
+	padding-left: 20px;
+	background: url(images/li_blue_arrow.png) left 4px no-repeat;
+	margin: 10px 0;
+}
+
+.page-heading{
+	display: none;
+}
+
+.innerhead {  background-image: url("http://know-your-risk.com/wp-content/uploads/2014/12/innerpagehead.png");
+    background-position: center top;
+    background-repeat: repeat;
+    box-shadow: 0 3px 8px #888;
+    color: #fff;
+    padding: 50px; }
+
+.innerhead_inner { text-align: right; width: 90%; float: right; }
+
+.page-content { margin-top: 50px; }
+@media (max-width: 979px) {
+	#home_block4{
+		background: none #339eb1;
+	}
+	#home_block4 .span6 p{
+		padding-right: 0;
+	}
+}
+
+@media (max-width: 768px) {
+	#home_block4 .span5{
+		text-align: center;
+	}
+
+	#home_block4 .wpcf7 input, .wpcf7 textarea{
+		width: auto;
+	}
+}
