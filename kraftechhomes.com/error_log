@@ -1,0 +1,33 @@
+[18-Jun-2015 04:51:56 America/Chicago] PHP Warning:  fsockopen(): unable to connect to yourdomain.com:2082 (Connection timed out) in /home/kraftech/public_html/cpanel_subdomains.php on line 20
+[21-Jun-2015 18:39:56 America/Chicago] PHP Warning:  require_once(mobile_device_detect.php): failed to open stream: No such file or directory in /home/kraftech/public_html/index.php on line 6
+[21-Jun-2015 18:39:56 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'mobile_device_detect.php' (include_path='.:/opt/php54/lib/php') in /home/kraftech/public_html/index.php on line 6
+[21-Jun-2015 18:40:36 America/Chicago] PHP Warning:  require_once(mobile_device_detect.php): failed to open stream: No such file or directory in /home/kraftech/public_html/index.php on line 6
+[21-Jun-2015 18:40:36 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'mobile_device_detect.php' (include_path='.:/opt/php54/lib/php') in /home/kraftech/public_html/index.php on line 6
+[21-Jun-2015 18:41:57 America/Chicago] PHP Warning:  require_once(mobile_device_detect.php): failed to open stream: No such file or directory in /home/kraftech/public_html/index.php on line 6
+[21-Jun-2015 18:41:57 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'mobile_device_detect.php' (include_path='.:/opt/php54/lib/php') in /home/kraftech/public_html/index.php on line 6
+[21-Jun-2015 18:52:43 America/Chicago] PHP Warning:  require_once(mobile_device_detect.php): failed to open stream: No such file or directory in /home/kraftech/public_html/index.php on line 6
+[21-Jun-2015 18:52:43 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'mobile_device_detect.php' (include_path='.:/opt/php54/lib/php') in /home/kraftech/public_html/index.php on line 6
+[21-Jun-2015 18:57:46 America/Chicago] PHP Warning:  require_once(mobile_device_detect.php): failed to open stream: No such file or directory in /home/kraftech/public_html/index.php on line 6
+[21-Jun-2015 18:57:46 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'mobile_device_detect.php' (include_path='.:/opt/php54/lib/php') in /home/kraftech/public_html/index.php on line 6
+[21-Jun-2015 18:57:54 America/Chicago] PHP Warning:  require_once(mobile_device_detect.php): failed to open stream: No such file or directory in /home/kraftech/public_html/index.php on line 6
+[21-Jun-2015 18:57:54 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'mobile_device_detect.php' (include_path='.:/opt/php54/lib/php') in /home/kraftech/public_html/index.php on line 6
+[21-Jun-2015 18:58:59 America/Chicago] PHP Warning:  require_once(mobile_device_detect.php): failed to open stream: No such file or directory in /home/kraftech/public_html/index.php on line 6
+[21-Jun-2015 18:58:59 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'mobile_device_detect.php' (include_path='.:/opt/php54/lib/php') in /home/kraftech/public_html/index.php on line 6
+[21-Jun-2015 19:03:31 America/Chicago] PHP Warning:  require_once(mobile_device_detect.php): failed to open stream: No such file or directory in /home/kraftech/public_html/index.php on line 6
+[21-Jun-2015 19:03:31 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'mobile_device_detect.php' (include_path='.:/opt/php54/lib/php') in /home/kraftech/public_html/index.php on line 6
+[21-Jun-2015 19:04:17 America/Chicago] PHP Warning:  require_once(mobile_device_detect.php): failed to open stream: No such file or directory in /home/kraftech/public_html/index.php on line 6
+[21-Jun-2015 19:04:17 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'mobile_device_detect.php' (include_path='.:/opt/php54/lib/php') in /home/kraftech/public_html/index.php on line 6
+[21-Jun-2015 19:17:05 America/Chicago] PHP Warning:  require_once(mobile_device_detect.php): failed to open stream: No such file or directory in /home/kraftech/public_html/index.php on line 6
+[21-Jun-2015 19:17:05 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'mobile_device_detect.php' (include_path='.:/opt/php54/lib/php') in /home/kraftech/public_html/index.php on line 6
+[21-Jun-2015 19:22:35 America/Chicago] PHP Warning:  require_once(mobile_device_detect.php): failed to open stream: No such file or directory in /home/kraftech/public_html/index.php on line 6
+[21-Jun-2015 19:22:35 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'mobile_device_detect.php' (include_path='.:/opt/php54/lib/php') in /home/kraftech/public_html/index.php on line 6
+[21-Jun-2015 19:31:24 America/Chicago] PHP Warning:  require_once(mobile_device_detect.php): failed to open stream: No such file or directory in /home/kraftech/public_html/index.php on line 6
+[21-Jun-2015 19:31:24 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'mobile_device_detect.php' (include_path='.:/opt/php54/lib/php') in /home/kraftech/public_html/index.php on line 6
+[21-Jun-2015 20:10:35 America/Chicago] PHP Warning:  require_once(mobile_device_detect.php): failed to open stream: No such file or directory in /home/kraftech/public_html/index.php on line 6
+[21-Jun-2015 20:10:35 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'mobile_device_detect.php' (include_path='.:/opt/php54/lib/php') in /home/kraftech/public_html/index.php on line 6
+[21-Jun-2015 20:10:51 America/Chicago] PHP Warning:  require_once(mobile_device_detect.php): failed to open stream: No such file or directory in /home/kraftech/public_html/index.php on line 6
+[21-Jun-2015 20:10:51 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'mobile_device_detect.php' (include_path='.:/opt/php54/lib/php') in /home/kraftech/public_html/index.php on line 6
+[21-Jun-2015 20:10:52 America/Chicago] PHP Warning:  require_once(mobile_device_detect.php): failed to open stream: No such file or directory in /home/kraftech/public_html/index.php on line 6
+[21-Jun-2015 20:10:52 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'mobile_device_detect.php' (include_path='.:/opt/php54/lib/php') in /home/kraftech/public_html/index.php on line 6
+[21-Jun-2015 20:14:52 America/Chicago] PHP Warning:  require_once(mobile_device_detect.php): failed to open stream: No such file or directory in /home/kraftech/public_html/index.php on line 6
+[21-Jun-2015 20:14:52 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'mobile_device_detect.php' (include_path='.:/opt/php54/lib/php') in /home/kraftech/public_html/index.php on line 6

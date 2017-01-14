@@ -1,0 +1,268 @@
+body{
+	margin:0px;
+	padding:px;
+}
+.tags0 {
+	background-color: #EBEBEB;
+}
+.photo01 {
+	float: left;
+	height: 140px;
+	width: 185px;
+}
+.contact_button {
+	height: 50px;
+	width: 209px;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.kaftech {
+	height: 114px;
+	width: 209px;
+}
+
+.mikenna_text {
+	font-family: arial;
+	font-size: 20px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+	height: 50px;
+	width: 189px;
+	padding-left: 14px;
+}
+.number {
+	font-family: arial;
+	font-size: 20px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+	height: 30px;
+	width: 209px;
+	text-align: center;
+	padding-top: 1px;
+}
+.mikenna_text1 {
+	font-family: arial;
+	font-size: 14px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+	height: 50px;
+	width: 189px;
+	padding-left: 14px;
+}
+
+.abc {
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+	font-weight: normal;
+	color: #728941;
+	text-decoration: none;
+}
+.line_new1 {
+	background-image: url(images/line_new1.jpg);
+	background-repeat: no-repeat;
+	height: 38px;
+	width: 954px;
+	float: left;
+}
+.line {
+	height: 2px;
+	width: 315px;
+}
+.container1 {
+	float: left;
+	height: auto;
+	width: 730px;
+	padding-left: 2px;
+}
+.line010 {
+	background-image: url(images/new_line.jpg);
+	background-repeat: repeat-y;
+	float: left;
+	height: auto;
+	width: 954px;
+}
+.featured_photo {
+	height: 129px;
+	width: 209px;
+}
+
+.photo_left_text {
+	font-family: arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+	float: left;
+	height: 230px;
+	width: 298px;
+	padding-top: 13px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
+}
+.photo_left_photo {
+	float: left;
+	height: 230px;
+	width: 370px;
+	padding-top: 13px;
+}
+
+.home_photo {
+	float: left;
+	height: 205px;
+	width: 358px;
+	padding-top: 13px;
+	text-align: center;
+}
+.photo_text {
+	font-family: arial;
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+}
+.map_photo {
+	height: 146px;
+	width: 209px;
+}
+.community_map {
+	background-image: url(images/community_map.jpg);
+	background-repeat: no-repeat;
+	height: 29px;
+	width: 209px;
+}
+.featured {
+	background-image: url(images/featured.jpg);
+	background-repeat: no-repeat;
+	height: 29px;
+	width: 209px;
+}
+
+
+.home_photo_text {
+	float: left;
+	height: 205px;
+	width: 350px;
+	padding-top: 13px;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #FFFFFF;
+	text-align: justify;
+	padding-right: 20px;
+}
+
+.blog_line {
+	float: left;
+	height: 28px;
+	width: 597px;
+	background-image: url(images/blog_line.jpg);
+	background-repeat: no-repeat;
+}
+.we_can {
+	height: 83px;
+	width: 209px;
+	padding-top: 10px;
+	padding-right: 1px;
+	padding-left: 1px;
+	padding-bottom: 15px;
+}
+
+.inner_flash {
+	float: left;
+	height: 336px;
+	width: 728px;
+}
+.sidebar0 {
+	float: right;
+	height: auto;
+	width: 222px;
+}
+.sidebar1 {
+	float: left;
+	height: auto;
+	width: 211px;
+	background-color: #56092c;
+}
+
+.navigation_left {
+	float: left;
+	height: 45px;
+	width: 209px;
+	background-image: url(images/navigation_left.jpg);
+	background-repeat: no-repeat;
+}
+.navigation_right {
+	float: right;
+	height: 45px;
+	width: 744px;
+	padding-right: 1px;
+	background-color: #3f3f3f;
+}
+
+
+#footer {
+	height: 213px;
+	width: 100%;
+	float: left;
+	background-image: url(images/footer.jpg);
+	background-repeat: repeat-x;
+}
+
+#wraper{
+width:100%;
+height:auto;
+margin:0px;
+}
+#container{
+	width:954px;
+	height:auto;
+	margin:auto;
+	background-color:#666666;
+}
+.content_area {
+	float: right;
+	height: auto;
+	width: 615px;
+}
+
+#header{
+	width:954px;
+	height:150px;
+	float:left;
+}
+.navigation {
+	float: left;
+	height: 45px;
+	width: 954px;
+}
+
+#header1{
+	width:954px;
+	height:561px;
+	float:left;
+}
+
+.header_image1 {
+	float: left;
+	height: 248px;
+	width: 645px;
+	background-image: url(images/header_image.jpg);
+	background-repeat: no-repeat;
+}
+
+.three{
+	width:954px;
+	height:auto;
+	float:left;
+	background-color: #000000;
+}
+
+.line_new {
+	background-image: url(images/new_line.jpg);
+	background-repeat: repeat;
+}

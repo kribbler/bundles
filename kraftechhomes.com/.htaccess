@@ -1,0 +1,14 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^canyonwoodsmacedonia\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.canyonwoodsmacedonia\.com$
+RewriteRule ^/?$ "http\:\/\/kraftechhomes\.com\/canyonwoods\.php" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^kraftech\.net$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.kraftech\.net$
+RewriteRule ^/?$ "http\:\/\/www\.kraftechhomes\.com" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^kraftech\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.kraftech\.com$
+RewriteRule ^/?$ "http\:\/\/kraftechhomes\.com\/" [R=301,L]
+
