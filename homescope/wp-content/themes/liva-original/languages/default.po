@@ -1,0 +1,406 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Liva\n"
+"POT-Creation-Date: 2013-12-18 11:10+0100\n"
+"PO-Revision-Date: 2013-12-18 11:22+0100\n"
+"Last-Translator: \n"
+"Language-Team: MediaLayout Team\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/"
+"themes/liva\n"
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/comments.php:28
+msgid "Comments"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/comments.php:43
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/template-tags.php:653
+msgid "Previous"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/comments.php:44
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/template-tags.php:654
+msgid "Next"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/comments.php:58
+msgid "Comments are closed."
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/comments.php:92
+msgid "Leave a Comment"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/comments.php:93
+#, php-format
+msgid "Leave a Comment to %s"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/comments.php:94
+msgid "Cancel Comment"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/comments.php:95
+msgid "Submit Comment"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/comments.php:97
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/comments.php:98
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/comments.php:100
+#, php-format
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes: %s"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/comments.php:105
+msgid "Name"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/comments.php:108
+msgid "Email"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/header.php:40
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/content-page.php:11
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/content-single.php:91
+msgid "Pages:"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/template-contact-form-1.php:9
+msgid "Fatal error! Please check your email in Theme Options!"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/template-contact-form-1.php:23
+msgid "Please fill all required fields."
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/template-contact-form-1.php:29
+msgid "Please check your email."
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/template-contact-form-1.php:38
+msgid "Email sent. Thank you for contacting us"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/template-contact-form-1.php:42
+msgid "Server error. Pease try again later."
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/template-contact-form-1.php:76
+msgid "Your Name"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/template-contact-form-1.php:79
+msgid "E-Mail"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/template-contact-form-1.php:82
+msgid "Your Message"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/template-contact-form-1.php:90
+msgid "SUBMIT"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/template-contact-form-1.php:104
+msgid "Find the Address"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/footer.php:85
+msgid "Scroll"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/404.php:16
+msgid "404"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/404.php:18
+msgid "Oops... Page Not Found!"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/404.php:20
+msgid "Sorry the Page Could not be Found here."
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/404.php:22
+msgid "Try using the button below to go to main page of the site"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/404.php:26
+msgid "Go Back"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/content-single.php:98
+msgid "Share this Post"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/content-single.php:119
+msgid "About the Author"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/top.php:13
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/template-tags.php:668
+#, php-format
+msgid "Posts Tagged \"%s\""
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/top.php:39
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/template-tags.php:669
+#, php-format
+msgid "Posts by %s"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/top.php:45
+msgid "Blog"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/top.php:60
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/template-tags.php:670
+msgid "404 Page Not Found"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/top.php:68
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/template-tags.php:695
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/template-tags.php:726
+msgid "Shop"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/tweaks.php:64
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/tweaks.php:173
+msgid "&laquo; Previous"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/tweaks.php:65
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/tweaks.php:174
+msgid "Next &raquo;"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/template-tags.php:541
+msgid "Pingback:"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/template-tags.php:542
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/template-tags.php:562
+msgid "Edit"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/template-tags.php:559
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/template-tags.php:595
+msgid "Pages"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/template-tags.php:665
+msgid "Home"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/template-tags.php:666
+#, php-format
+msgid "Archive by Category \"%s\""
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/template-tags.php:667
+#, php-format
+msgid "Search Results for \"%s\" Query"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/shortcodes/message.php:20
+msgid "close"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/shortcodes/latest_works.php:69
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Portfolio_Widget.class.php:97
+msgid "View Project"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/shortcodes/recent_projects.php:88
+msgid "All"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/shortcodes/tweets.php:73
+msgid "Posted about"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Latest_Tweets_Widget.class.php:19
+msgid "Latest Tweets Widget"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Latest_Tweets_Widget.class.php:19
+msgid "Tweets from Twitter account"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Latest_Tweets_Widget.class.php:38
+msgid "Twitter user:"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Latest_Tweets_Widget.class.php:39
+msgid "Show:"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Latest_Tweets_Widget.class.php:40
+msgid "Widget title:"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Latest_Tweets_Widget.class.php:131
+msgid "No tweets"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Side_Navi_Widget.class.php:18
+msgid "Shows choosen WordPress pages"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Side_Navi_Widget.class.php:19
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Side_Navi_Widget.class.php:25
+msgid "Side Navi"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Side_Navi_Widget.class.php:83
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Latest_Posts_Widget.class.php:113
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Social_Icons_Widget.class.php:143
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Portfolio_Widget.class.php:151
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Flickr_Tiles_Widget.class.php:87
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Testimonial_Widget.class.php:109
+msgid "Title:"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Side_Navi_Widget.class.php:85
+msgid "Sort by:"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Side_Navi_Widget.class.php:87
+msgid "Page title"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Side_Navi_Widget.class.php:88
+msgid "Page order"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Side_Navi_Widget.class.php:89
+msgid "Page ID"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Side_Navi_Widget.class.php:93
+msgid "Include:"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Side_Navi_Widget.class.php:95
+msgid "Page IDs, separated by commas."
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Latest_Posts_Widget.class.php:18
+msgid "Displays the most latest posts in the footer"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Latest_Posts_Widget.class.php:19
+msgid "Latest Posts"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Latest_Posts_Widget.class.php:116
+msgid "Number of posts to show:"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Multi_Posts_Widget.class.php:18
+msgid "Displays tabs with most popular posts, recent posts and comments"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Multi_Posts_Widget.class.php:19
+msgid "Multi Posts"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Multi_Posts_Widget.class.php:57
+msgid "Popular"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Multi_Posts_Widget.class.php:58
+msgid "Recent"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Multi_Posts_Widget.class.php:59
+msgid "Tags"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Multi_Posts_Widget.class.php:188
+msgid "No options here"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Social_Icons_Widget.class.php:18
+msgid "Display social icons activated in theme options"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Social_Icons_Widget.class.php:19
+msgid "Social Icons"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Social_Icons_Widget.class.php:51
+msgid "Random Work"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Portfolio_Widget.class.php:18
+msgid "Displays the portfolio slider"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Portfolio_Widget.class.php:19
+msgid "Portfolio"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Portfolio_Widget.class.php:154
+msgid "Number of items to show:"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Flickr_Tiles_Widget.class.php:18
+msgid "Displays Flickr images"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Flickr_Tiles_Widget.class.php:19
+msgid "Flickr Tiles"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Flickr_Tiles_Widget.class.php:51
+msgid "Flickr"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Flickr_Tiles_Widget.class.php:89
+msgid "User ID:"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Flickr_Tiles_Widget.class.php:90
+msgid "Limit items"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Testimonial_Widget.class.php:18
+msgid "Displays testimonial"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Testimonial_Widget.class.php:19
+msgid "Single testimonial"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Testimonial_Widget.class.php:53
+msgid "Testimonial"
+msgstr ""
+
+#: /opt/lampp/htdocs/arenaofthemes/liva/wp-content/themes/liva/inc/widgets/WP_Testimonial_Widget.class.php:112
+msgid "Testimonial ID:"
+msgstr ""
