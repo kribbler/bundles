@@ -1,0 +1,2 @@
+1434058363|~|1.08|~|38.27|~|error|~|Database Server has gone away, unable to schedule next backup step. The backup cannot continue. This is most often caused by mysql running out of memory or timing out far too early. Please contact your host.
+1434058363|~|103.87|~|45.49|~|error|~|Database Server has gone away, unable to schedule next backup step. The backup cannot continue. This is most often caused by mysql running out of memory or timing out far too early. Please contact your host.

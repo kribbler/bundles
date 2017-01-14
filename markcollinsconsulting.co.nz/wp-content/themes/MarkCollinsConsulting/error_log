@@ -1,0 +1,2 @@
+[12-Feb-2015 03:57:28 America/Denver] PHP Fatal error:  Call to undefined function is_archive() in /home5/markcol4/public_html/wp-content/themes/MarkCollinsConsulting/index.php on line 1
+[26-Feb-2015 07:03:40 America/Denver] PHP Fatal error:  Call to undefined function is_archive() in /home5/markcol4/public_html/wp-content/themes/MarkCollinsConsulting/index.php on line 1

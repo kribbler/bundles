@@ -1,0 +1,2 @@
+[21-Feb-2015 18:03:21 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home5/markcol4/public_html/wp-includes/registration-functions.php on line 7
+[21-Feb-2015 18:05:02 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home5/markcol4/public_html/wp-includes/registration-functions.php on line 7

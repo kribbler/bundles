@@ -1,0 +1,517 @@
+[Jun 11, 2014 07:00:57 12-error] [] Fileoptions raw file contents for troubleshooting: ``.
+[Jun 11, 2014 08:31:36 12-error] [opstzsbgdr] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://markcollinsnzltd.co.nz`; body: `A scheduled backup has completed with BackupBuddy v4.2.13.2 on Tue, 10 Jun 14 20:31:36 +0000 for the site http://markcollinsnzltd.co.nz.
+
+Details:
+
+Scheduled backup "S11 Backup" completed successfully in 2 hours.
+`; recipient(s): `maree@studioeleven.co.nz`.
+[Jun 11, 2014 08:31:45 12-error] [pyuqx5ruqi] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://markcollinsnzltd.co.nz`; body: `A scheduled backup has completed with BackupBuddy v4.2.13.2 on Tue, 10 Jun 14 20:31:45 +0000 for the site http://markcollinsnzltd.co.nz.
+
+Details:
+
+Scheduled backup "S11 Backup Database" completed successfully in 1 hour.
+`; recipient(s): `maree@studioeleven.co.nz`.
+[Jun 18, 2014 07:03:48 12-error] [cndn0e10ok] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Jun 18, 2014 07:03:48 12-error] [cndn0e10ok] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Jun 18, 2014 07:03:48 12-error] [cndn0e10ok] Failed function `backup_zip_files`. Backup terminated.
+[Jun 18, 2014 07:03:48 12-error] [cndn0e10ok] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 17 Jun 14 19:03:48 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `cndn0e10ok`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Jun 18, 2014 07:54:02 12-error] [cndn0e10ok] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Jun 25, 2014 08:28:40 12-error] [j9dx7k3nrt] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Jun 25, 2014 08:28:40 12-error] [j9dx7k3nrt] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Jun 25, 2014 08:28:40 12-error] [j9dx7k3nrt] Failed function `backup_zip_files`. Backup terminated.
+[Jun 25, 2014 08:28:40 12-error] [j9dx7k3nrt] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 24 Jun 14 20:28:40 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `j9dx7k3nrt`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Jun 25, 2014 10:19:45 12-error] [j9dx7k3nrt] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Jul 2, 2014 08:37:34 12-error] [w047hag8qp] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Jul 2, 2014 08:37:34 12-error] [w047hag8qp] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Jul 2, 2014 08:37:34 12-error] [w047hag8qp] Failed function `backup_zip_files`. Backup terminated.
+[Jul 2, 2014 08:37:34 12-error] [w047hag8qp] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 01 Jul 14 20:37:34 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `w047hag8qp`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Jul 2, 2014 09:33:16 12-error] [w047hag8qp] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Jul 9, 2014 09:07:57 12-error] [tyqod3e6sa] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Jul 9, 2014 09:07:57 12-error] [tyqod3e6sa] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Jul 9, 2014 09:07:57 12-error] [tyqod3e6sa] Failed function `backup_zip_files`. Backup terminated.
+[Jul 9, 2014 09:07:57 12-error] [tyqod3e6sa] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 08 Jul 14 21:07:57 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `tyqod3e6sa`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Jul 9, 2014 10:37:58 12-error] [tyqod3e6sa] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Jul 16, 2014 11:21:35 12-error] [go9u9jnrhz] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Jul 16, 2014 11:21:35 12-error] [go9u9jnrhz] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Jul 16, 2014 11:21:35 12-error] [go9u9jnrhz] Failed function `backup_zip_files`. Backup terminated.
+[Jul 16, 2014 11:21:35 12-error] [go9u9jnrhz] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 15 Jul 14 23:21:35 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `go9u9jnrhz`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Jul 16, 2014 12:40:28 12-error] [go9u9jnrhz] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Jul 23, 2014 07:11:13 12-error] [fq5j48zits] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Jul 23, 2014 07:11:13 12-error] [fq5j48zits] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Jul 23, 2014 07:11:13 12-error] [fq5j48zits] Failed function `backup_zip_files`. Backup terminated.
+[Jul 23, 2014 07:11:13 12-error] [fq5j48zits] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 22 Jul 14 19:11:13 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `fq5j48zits`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Jul 23, 2014 07:30:24 12-error] [fq5j48zits] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Jul 30, 2014 07:47:21 12-error] [h3p8aebe34] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Jul 30, 2014 07:47:21 12-error] [h3p8aebe34] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Jul 30, 2014 07:47:21 12-error] [h3p8aebe34] Failed function `backup_zip_files`. Backup terminated.
+[Jul 30, 2014 07:47:21 12-error] [h3p8aebe34] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 29 Jul 14 19:47:21 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `h3p8aebe34`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Jul 30, 2014 08:52:11 12-error] [h3p8aebe34] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Aug 6, 2014 07:47:21 12-error] [s0b5uhjnvm] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Aug 6, 2014 07:47:21 12-error] [s0b5uhjnvm] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Aug 6, 2014 07:47:21 12-error] [s0b5uhjnvm] Failed function `backup_zip_files`. Backup terminated.
+[Aug 6, 2014 07:47:21 12-error] [s0b5uhjnvm] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 05 Aug 14 19:47:21 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `s0b5uhjnvm`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Aug 6, 2014 08:46:26 12-error] [s0b5uhjnvm] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Aug 13, 2014 08:02:38 12-error] [j7hft838ur] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Aug 13, 2014 08:02:38 12-error] [j7hft838ur] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Aug 13, 2014 08:02:38 12-error] [j7hft838ur] Failed function `backup_zip_files`. Backup terminated.
+[Aug 13, 2014 08:02:38 12-error] [j7hft838ur] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 12 Aug 14 20:02:38 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `j7hft838ur`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Aug 13, 2014 09:40:50 12-error] [j7hft838ur] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Aug 20, 2014 09:30:48 12-error] [sbxtodjefx] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Aug 20, 2014 09:30:48 12-error] [sbxtodjefx] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Aug 20, 2014 09:30:48 12-error] [sbxtodjefx] Failed function `backup_zip_files`. Backup terminated.
+[Aug 20, 2014 09:30:48 12-error] [sbxtodjefx] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 19 Aug 14 21:30:48 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `sbxtodjefx`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Aug 20, 2014 10:06:25 12-error] [sbxtodjefx] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Aug 27, 2014 08:12:28 12-error] [yb7j3x8mto] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Aug 27, 2014 08:12:28 12-error] [yb7j3x8mto] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Aug 27, 2014 08:12:28 12-error] [yb7j3x8mto] Failed function `backup_zip_files`. Backup terminated.
+[Aug 27, 2014 08:12:28 12-error] [yb7j3x8mto] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 26 Aug 14 20:12:28 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `yb7j3x8mto`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Aug 27, 2014 09:55:47 12-error] [yb7j3x8mto] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Sep 3, 2014 08:35:31 12-error] [a3i7k4bm05] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Sep 3, 2014 08:35:31 12-error] [a3i7k4bm05] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Sep 3, 2014 08:35:31 12-error] [a3i7k4bm05] Failed function `backup_zip_files`. Backup terminated.
+[Sep 3, 2014 08:35:31 12-error] [a3i7k4bm05] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 02 Sep 14 20:35:31 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `a3i7k4bm05`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Sep 3, 2014 10:49:41 12-error] [a3i7k4bm05] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Sep 10, 2014 07:46:20 12-error] [36i36ago25] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Sep 10, 2014 07:46:20 12-error] [36i36ago25] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Sep 10, 2014 07:46:20 12-error] [36i36ago25] Failed function `backup_zip_files`. Backup terminated.
+[Sep 10, 2014 07:46:20 12-error] [36i36ago25] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 09 Sep 14 19:46:20 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `36i36ago25`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Sep 10, 2014 09:41:19 12-error] [36i36ago25] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Sep 17, 2014 07:33:42 12-error] [pwrtwzkeyc] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Sep 17, 2014 07:33:42 12-error] [pwrtwzkeyc] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Sep 17, 2014 07:33:42 12-error] [pwrtwzkeyc] Failed function `backup_zip_files`. Backup terminated.
+[Sep 17, 2014 07:33:42 12-error] [pwrtwzkeyc] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 16 Sep 14 19:33:42 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `pwrtwzkeyc`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Sep 17, 2014 08:39:54 12-error] [pwrtwzkeyc] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Sep 24, 2014 07:59:07 12-error] [o4c6wtajvc] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Sep 24, 2014 07:59:07 12-error] [o4c6wtajvc] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Sep 24, 2014 07:59:07 12-error] [o4c6wtajvc] Failed function `backup_zip_files`. Backup terminated.
+[Sep 24, 2014 07:59:07 12-error] [o4c6wtajvc] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 23 Sep 14 19:59:07 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `o4c6wtajvc`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Sep 24, 2014 09:19:27 12-error] [o4c6wtajvc] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Oct 1, 2014 07:41:12 12-error] [7xtb8f7m2b] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Oct 1, 2014 07:41:12 12-error] [7xtb8f7m2b] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Oct 1, 2014 07:41:12 12-error] [7xtb8f7m2b] Failed function `backup_zip_files`. Backup terminated.
+[Oct 1, 2014 07:41:12 12-error] [7xtb8f7m2b] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 30 Sep 14 19:41:12 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `7xtb8f7m2b`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Oct 1, 2014 08:25:56 12-error] [7xtb8f7m2b] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Oct 8, 2014 08:21:31 13-error] [frx59dxmc3] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Oct 8, 2014 08:21:31 13-error] [frx59dxmc3] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Oct 8, 2014 08:21:31 13-error] [frx59dxmc3] Failed function `backup_zip_files`. Backup terminated.
+[Oct 8, 2014 08:21:31 13-error] [frx59dxmc3] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 07 Oct 14 19:21:31 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `frx59dxmc3`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Oct 8, 2014 09:13:59 13-error] [frx59dxmc3] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Oct 15, 2014 08:56:54 13-error] [81gmx5ahg4] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Oct 15, 2014 08:56:54 13-error] [81gmx5ahg4] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Oct 15, 2014 08:56:54 13-error] [81gmx5ahg4] Failed function `backup_zip_files`. Backup terminated.
+[Oct 15, 2014 08:56:54 13-error] [81gmx5ahg4] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 14 Oct 14 19:56:54 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `81gmx5ahg4`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Oct 15, 2014 10:11:50 13-error] [81gmx5ahg4] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Oct 22, 2014 08:16:34 13-error] [y6uokm8017] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Oct 22, 2014 08:16:34 13-error] [y6uokm8017] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Oct 22, 2014 08:16:34 13-error] [y6uokm8017] Failed function `backup_zip_files`. Backup terminated.
+[Oct 22, 2014 08:16:34 13-error] [y6uokm8017] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 21 Oct 14 19:16:34 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `y6uokm8017`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Oct 22, 2014 09:28:13 13-error] [y6uokm8017] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Oct 29, 2014 09:19:21 13-error] [rqejkb8oh3] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Oct 29, 2014 09:19:21 13-error] [rqejkb8oh3] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Oct 29, 2014 09:19:21 13-error] [rqejkb8oh3] Failed function `backup_zip_files`. Backup terminated.
+[Oct 29, 2014 09:19:21 13-error] [rqejkb8oh3] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 28 Oct 14 20:19:21 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `rqejkb8oh3`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Oct 29, 2014 11:03:30 13-error] [rqejkb8oh3] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Nov 5, 2014 08:09:44 13-error] [t1i2g8q074] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Nov 5, 2014 08:09:44 13-error] [t1i2g8q074] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Nov 5, 2014 08:09:44 13-error] [t1i2g8q074] Failed function `backup_zip_files`. Backup terminated.
+[Nov 5, 2014 08:09:44 13-error] [t1i2g8q074] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 04 Nov 14 19:09:44 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `t1i2g8q074`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Nov 5, 2014 08:32:35 13-error] [t1i2g8q074] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Nov 12, 2014 08:30:38 13-error] [gksh845g5u] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Nov 12, 2014 08:30:38 13-error] [gksh845g5u] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Nov 12, 2014 08:30:38 13-error] [gksh845g5u] Failed function `backup_zip_files`. Backup terminated.
+[Nov 12, 2014 08:30:39 13-error] [gksh845g5u] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 11 Nov 14 19:30:39 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `gksh845g5u`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Nov 12, 2014 09:12:54 13-error] [gksh845g5u] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Nov 19, 2014 08:38:42 13-error] [f4kis80paw] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Nov 19, 2014 08:38:42 13-error] [f4kis80paw] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Nov 19, 2014 08:38:42 13-error] [f4kis80paw] Failed function `backup_zip_files`. Backup terminated.
+[Nov 19, 2014 08:38:42 13-error] [f4kis80paw] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 18 Nov 14 19:38:42 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `f4kis80paw`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Nov 19, 2014 09:46:16 13-error] [f4kis80paw] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Nov 26, 2014 08:53:25 13-error] [618zs0tn1f] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Nov 26, 2014 08:53:25 13-error] [618zs0tn1f] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Nov 26, 2014 08:53:25 13-error] [618zs0tn1f] Failed function `backup_zip_files`. Backup terminated.
+[Nov 26, 2014 08:53:25 13-error] [618zs0tn1f] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 25 Nov 14 19:53:25 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `618zs0tn1f`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Nov 26, 2014 10:09:18 13-error] [618zs0tn1f] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Dec 3, 2014 08:21:30 13-error] [jzcrk1owpq] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Dec 3, 2014 08:21:30 13-error] [jzcrk1owpq] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Dec 3, 2014 08:21:30 13-error] [jzcrk1owpq] Failed function `backup_zip_files`. Backup terminated.
+[Dec 3, 2014 08:21:30 13-error] [jzcrk1owpq] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 02 Dec 14 19:21:30 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `jzcrk1owpq`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Dec 3, 2014 09:15:23 13-error] [jzcrk1owpq] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Dec 10, 2014 08:59:45 13-error] [mf3iq7yzmy] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Dec 10, 2014 08:59:45 13-error] [mf3iq7yzmy] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Dec 10, 2014 08:59:45 13-error] [mf3iq7yzmy] Failed function `backup_zip_files`. Backup terminated.
+[Dec 10, 2014 08:59:45 13-error] [mf3iq7yzmy] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 09 Dec 14 19:59:45 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `mf3iq7yzmy`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Dec 10, 2014 09:40:01 13-error] [mf3iq7yzmy] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Dec 17, 2014 08:38:20 13-error] [efxjvqt1g7] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Dec 17, 2014 08:38:20 13-error] [efxjvqt1g7] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Dec 17, 2014 08:38:20 13-error] [efxjvqt1g7] Failed function `backup_zip_files`. Backup terminated.
+[Dec 17, 2014 08:38:20 13-error] [efxjvqt1g7] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 16 Dec 14 19:38:20 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `efxjvqt1g7`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Dec 17, 2014 09:59:06 13-error] [efxjvqt1g7] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Dec 24, 2014 08:27:55 13-error] [on376k0sra] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Dec 24, 2014 08:27:55 13-error] [on376k0sra] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Dec 24, 2014 08:27:55 13-error] [on376k0sra] Failed function `backup_zip_files`. Backup terminated.
+[Dec 24, 2014 08:27:55 13-error] [on376k0sra] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 23 Dec 14 19:27:55 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `on376k0sra`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Dec 24, 2014 09:56:14 13-error] [on376k0sra] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Dec 31, 2014 08:41:30 13-error] [t37coy9naf] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Dec 31, 2014 08:41:30 13-error] [t37coy9naf] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Dec 31, 2014 08:41:30 13-error] [t37coy9naf] Failed function `backup_zip_files`. Backup terminated.
+[Dec 31, 2014 08:41:30 13-error] [t37coy9naf] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 30 Dec 14 19:41:30 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `t37coy9naf`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Dec 31, 2014 10:47:14 13-error] [t37coy9naf] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Jan 7, 2015 08:47:00 13-error] [w24h3sq6ic] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Jan 7, 2015 08:47:00 13-error] [w24h3sq6ic] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Jan 7, 2015 08:47:00 13-error] [w24h3sq6ic] Failed function `backup_zip_files`. Backup terminated.
+[Jan 7, 2015 08:47:00 13-error] [w24h3sq6ic] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 06 Jan 15 19:47:00 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `w24h3sq6ic`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Jan 7, 2015 09:18:50 13-error] [w24h3sq6ic] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Jan 14, 2015 09:37:18 13-error] [bhfuf64hrb] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Jan 14, 2015 09:37:18 13-error] [bhfuf64hrb] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Jan 14, 2015 09:37:18 13-error] [bhfuf64hrb] Failed function `backup_zip_files`. Backup terminated.
+[Jan 14, 2015 09:37:18 13-error] [bhfuf64hrb] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 13 Jan 15 20:37:18 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `bhfuf64hrb`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Jan 14, 2015 10:44:59 13-error] [bhfuf64hrb] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Jan 21, 2015 09:23:51 13-error] [dtop8hr6de] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Jan 21, 2015 09:23:51 13-error] [dtop8hr6de] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Jan 21, 2015 09:23:51 13-error] [dtop8hr6de] Failed function `backup_zip_files`. Backup terminated.
+[Jan 21, 2015 09:23:51 13-error] [dtop8hr6de] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 20 Jan 15 20:23:51 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `dtop8hr6de`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Jan 21, 2015 11:26:19 13-error] [dtop8hr6de] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Jan 28, 2015 08:12:45 13-error] [6rzmfdqdsb] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Jan 28, 2015 08:12:45 13-error] [6rzmfdqdsb] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Jan 28, 2015 08:12:45 13-error] [6rzmfdqdsb] Failed function `backup_zip_files`. Backup terminated.
+[Jan 28, 2015 08:12:45 13-error] [6rzmfdqdsb] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 27 Jan 15 19:12:45 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `6rzmfdqdsb`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Jan 28, 2015 08:48:56 13-error] [6rzmfdqdsb] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Feb 4, 2015 08:51:42 13-error] [4wxghp2qys] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Feb 4, 2015 08:51:42 13-error] [4wxghp2qys] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Feb 4, 2015 08:51:42 13-error] [4wxghp2qys] Failed function `backup_zip_files`. Backup terminated.
+[Feb 4, 2015 08:51:42 13-error] [4wxghp2qys] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 03 Feb 15 19:51:42 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `4wxghp2qys`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Feb 4, 2015 10:11:21 13-error] [4wxghp2qys] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Feb 11, 2015 08:11:49 13-error] [scszs019dc] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Feb 11, 2015 08:11:49 13-error] [scszs019dc] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Feb 11, 2015 08:11:49 13-error] [scszs019dc] Failed function `backup_zip_files`. Backup terminated.
+[Feb 11, 2015 08:11:49 13-error] [scszs019dc] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 10 Feb 15 19:11:49 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `scszs019dc`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Feb 11, 2015 09:21:17 13-error] [scszs019dc] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Feb 18, 2015 09:03:45 13-error] [wi19uxpt1v] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Feb 18, 2015 09:03:45 13-error] [wi19uxpt1v] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Feb 18, 2015 09:03:45 13-error] [wi19uxpt1v] Failed function `backup_zip_files`. Backup terminated.
+[Feb 18, 2015 09:03:45 13-error] [wi19uxpt1v] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 17 Feb 15 20:03:45 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `wi19uxpt1v`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Feb 18, 2015 09:42:22 13-error] [wi19uxpt1v] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Feb 25, 2015 08:33:47 13-error] [4n2t9xnqa5] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Feb 25, 2015 08:33:47 13-error] [4n2t9xnqa5] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Feb 25, 2015 08:33:47 13-error] [4n2t9xnqa5] Failed function `backup_zip_files`. Backup terminated.
+[Feb 25, 2015 08:33:47 13-error] [4n2t9xnqa5] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 24 Feb 15 19:33:47 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `4n2t9xnqa5`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Feb 25, 2015 09:39:48 13-error] [4n2t9xnqa5] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Mar 4, 2015 09:15:11 13-error] [pqkjp76f68] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Mar 4, 2015 09:15:11 13-error] [pqkjp76f68] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Mar 4, 2015 09:15:11 13-error] [pqkjp76f68] Failed function `backup_zip_files`. Backup terminated.
+[Mar 4, 2015 09:15:11 13-error] [pqkjp76f68] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 03 Mar 15 20:15:11 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `pqkjp76f68`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Mar 4, 2015 09:59:14 13-error] [pqkjp76f68] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Mar 11, 2015 08:36:40 13-error] [e82689gutz] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Mar 11, 2015 08:36:40 13-error] [e82689gutz] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Mar 11, 2015 08:36:40 13-error] [e82689gutz] Failed function `backup_zip_files`. Backup terminated.
+[Mar 11, 2015 08:36:40 13-error] [e82689gutz] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 10 Mar 15 19:36:40 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `e82689gutz`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Mar 11, 2015 10:15:18 13-error] [e82689gutz] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Mar 18, 2015 09:26:08 13-error] [e31f4s9yps] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Mar 18, 2015 09:26:08 13-error] [e31f4s9yps] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Mar 18, 2015 09:26:08 13-error] [e31f4s9yps] Failed function `backup_zip_files`. Backup terminated.
+[Mar 18, 2015 09:26:08 13-error] [e31f4s9yps] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 17 Mar 15 20:26:08 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `e31f4s9yps`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Mar 18, 2015 10:32:53 13-error] [e31f4s9yps] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Mar 25, 2015 08:20:24 13-error] [1pm6s590qa] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Mar 25, 2015 08:20:24 13-error] [1pm6s590qa] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Mar 25, 2015 08:20:24 13-error] [1pm6s590qa] Failed function `backup_zip_files`. Backup terminated.
+[Mar 25, 2015 08:20:24 13-error] [1pm6s590qa] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 24 Mar 15 19:20:24 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `1pm6s590qa`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Mar 25, 2015 09:59:32 13-error] [1pm6s590qa] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Apr 1, 2015 09:32:44 13-error] [1iehcfqaqn] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Apr 1, 2015 09:32:44 13-error] [1iehcfqaqn] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Apr 1, 2015 09:32:44 13-error] [1iehcfqaqn] Failed function `backup_zip_files`. Backup terminated.
+[Apr 1, 2015 09:32:44 13-error] [1iehcfqaqn] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 31 Mar 15 20:32:44 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `1iehcfqaqn`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Apr 1, 2015 10:51:02 13-error] [1iehcfqaqn] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Apr 8, 2015 09:02:16 13-error] [afargb4ow4] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Apr 8, 2015 09:02:16 13-error] [afargb4ow4] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Apr 8, 2015 09:02:16 13-error] [afargb4ow4] Failed function `backup_zip_files`. Backup terminated.
+[Apr 8, 2015 09:02:16 13-error] [afargb4ow4] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 07 Apr 15 20:02:16 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `afargb4ow4`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Apr 8, 2015 09:42:17 12-error] [afargb4ow4] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Apr 15, 2015 08:58:07 12-error] [r35rsncrxu] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Apr 15, 2015 08:58:07 12-error] [r35rsncrxu] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Apr 15, 2015 08:58:07 12-error] [r35rsncrxu] Failed function `backup_zip_files`. Backup terminated.
+[Apr 15, 2015 08:58:07 12-error] [r35rsncrxu] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 14 Apr 15 20:58:07 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `r35rsncrxu`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Apr 15, 2015 10:24:15 12-error] [r35rsncrxu] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Apr 22, 2015 09:00:37 12-error] [mg3v9rxhvm] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Apr 22, 2015 09:00:37 12-error] [mg3v9rxhvm] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Apr 22, 2015 09:00:37 12-error] [mg3v9rxhvm] Failed function `backup_zip_files`. Backup terminated.
+[Apr 22, 2015 09:00:37 12-error] [mg3v9rxhvm] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 21 Apr 15 21:00:37 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `mg3v9rxhvm`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Apr 22, 2015 10:46:09 12-error] [mg3v9rxhvm] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Apr 29, 2015 08:11:35 12-error] [hoveuigxdw] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Apr 29, 2015 08:11:35 12-error] [hoveuigxdw] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Apr 29, 2015 08:11:35 12-error] [hoveuigxdw] Failed function `backup_zip_files`. Backup terminated.
+[Apr 29, 2015 08:11:35 12-error] [hoveuigxdw] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 28 Apr 15 20:11:35 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `hoveuigxdw`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[Apr 29, 2015 09:28:50 12-error] [hoveuigxdw] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[May 6, 2015 09:08:40 12-error] [o6abereafv] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[May 6, 2015 09:08:40 12-error] [o6abereafv] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[May 6, 2015 09:08:40 12-error] [o6abereafv] Failed function `backup_zip_files`. Backup terminated.
+[May 6, 2015 09:08:40 12-error] [o6abereafv] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 05 May 15 21:08:40 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `o6abereafv`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[May 6, 2015 10:39:34 12-error] [o6abereafv] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[May 13, 2015 08:37:36 12-error] [n6xchkc0bo] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[May 13, 2015 08:37:36 12-error] [n6xchkc0bo] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[May 13, 2015 08:37:36 12-error] [n6xchkc0bo] Failed function `backup_zip_files`. Backup terminated.
+[May 13, 2015 08:37:36 12-error] [n6xchkc0bo] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 12 May 15 20:37:36 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `n6xchkc0bo`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[May 13, 2015 10:03:15 12-error] [n6xchkc0bo] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[May 20, 2015 08:26:53 12-error] [txvmeh3tfw] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[May 20, 2015 08:26:53 12-error] [txvmeh3tfw] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[May 20, 2015 08:26:53 12-error] [txvmeh3tfw] Failed function `backup_zip_files`. Backup terminated.
+[May 20, 2015 08:26:53 12-error] [txvmeh3tfw] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 19 May 15 20:26:53 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `txvmeh3tfw`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[May 20, 2015 09:46:23 12-error] [txvmeh3tfw] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[May 27, 2015 08:25:16 12-error] [zeva4aj5f6] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[May 27, 2015 08:25:16 12-error] [zeva4aj5f6] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[May 27, 2015 08:25:16 12-error] [zeva4aj5f6] Failed function `backup_zip_files`. Backup terminated.
+[May 27, 2015 08:25:16 12-error] [zeva4aj5f6] Sending email error notification. Subject: `BackupBuddy Error - http://markcollinsnzltd.co.nz`; body: `An error occurred with BackupBuddy v4.2.13.2 on Tue, 26 May 15 20:25:16 +0000 for the site http://markcollinsnzltd.co.nz. Error details:
+
+One or more backup steps reported a failure. Enable full logging for troubleshooting (a log will be sent with future error emails while enabled). Backup failure running function `backup_zip_files` with the arguments `Array
+(
+)
+` with backup serial `zeva4aj5f6`. Please run a manual backup of the same type to verify backups are working properly or view the backup status log.`; recipient(s): `maree@studioeleven.co.nz`.
+[May 27, 2015 10:47:39 12-error] [zeva4aj5f6] A scheduled step attempted to run before the previous step completed. After several attempts (`6`) of failure BackupBuddy has given up. Halting backup.
+[Jun 3, 2015 08:19:29 12-error] [28npub2rz3] Database Server has gone away, unable to schedule next backup step. The backup cannot continue. This is most often caused by mysql running out of memory or timing out far too early. Please contact your host.
+[Jun 3, 2015 08:19:30 12-error] [ozwre6egbn] Database Server has gone away, unable to schedule next backup step. The backup cannot continue. This is most often caused by mysql running out of memory or timing out far too early. Please contact your host.
+[Jun 11, 2015 21:32:43 12-error] [21e9bpwgn9] Database Server has gone away, unable to schedule next backup step. The backup cannot continue. This is most often caused by mysql running out of memory or timing out far too early. Please contact your host.
+[Jun 11, 2015 21:32:43 12-error] [vix4mq01ug] Database Server has gone away, unable to schedule next backup step. The backup cannot continue. This is most often caused by mysql running out of memory or timing out far too early. Please contact your host.
