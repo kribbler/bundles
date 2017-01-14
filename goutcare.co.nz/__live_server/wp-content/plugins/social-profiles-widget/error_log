@@ -1,0 +1,2 @@
+[12-Dec-2014 12:19:28] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-content/plugins/social-profiles-widget/plugin.php on line 21
+[13-Dec-2014 13:25:32] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-content/plugins/social-profiles-widget/plugin.php on line 21

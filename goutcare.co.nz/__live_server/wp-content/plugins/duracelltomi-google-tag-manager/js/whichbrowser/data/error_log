@@ -1,0 +1,4 @@
+[07-Dec-2014 12:27:10] PHP Parse error:  syntax error, unexpected T_STRING in /home5/goutcare/public_html/wp-content/plugins/duracelltomi-google-tag-manager/js/whichbrowser/data/models-wp.php(1) : eval()'d code on line 1
+[07-Dec-2014 12:27:10] PHP Fatal error:  Class 'DeviceModels' not found in /home5/goutcare/public_html/wp-content/plugins/duracelltomi-google-tag-manager/js/whichbrowser/data/models-wp.php on line 3
+[11-Dec-2014 06:17:44] PHP Fatal error:  Class 'DeviceModels' not found in /home5/goutcare/public_html/wp-content/plugins/duracelltomi-google-tag-manager/js/whichbrowser/data/models-wp.php on line 3
+[14-Dec-2014 11:08:17] PHP Fatal error:  Class 'DeviceModels' not found in /home5/goutcare/public_html/wp-content/plugins/duracelltomi-google-tag-manager/js/whichbrowser/data/models-wp.php on line 3

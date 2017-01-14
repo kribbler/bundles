@@ -1,0 +1,385 @@
+[10-Jun-2014 15:40:30] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/rss.php on line 19
+[10-Jun-2014 22:37:48] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/rss.php on line 19
+[10-Jun-2014 23:53:51] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/post.php on line 167
+[11-Jun-2014 02:23:15] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/kses.php on line 1422
+[11-Jun-2014 03:24:38] PHP Fatal error:  Call to undefined function  is_admin() in /home5/goutcare/public_html/wp-includes/vars.php on line 23
+[11-Jun-2014 05:24:03] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/rss.php on line 19
+[11-Jun-2014 06:08:53] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/theme.php on line 671
+[11-Jun-2014 08:16:56] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/kses.php on line 1422
+[11-Jun-2014 08:17:10] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/post.php on line 167
+[11-Jun-2014 08:35:10] PHP Fatal error:  Call to undefined function  add_shortcode() in /home5/goutcare/public_html/wp-includes/media.php on line 769
+[11-Jun-2014 11:04:16] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/rss.php on line 19
+[11-Jun-2014 11:04:40] PHP Fatal error:  Call to undefined function  is_admin() in /home5/goutcare/public_html/wp-includes/vars.php on line 23
+[11-Jun-2014 11:05:03] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/post.php on line 167
+[11-Jun-2014 13:57:11] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/theme.php on line 671
+[11-Jun-2014 13:57:21] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/kses.php on line 1422
+[11-Jun-2014 13:57:32] PHP Fatal error:  Call to undefined function  add_shortcode() in /home5/goutcare/public_html/wp-includes/media.php on line 769
+[11-Jun-2014 16:56:00] PHP Fatal error:  Call to undefined function  is_main_site() in /home5/goutcare/public_html/wp-includes/update.php on line 629
+[11-Jun-2014 17:09:45] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/post.php on line 167
+[11-Jun-2014 17:09:55] PHP Fatal error:  Call to undefined function  is_admin() in /home5/goutcare/public_html/wp-includes/vars.php on line 23
+[11-Jun-2014 20:03:23] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/taxonomy.php on line 129
+[11-Jun-2014 20:06:02] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/theme.php on line 671
+[11-Jun-2014 20:06:13] PHP Fatal error:  Call to undefined function  add_shortcode() in /home5/goutcare/public_html/wp-includes/media.php on line 769
+[11-Jun-2014 20:06:24] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/kses.php on line 1422
+[11-Jun-2014 20:19:05] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-rss.php on line 8
+[11-Jun-2014 20:49:12] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-rdf.php on line 8
+[11-Jun-2014 20:58:25] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-atom.php on line 8
+[11-Jun-2014 21:03:38] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/admin-bar.php on line 48
+[11-Jun-2014 21:08:40] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-rss2.php on line 8
+[11-Jun-2014 21:18:45] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/canonical.php on line 530
+[11-Jun-2014 21:23:52] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/functions.php on line 8
+[11-Jun-2014 21:33:31] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/shortcodes.php on line 407
+[11-Jun-2014 22:04:19] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home5/goutcare/public_html/wp-includes/class-feed.php on line 4
+[11-Jun-2014 22:04:19] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/class-feed.php on line 4
+[11-Jun-2014 22:08:36] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/ms-settings.php on line 14
+[11-Jun-2014 22:18:43] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/class-snoopy.php on line 6
+[11-Jun-2014 22:23:32] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/registration.php on line 7
+[11-Jun-2014 22:34:00] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/post-formats.php on line 170
+[11-Jun-2014 22:43:31] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/ms-functions.php on line 2064
+[11-Jun-2014 22:54:20] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/script-loader.php on line 25
+[11-Jun-2014 23:03:26] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/rss-functions.php on line 8
+[11-Jun-2014 23:08:33] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/post-template.php on line 1186
+[11-Jun-2014 23:09:47] PHP Fatal error:  Call to undefined function  is_admin() in /home5/goutcare/public_html/wp-includes/vars.php on line 23
+[11-Jun-2014 23:09:57] PHP Fatal error:  Call to undefined function  is_main_site() in /home5/goutcare/public_html/wp-includes/update.php on line 629
+[11-Jun-2014 23:11:15] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/post.php on line 167
+[11-Jun-2014 23:30:02] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/class-wp-embed.php on line 20
+[11-Jun-2014 23:41:30] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/default-filters.php on line 17
+[11-Jun-2014 23:43:31] PHP Fatal error:  Call to undefined function  is_robots() in /home5/goutcare/public_html/wp-includes/template-loader.php on line 28
+[11-Jun-2014 23:54:31] PHP Fatal error:  Class 'WP_Dependencies' not found in /home5/goutcare/public_html/wp-includes/class.wp-styles.php on line 19
+[12-Jun-2014 00:04:23] PHP Fatal error:  Class 'WP_Widget' not found in /home5/goutcare/public_html/wp-includes/default-widgets.php on line 14
+[12-Jun-2014 00:08:36] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/author-template.php on line 459
+[12-Jun-2014 00:14:11] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/class-simplepie.php on line 5
+[12-Jun-2014 00:24:00] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/comment-template.php on line 1546
+[12-Jun-2014 00:28:59] PHP Fatal error:  Class 'WP_Dependencies' not found in /home5/goutcare/public_html/wp-includes/class.wp-scripts.php on line 19
+[12-Jun-2014 00:35:21] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/general-template.php on line 1608
+[12-Jun-2014 00:43:50] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/nav-menu-template.php on line 16
+[12-Jun-2014 00:54:52] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/category-template.php on line 886
+[12-Jun-2014 01:06:54] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/ms-default-filters.php on line 17
+[12-Jun-2014 01:08:46] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-rss2-comments.php on line 8
+[12-Jun-2014 01:15:02] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-atom-comments.php on line 8
+[12-Jun-2014 01:33:50] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/ms-default-constants.php on line 151
+[12-Jun-2014 01:42:49] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/taxonomy.php on line 129
+[12-Jun-2014 01:43:02] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-rss.php on line 8
+[12-Jun-2014 01:43:20] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/theme.php on line 671
+[12-Jun-2014 01:43:30] PHP Fatal error:  Call to undefined function  add_shortcode() in /home5/goutcare/public_html/wp-includes/media.php on line 769
+[12-Jun-2014 01:44:02] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/kses.php on line 1422
+[12-Jun-2014 01:53:49] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/registration-functions.php on line 7
+[12-Jun-2014 01:59:28] PHP Fatal error:  Class 'IXR_Server' not found in /home5/goutcare/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[12-Jun-2014 02:14:27] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home5/goutcare/public_html/wp-includes/class-wp-image-editor-gd.php on line 17
+[12-Jun-2014 02:18:32] PHP Fatal error:  Class 'IXR_Client' not found in /home5/goutcare/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[12-Jun-2014 03:05:32] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home5/goutcare/public_html/wp-includes/class-wp-image-editor-imagick.php on line 17
+[12-Jun-2014 05:27:35] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/rss-functions.php on line 8
+[12-Jun-2014 05:27:46] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/ms-functions.php on line 2064
+[12-Jun-2014 05:27:56] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-atom.php on line 8
+[12-Jun-2014 05:28:06] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/post-template.php on line 1186
+[12-Jun-2014 05:28:16] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/functions.php on line 8
+[12-Jun-2014 05:28:26] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/admin-bar.php on line 48
+[12-Jun-2014 05:28:37] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/class-wp-embed.php on line 20
+[12-Jun-2014 05:28:47] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/post-formats.php on line 170
+[12-Jun-2014 05:28:57] PHP Fatal error:  Call to undefined function  is_main_site() in /home5/goutcare/public_html/wp-includes/update.php on line 629
+[12-Jun-2014 05:29:07] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/shortcodes.php on line 407
+[12-Jun-2014 05:29:18] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-rss2.php on line 8
+[12-Jun-2014 05:29:28] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/ms-settings.php on line 14
+[12-Jun-2014 05:29:38] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/class-snoopy.php on line 6
+[12-Jun-2014 05:29:49] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-rdf.php on line 8
+[12-Jun-2014 05:29:59] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/canonical.php on line 530
+[12-Jun-2014 05:30:09] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home5/goutcare/public_html/wp-includes/class-feed.php on line 4
+[12-Jun-2014 05:30:09] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/class-feed.php on line 4
+[12-Jun-2014 05:30:25] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/registration.php on line 7
+[12-Jun-2014 05:31:18] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/script-loader.php on line 25
+[12-Jun-2014 05:31:55] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/default-filters.php on line 17
+[12-Jun-2014 08:01:31] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-atom-comments.php on line 8
+[12-Jun-2014 08:01:41] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/class-simplepie.php on line 5
+[12-Jun-2014 08:01:52] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/general-template.php on line 1608
+[12-Jun-2014 08:02:02] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home5/goutcare/public_html/wp-includes/class-wp-image-editor-gd.php on line 17
+[12-Jun-2014 08:02:12] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/ms-default-constants.php on line 151
+[12-Jun-2014 08:02:22] PHP Fatal error:  Class 'IXR_Server' not found in /home5/goutcare/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[12-Jun-2014 08:02:32] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-rss.php on line 8
+[12-Jun-2014 08:02:43] PHP Fatal error:  Class 'IXR_Client' not found in /home5/goutcare/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[12-Jun-2014 08:02:53] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/taxonomy.php on line 129
+[12-Jun-2014 08:03:03] PHP Fatal error:  Call to undefined function  is_robots() in /home5/goutcare/public_html/wp-includes/template-loader.php on line 28
+[12-Jun-2014 08:03:13] PHP Fatal error:  Class 'WP_Dependencies' not found in /home5/goutcare/public_html/wp-includes/class.wp-styles.php on line 19
+[12-Jun-2014 08:03:24] PHP Fatal error:  Class 'WP_Widget' not found in /home5/goutcare/public_html/wp-includes/default-widgets.php on line 14
+[12-Jun-2014 08:03:34] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/author-template.php on line 459
+[12-Jun-2014 08:03:44] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/comment-template.php on line 1546
+[12-Jun-2014 08:04:20] PHP Fatal error:  Class 'WP_Dependencies' not found in /home5/goutcare/public_html/wp-includes/class.wp-scripts.php on line 19
+[12-Jun-2014 08:04:51] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/nav-menu-template.php on line 16
+[12-Jun-2014 08:05:24] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/category-template.php on line 886
+[12-Jun-2014 08:05:57] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/ms-default-filters.php on line 17
+[12-Jun-2014 08:06:31] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-rss2-comments.php on line 8
+[12-Jun-2014 08:07:09] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/registration-functions.php on line 7
+[12-Jun-2014 11:02:20] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/shortcodes.php on line 407
+[12-Jun-2014 11:02:41] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/registration.php on line 7
+[12-Jun-2014 11:02:51] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/admin-bar.php on line 48
+[12-Jun-2014 11:03:22] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/default-filters.php on line 17
+[12-Jun-2014 11:03:33] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home5/goutcare/public_html/wp-includes/class-wp-image-editor-imagick.php on line 17
+[12-Jun-2014 11:03:43] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-atom.php on line 8
+[12-Jun-2014 11:03:53] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/ms-settings.php on line 14
+[12-Jun-2014 11:04:04] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-rss2.php on line 8
+[12-Jun-2014 11:04:14] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home5/goutcare/public_html/wp-includes/class-feed.php on line 4
+[12-Jun-2014 11:04:14] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/class-feed.php on line 4
+[12-Jun-2014 11:04:24] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/canonical.php on line 530
+[12-Jun-2014 11:04:34] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/class-snoopy.php on line 6
+[12-Jun-2014 11:04:45] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/post-formats.php on line 170
+[12-Jun-2014 11:04:55] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/script-loader.php on line 25
+[12-Jun-2014 11:05:05] PHP Fatal error:  Call to undefined function  is_main_site() in /home5/goutcare/public_html/wp-includes/update.php on line 629
+[12-Jun-2014 11:05:15] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-rdf.php on line 8
+[12-Jun-2014 11:05:26] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/functions.php on line 8
+[12-Jun-2014 11:05:36] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/ms-functions.php on line 2064
+[12-Jun-2014 11:05:46] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/rss-functions.php on line 8
+[12-Jun-2014 11:05:56] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/post-template.php on line 1186
+[12-Jun-2014 11:06:07] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/class-wp-embed.php on line 20
+[12-Jun-2014 13:51:02] PHP Fatal error:  Call to undefined function  is_robots() in /home5/goutcare/public_html/wp-includes/template-loader.php on line 28
+[12-Jun-2014 13:51:13] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/comment-template.php on line 1546
+[12-Jun-2014 13:51:23] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/ms-default-filters.php on line 17
+[12-Jun-2014 13:51:33] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/registration-functions.php on line 7
+[12-Jun-2014 13:51:44] PHP Fatal error:  Class 'WP_Dependencies' not found in /home5/goutcare/public_html/wp-includes/class.wp-scripts.php on line 19
+[12-Jun-2014 13:51:54] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/category-template.php on line 886
+[12-Jun-2014 13:52:04] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/author-template.php on line 459
+[12-Jun-2014 13:52:14] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-rss.php on line 8
+[12-Jun-2014 13:52:25] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-rss2-comments.php on line 8
+[12-Jun-2014 13:52:35] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/ms-default-constants.php on line 151
+[12-Jun-2014 13:52:45] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/class-simplepie.php on line 5
+[12-Jun-2014 13:52:55] PHP Fatal error:  Class 'WP_Dependencies' not found in /home5/goutcare/public_html/wp-includes/class.wp-styles.php on line 19
+[12-Jun-2014 13:53:06] PHP Fatal error:  Class 'WP_Widget' not found in /home5/goutcare/public_html/wp-includes/default-widgets.php on line 14
+[12-Jun-2014 13:53:16] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/general-template.php on line 1608
+[12-Jun-2014 13:53:26] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/taxonomy.php on line 129
+[12-Jun-2014 13:53:36] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/nav-menu-template.php on line 16
+[12-Jun-2014 13:54:12] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-atom-comments.php on line 8
+[12-Jun-2014 13:55:11] PHP Fatal error:  Class 'IXR_Server' not found in /home5/goutcare/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[12-Jun-2014 13:56:04] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home5/goutcare/public_html/wp-includes/class-wp-image-editor-gd.php on line 17
+[12-Jun-2014 13:57:09] PHP Fatal error:  Class 'IXR_Client' not found in /home5/goutcare/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[12-Jun-2014 15:55:52] PHP Fatal error:  Call to undefined function  add_shortcode() in /home5/goutcare/public_html/wp-includes/media.php on line 769
+[12-Jun-2014 16:46:46] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/class-snoopy.php on line 6
+[12-Jun-2014 16:47:27] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/registration.php on line 7
+[12-Jun-2014 16:47:38] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home5/goutcare/public_html/wp-includes/class-wp-image-editor-imagick.php on line 17
+[12-Jun-2014 16:47:48] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/script-loader.php on line 25
+[12-Jun-2014 16:47:58] PHP Fatal error:  Call to undefined function  is_main_site() in /home5/goutcare/public_html/wp-includes/update.php on line 629
+[12-Jun-2014 16:48:08] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-rdf.php on line 8
+[12-Jun-2014 16:48:19] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-atom.php on line 8
+[12-Jun-2014 16:48:29] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/admin-bar.php on line 48
+[12-Jun-2014 16:48:39] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-rss2.php on line 8
+[12-Jun-2014 16:48:49] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/canonical.php on line 530
+[12-Jun-2014 16:48:59] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/functions.php on line 8
+[12-Jun-2014 16:49:10] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/shortcodes.php on line 407
+[12-Jun-2014 16:49:20] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home5/goutcare/public_html/wp-includes/class-feed.php on line 4
+[12-Jun-2014 16:49:20] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/class-feed.php on line 4
+[12-Jun-2014 16:49:30] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/ms-settings.php on line 14
+[12-Jun-2014 16:49:40] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/post-formats.php on line 170
+[12-Jun-2014 16:49:51] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/ms-functions.php on line 2064
+[12-Jun-2014 16:50:10] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/rss-functions.php on line 8
+[12-Jun-2014 16:50:27] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/post-template.php on line 1186
+[12-Jun-2014 16:50:45] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/class-wp-embed.php on line 20
+[12-Jun-2014 16:51:03] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/default-filters.php on line 17
+[12-Jun-2014 19:49:28] PHP Fatal error:  Call to undefined function  is_robots() in /home5/goutcare/public_html/wp-includes/template-loader.php on line 28
+[12-Jun-2014 19:49:38] PHP Fatal error:  Class 'IXR_Server' not found in /home5/goutcare/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[12-Jun-2014 19:49:49] PHP Fatal error:  Class 'WP_Dependencies' not found in /home5/goutcare/public_html/wp-includes/class.wp-styles.php on line 19
+[12-Jun-2014 19:49:59] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/ms-default-filters.php on line 17
+[12-Jun-2014 19:50:09] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/author-template.php on line 459
+[12-Jun-2014 19:50:19] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/nav-menu-template.php on line 16
+[12-Jun-2014 19:50:30] PHP Fatal error:  Class 'WP_Widget' not found in /home5/goutcare/public_html/wp-includes/default-widgets.php on line 14
+[12-Jun-2014 19:50:40] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/comment-template.php on line 1546
+[12-Jun-2014 19:50:50] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/taxonomy.php on line 129
+[12-Jun-2014 19:51:00] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-rss.php on line 8
+[12-Jun-2014 19:51:11] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/class-simplepie.php on line 5
+[12-Jun-2014 19:51:21] PHP Fatal error:  Class 'WP_Dependencies' not found in /home5/goutcare/public_html/wp-includes/class.wp-scripts.php on line 19
+[12-Jun-2014 19:51:31] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/general-template.php on line 1608
+[12-Jun-2014 19:51:41] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/category-template.php on line 886
+[12-Jun-2014 19:51:51] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-rss2-comments.php on line 8
+[12-Jun-2014 19:52:02] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-atom-comments.php on line 8
+[12-Jun-2014 19:52:12] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/ms-default-constants.php on line 151
+[12-Jun-2014 19:52:23] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/registration-functions.php on line 7
+[12-Jun-2014 19:52:33] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home5/goutcare/public_html/wp-includes/class-wp-image-editor-gd.php on line 17
+[12-Jun-2014 19:52:43] PHP Fatal error:  Class 'IXR_Client' not found in /home5/goutcare/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[12-Jun-2014 22:47:23] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/ms-functions.php on line 2064
+[12-Jun-2014 22:47:43] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home5/goutcare/public_html/wp-includes/class-feed.php on line 4
+[12-Jun-2014 22:47:43] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/class-feed.php on line 4
+[12-Jun-2014 22:47:54] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/class-snoopy.php on line 6
+[12-Jun-2014 22:48:45] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/default-filters.php on line 17
+[12-Jun-2014 22:48:55] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/post-template.php on line 1186
+[12-Jun-2014 22:49:05] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/script-loader.php on line 25
+[12-Jun-2014 22:49:16] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home5/goutcare/public_html/wp-includes/class-wp-image-editor-imagick.php on line 17
+[12-Jun-2014 22:49:26] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/ms-settings.php on line 14
+[12-Jun-2014 22:49:36] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/registration.php on line 7
+[12-Jun-2014 22:49:46] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/post-formats.php on line 170
+[12-Jun-2014 22:49:57] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/rss-functions.php on line 8
+[12-Jun-2014 22:50:46] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/class-wp-embed.php on line 20
+[13-Jun-2014 01:47:05] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/nav-menu-template.php on line 16
+[13-Jun-2014 01:47:15] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/ms-default-filters.php on line 17
+[13-Jun-2014 01:47:26] PHP Fatal error:  Class 'IXR_Server' not found in /home5/goutcare/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[13-Jun-2014 01:47:36] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home5/goutcare/public_html/wp-includes/class-wp-image-editor-gd.php on line 17
+[13-Jun-2014 01:47:46] PHP Fatal error:  Class 'IXR_Client' not found in /home5/goutcare/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[13-Jun-2014 01:47:56] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/registration-functions.php on line 7
+[13-Jun-2014 01:48:07] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/ms-default-constants.php on line 151
+[13-Jun-2014 01:48:17] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/category-template.php on line 886
+[13-Jun-2014 01:48:27] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-rss2-comments.php on line 8
+[13-Jun-2014 01:48:37] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-atom-comments.php on line 8
+[21-Jun-2014 02:19:41] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/rss.php on line 19
+[21-Jun-2014 23:10:12] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/post.php on line 167
+[22-Jun-2014 05:29:09] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/rss.php on line 19
+[22-Jun-2014 13:03:53] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/post.php on line 167
+[22-Jun-2014 16:51:19] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/kses.php on line 1422
+[23-Jun-2014 01:41:47] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/post.php on line 167
+[23-Jun-2014 11:13:49] PHP Fatal error:  Call to undefined function  is_admin() in /home5/goutcare/public_html/wp-includes/vars.php on line 23
+[24-Jun-2014 06:52:06] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/kses.php on line 1422
+[24-Jun-2014 08:07:49] PHP Fatal error:  Call to undefined function  is_admin() in /home5/goutcare/public_html/wp-includes/vars.php on line 23
+[24-Jun-2014 10:38:46] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/theme.php on line 671
+[24-Jun-2014 17:35:29] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/theme.php on line 671
+[25-Jun-2014 14:44:33] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/theme.php on line 671
+[26-Jun-2014 00:17:00] PHP Fatal error:  Call to undefined function  add_shortcode() in /home5/goutcare/public_html/wp-includes/media.php on line 769
+[26-Jun-2014 05:49:24] PHP Fatal error:  Call to undefined function  add_shortcode() in /home5/goutcare/public_html/wp-includes/media.php on line 769
+[27-Jun-2014 10:49:53] PHP Fatal error:  Call to undefined function  add_shortcode() in /home5/goutcare/public_html/wp-includes/media.php on line 769
+[27-Jun-2014 20:12:36] PHP Fatal error:  Call to undefined function  is_main_site() in /home5/goutcare/public_html/wp-includes/update.php on line 629
+[29-Jun-2014 17:22:18] PHP Fatal error:  Call to undefined function  is_main_site() in /home5/goutcare/public_html/wp-includes/update.php on line 629
+[03-Jul-2014 22:06:28] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/taxonomy.php on line 129
+[04-Jul-2014 00:28:24] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/ms-functions.php on line 2064
+[04-Jul-2014 14:08:48] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/taxonomy.php on line 129
+[06-Jul-2014 05:22:31] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/shortcodes.php on line 407
+[06-Jul-2014 07:44:36] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/registration.php on line 7
+[06-Jul-2014 12:47:45] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/nav-menu-template.php on line 16
+[07-Jul-2014 18:10:56] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/taxonomy.php on line 129
+[08-Jul-2014 05:49:03] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-rss.php on line 8
+[09-Jul-2014 04:42:26] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/ms-functions.php on line 2064
+[09-Jul-2014 04:42:37] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/nav-menu-template.php on line 16
+[09-Jul-2014 04:43:01] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/shortcodes.php on line 407
+[09-Jul-2014 04:43:12] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/registration.php on line 7
+[09-Jul-2014 05:25:08] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-rss.php on line 8
+[09-Jul-2014 12:06:43] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/shortcodes.php on line 407
+[09-Jul-2014 12:06:53] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/nav-menu-template.php on line 16
+[09-Jul-2014 12:07:04] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/ms-functions.php on line 2064
+[09-Jul-2014 12:07:36] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/registration.php on line 7
+[09-Jul-2014 14:33:30] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/ms-functions.php on line 2064
+[09-Jul-2014 19:57:33] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/shortcodes.php on line 407
+[09-Jul-2014 19:57:43] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/registration.php on line 7
+[09-Jul-2014 19:57:54] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/ms-functions.php on line 2064
+[09-Jul-2014 19:58:04] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/nav-menu-template.php on line 16
+[10-Jul-2014 02:00:44] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/ms-functions.php on line 2064
+[10-Jul-2014 02:01:02] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/registration.php on line 7
+[10-Jul-2014 02:01:12] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/nav-menu-template.php on line 16
+[10-Jul-2014 02:01:23] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/shortcodes.php on line 407
+[11-Jul-2014 10:03:00] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-rdf.php on line 8
+[14-Jul-2014 22:00:27] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-atom.php on line 8
+[15-Jul-2014 18:17:19] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-rdf.php on line 8
+[16-Jul-2014 04:23:29] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-atom.php on line 8
+[23-Jul-2014 20:15:27] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/admin-bar.php on line 48
+[24-Jul-2014 00:29:18] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-rss2.php on line 8
+[24-Jul-2014 05:45:31] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/admin-bar.php on line 48
+[24-Jul-2014 11:53:15] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-rss2.php on line 8
+[24-Jul-2014 12:15:18] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/canonical.php on line 530
+[25-Jul-2014 10:47:33] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/admin-bar.php on line 48
+[25-Jul-2014 15:50:42] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-rss2.php on line 8
+[28-Jul-2014 08:08:07] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/canonical.php on line 530
+[04-Aug-2014 17:28:32] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/shortcodes.php on line 407
+[05-Aug-2014 05:47:26] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/functions.php on line 8
+[05-Aug-2014 10:50:36] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/shortcodes.php on line 407
+[05-Aug-2014 13:22:10] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/functions.php on line 8
+[05-Aug-2014 19:41:09] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/shortcodes.php on line 407
+[06-Aug-2014 05:47:26] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/functions.php on line 8
+[06-Aug-2014 13:22:11] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home5/goutcare/public_html/wp-includes/class-feed.php on line 4
+[06-Aug-2014 13:22:11] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/class-feed.php on line 4
+[06-Aug-2014 17:42:57] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/ms-settings.php on line 14
+[06-Aug-2014 21:08:44] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home5/goutcare/public_html/wp-includes/class-feed.php on line 4
+[06-Aug-2014 21:08:44] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/class-feed.php on line 4
+[07-Aug-2014 00:32:55] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/ms-settings.php on line 14
+[07-Aug-2014 03:57:56] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home5/goutcare/public_html/wp-includes/class-feed.php on line 4
+[07-Aug-2014 03:57:56] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/class-feed.php on line 4
+[08-Aug-2014 13:19:10] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home5/goutcare/public_html/wp-includes/class-feed.php on line 4
+[08-Aug-2014 13:19:10] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/class-feed.php on line 4
+[08-Aug-2014 13:22:39] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/ms-settings.php on line 14
+[08-Aug-2014 14:07:15] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/class-snoopy.php on line 6
+[08-Aug-2014 20:26:12] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/registration.php on line 7
+[08-Aug-2014 22:57:51] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/class-snoopy.php on line 6
+[09-Aug-2014 01:29:21] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/post-formats.php on line 170
+[09-Aug-2014 04:00:56] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/registration.php on line 7
+[09-Aug-2014 07:48:18] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/class-snoopy.php on line 6
+[09-Aug-2014 09:04:07] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/post-formats.php on line 170
+[09-Aug-2014 10:19:53] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/registration.php on line 7
+[09-Aug-2014 14:07:15] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/ms-functions.php on line 2064
+[09-Aug-2014 16:38:50] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/registration.php on line 7
+[09-Aug-2014 19:10:25] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/class-snoopy.php on line 6
+[09-Aug-2014 20:26:12] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/post-formats.php on line 170
+[09-Aug-2014 22:57:56] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/ms-functions.php on line 2064
+[10-Aug-2014 06:32:31] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/script-loader.php on line 25
+[10-Aug-2014 07:48:21] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/ms-functions.php on line 2064
+[10-Aug-2014 13:48:18] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/script-loader.php on line 25
+[10-Aug-2014 20:07:16] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/ms-functions.php on line 2064
+[10-Aug-2014 21:02:53] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/script-loader.php on line 25
+[11-Aug-2014 00:53:23] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/rss-functions.php on line 8
+[11-Aug-2014 04:22:27] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/script-loader.php on line 25
+[11-Aug-2014 07:23:58] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/rss-functions.php on line 8
+[11-Aug-2014 09:46:31] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/post-template.php on line 1186
+[11-Aug-2014 12:47:28] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/rss-functions.php on line 8
+[11-Aug-2014 16:01:26] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/post-template.php on line 1186
+[11-Aug-2014 19:48:48] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/rss-functions.php on line 8
+[12-Aug-2014 00:51:58] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/post-template.php on line 1186
+[12-Aug-2014 03:23:32] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/class-wp-embed.php on line 20
+[12-Aug-2014 06:27:56] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/rss-functions.php on line 8
+[12-Aug-2014 10:57:51] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/class-wp-embed.php on line 20
+[12-Aug-2014 16:57:56] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/post-template.php on line 1186
+[12-Aug-2014 17:32:57] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/class-wp-embed.php on line 20
+[13-Aug-2014 15:08:42] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/default-filters.php on line 17
+[13-Aug-2014 15:09:40] PHP Fatal error:  Call to undefined function  is_robots() in /home5/goutcare/public_html/wp-includes/template-loader.php on line 28
+[13-Aug-2014 15:49:51] PHP Fatal error:  Class 'WP_Dependencies' not found in /home5/goutcare/public_html/wp-includes/class.wp-styles.php on line 19
+[13-Aug-2014 16:57:01] PHP Fatal error:  Class 'WP_Widget' not found in /home5/goutcare/public_html/wp-includes/default-widgets.php on line 14
+[13-Aug-2014 16:58:02] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/author-template.php on line 459
+[13-Aug-2014 16:58:58] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home5/goutcare/public_html/wp-includes/class-simplepie.php on line 5
+[13-Aug-2014 17:01:10] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/comment-template.php on line 1546
+[13-Aug-2014 23:59:57] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/class-wp-embed.php on line 20
+[14-Aug-2014 18:59:53] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/default-filters.php on line 17
+[14-Aug-2014 19:54:55] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home5/goutcare/public_html/wp-includes/class-wp-image-editor-gd.php on line 17
+[14-Aug-2014 20:13:31] PHP Fatal error:  Class 'IXR_Client' not found in /home5/goutcare/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[14-Aug-2014 23:09:56] PHP Fatal error:  Class 'WP_Dependencies' not found in /home5/goutcare/public_html/wp-includes/class.wp-scripts.php on line 19
+[15-Aug-2014 08:14:18] PHP Fatal error:  Class 'WP_Dependencies' not found in /home5/goutcare/public_html/wp-includes/class.wp-scripts.php on line 19
+[15-Aug-2014 10:45:47] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/general-template.php on line 1608
+[15-Aug-2014 12:18:19] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/nav-menu-template.php on line 16
+[15-Aug-2014 16:17:01] PHP Fatal error:  Class 'WP_Dependencies' not found in /home5/goutcare/public_html/wp-includes/class.wp-scripts.php on line 19
+[15-Aug-2014 18:48:36] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/general-template.php on line 1608
+[15-Aug-2014 19:59:57] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/nav-menu-template.php on line 16
+[15-Aug-2014 21:01:14] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/category-template.php on line 886
+[15-Aug-2014 23:32:49] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/ms-default-filters.php on line 17
+[16-Aug-2014 00:48:36] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/general-template.php on line 1608
+[16-Aug-2014 04:35:58] PHP Fatal error:  Class 'WP_Dependencies' not found in /home5/goutcare/public_html/wp-includes/class.wp-scripts.php on line 19
+[16-Aug-2014 05:51:46] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/nav-menu-template.php on line 16
+[16-Aug-2014 07:07:35] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/category-template.php on line 886
+[16-Aug-2014 08:23:20] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/ms-default-filters.php on line 17
+[16-Aug-2014 09:39:08] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/general-template.php on line 1608
+[16-Aug-2014 13:26:30] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/category-template.php on line 886
+[16-Aug-2014 15:58:05] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/nav-menu-template.php on line 16
+[16-Aug-2014 17:13:52] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/ms-default-filters.php on line 17
+[16-Aug-2014 18:29:39] PHP Fatal error:  Class 'Walker' not found in /home5/goutcare/public_html/wp-includes/category-template.php on line 886
+[16-Aug-2014 19:45:27] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-rss2-comments.php on line 8
+[16-Aug-2014 22:17:02] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-atom-comments.php on line 8
+[17-Aug-2014 03:20:11] PHP Fatal error:  Call to undefined function  add_filter() in /home5/goutcare/public_html/wp-includes/ms-default-filters.php on line 17
+[17-Aug-2014 04:35:58] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-rss2-comments.php on line 8
+[17-Aug-2014 05:51:47] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-atom-comments.php on line 8
+[17-Aug-2014 10:54:56] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/ms-default-constants.php on line 151
+[17-Aug-2014 13:07:33] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-rss2-comments.php on line 8
+[17-Aug-2014 13:39:57] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-atom-comments.php on line 8
+[17-Aug-2014 19:22:44] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/ms-default-constants.php on line 151
+[17-Aug-2014 23:10:06] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-rss2-comments.php on line 8
+[18-Aug-2014 00:25:54] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/registration-functions.php on line 7
+[18-Aug-2014 01:41:41] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/ms-default-constants.php on line 151
+[18-Aug-2014 03:35:01] PHP Fatal error:  Call to undefined function  feed_content_type() in /home5/goutcare/public_html/wp-includes/feed-atom-comments.php on line 8
+[18-Aug-2014 04:19:09] PHP Fatal error:  Class 'IXR_Server' not found in /home5/goutcare/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[18-Aug-2014 06:42:13] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/registration-functions.php on line 7
+[18-Aug-2014 11:45:23] PHP Fatal error:  Class 'IXR_Server' not found in /home5/goutcare/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[18-Aug-2014 13:01:08] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/registration-functions.php on line 7
+[18-Aug-2014 14:16:55] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home5/goutcare/public_html/wp-includes/class-wp-image-editor-gd.php on line 17
+[18-Aug-2014 15:32:43] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/ms-default-constants.php on line 151
+[18-Aug-2014 16:48:30] PHP Fatal error:  Class 'IXR_Client' not found in /home5/goutcare/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[18-Aug-2014 19:49:03] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/registration-functions.php on line 7
+[18-Aug-2014 21:04:53] PHP Fatal error:  Class 'IXR_Server' not found in /home5/goutcare/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[18-Aug-2014 22:20:37] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home5/goutcare/public_html/wp-includes/class-wp-image-editor-imagick.php on line 17
+[19-Aug-2014 04:39:34] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home5/goutcare/public_html/wp-includes/class-wp-image-editor-imagick.php on line 17
+[19-Aug-2014 09:42:43] PHP Fatal error:  Class 'IXR_Server' not found in /home5/goutcare/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[19-Aug-2014 13:18:56] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home5/goutcare/public_html/wp-includes/class-wp-image-editor-imagick.php on line 17
+[19-Aug-2014 19:37:31] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home5/goutcare/public_html/wp-includes/class-wp-image-editor-imagick.php on line 17
+[09-Dec-2014 12:20:04] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/rss.php on line 19
+[10-Dec-2014 20:15:04] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home5/goutcare/public_html/wp-includes/rss.php on line 19
+[11-Dec-2014 20:47:07] PHP Fatal error:  Class 'IXR_Client' not found in /home5/goutcare/public_html/wp-includes/class-wp-http-ixr-client.php on line 9
+[12-Dec-2014 07:43:07] PHP Fatal error:  Call to undefined function  is_admin() in /home5/goutcare/public_html/wp-includes/vars.php on line 23
+[12-Dec-2014 08:51:51] PHP Fatal error:  Call to undefined function  is_admin() in /home5/goutcare/public_html/wp-includes/vars.php on line 23
+[12-Dec-2014 16:51:14] PHP Fatal error:  Call to undefined function  is_admin() in /home5/goutcare/public_html/wp-includes/vars.php on line 23
+[13-Dec-2014 15:10:06] PHP Fatal error:  Call to undefined function  add_action() in /home5/goutcare/public_html/wp-includes/post.php on line 167
+[13-Dec-2014 16:03:32] PHP Fatal error:  Call to undefined function  is_admin() in /home5/goutcare/public_html/wp-includes/vars.php on line 23
+[14-Dec-2014 13:00:54] PHP Fatal error:  Call to undefined function  is_admin() in /home5/goutcare/public_html/wp-includes/vars.php on line 23

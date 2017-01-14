@@ -1,0 +1,47 @@
+[08-Jan-2014 16:34:26 Pacific/Auckland] PHP Fatal error:  Call to undefined function get_header() in /home/goutcare/public_html/wp-content/themes/shopifiq/index.php on line 1
+[09-Jan-2014 18:25:46 Pacific/Auckland] PHP Fatal error:  Call to undefined function get_header() in /home/goutcare/public_html/wp-content/themes/shopifiq/index.php on line 1
+[22-Jan-2014 21:06:58 Pacific/Auckland] PHP Fatal error:  Call to undefined function get_header() in /home/goutcare/public_html/wp-content/themes/shopifiq/404.php on line 10
+[22-Jan-2014 21:59:52 Pacific/Auckland] PHP Fatal error:  Call to undefined function get_header() in /home/goutcare/public_html/wp-content/themes/shopifiq/404.php on line 10
+[12-Mar-2014 10:31:51 Pacific/Auckland] PHP Fatal error:  Call to undefined function get_header() in /home/goutcare/public_html/wp-content/themes/shopifiq/index.php on line 1
+[14-Jun-2014 20:48:20] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[14-Aug-2014 16:52:42] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[18-Sep-2014 04:30:48] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[18-Sep-2014 06:08:35] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[10-Oct-2014 13:24:22] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[03-Nov-2014 02:41:09] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[03-Dec-2014 07:35:00] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[03-Dec-2014 07:35:01] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[03-Dec-2014 07:35:02] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[03-Dec-2014 07:35:03] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[13-Dec-2014 08:50:31] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[13-Dec-2014 08:50:31] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[13-Dec-2014 08:50:32] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[13-Dec-2014 08:50:32] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[13-Dec-2014 08:50:34] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[13-Dec-2014 08:50:35] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[13-Dec-2014 08:50:35] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[13-Dec-2014 08:50:36] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[13-Dec-2014 08:56:12] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[13-Dec-2014 08:56:12] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[13-Dec-2014 08:56:13] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[13-Dec-2014 08:56:13] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[13-Dec-2014 08:56:14] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[13-Dec-2014 08:56:15] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[13-Dec-2014 08:56:15] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[13-Dec-2014 08:56:16] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[13-Dec-2014 09:02:07] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[13-Dec-2014 09:02:08] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[13-Dec-2014 09:02:08] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[13-Dec-2014 09:02:09] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[13-Dec-2014 09:02:10] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[13-Dec-2014 09:02:10] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[13-Dec-2014 09:02:11] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[13-Dec-2014 09:02:11] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[13-Dec-2014 09:04:31] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[13-Dec-2014 09:04:31] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[13-Dec-2014 09:04:31] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[13-Dec-2014 09:04:32] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[13-Dec-2014 09:04:33] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[13-Dec-2014 09:04:33] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[13-Dec-2014 09:04:34] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1
+[13-Dec-2014 09:04:34] PHP Fatal error:  Call to undefined function  get_header() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/index.php on line 1

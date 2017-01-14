@@ -1,0 +1,3 @@
+[07-Dec-2014 12:27:08] PHP Parse error:  syntax error, unexpected T_STRING in /home5/goutcare/public_html/wp-content/themes/1shopifiq/woocommerce/emails/email-addresses.php(1) : eval()'d code on line 1
+[07-Dec-2014 12:27:08] PHP Fatal error:  Call to undefined function  is_rtl() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/woocommerce/emails/email-addresses.php on line 12
+[11-Dec-2014 23:18:40] PHP Fatal error:  Call to undefined function  is_rtl() in /home5/goutcare/public_html/wp-content/themes/1shopifiq/woocommerce/emails/email-addresses.php on line 12

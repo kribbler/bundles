@@ -1,0 +1,32 @@
+.twtr-widget-profile img.twtr-profile-img  {
+    display: none;
+}
+
+#twtr-widget-1 h3, #twtr-widget-1 h4, .twtr-widget em, .twtr-widget .twtr-new-results, .twtr-widget a img, .twtr-ft a{
+    display: none;
+}
+#twtr-widget-1 .twtr-tweet a{
+    display: block;
+    margin: 0 0 2px 0;
+}
+.twtr-widget .twtr-tweet{
+    border: none;
+    margin: 0 0 15px 0;
+}
+.twtr-widget h3, .twtr-widget h4, .twtr-widget p {
+    line-height: 23px !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+.twtr-doc{
+    position: relative;
+    -webkit-box-shadow: 0 0 2px 0px #EFEFEF;
+    border: 1px solid #f2f2f2;
+    border-radius: 3px;
+    padding: 0 5px;
+}
+.twtr-hd, .twtr-ft div{
+    padding: 5px;
+}
+.twtr-user:before{
+    content: "@";
+}

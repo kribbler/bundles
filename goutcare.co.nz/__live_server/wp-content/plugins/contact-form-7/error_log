@@ -1,0 +1,1 @@
+[14-Dec-2014 19:49:59] PHP Fatal error:  Call to undefined function  plugin_basename() in /home5/goutcare/public_html/wp-content/plugins/contact-form-7/wp-contact-form-7.php on line 34
