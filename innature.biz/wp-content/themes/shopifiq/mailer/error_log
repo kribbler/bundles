@@ -1,0 +1,3 @@
+[18-Feb-2013 08:34:35 Europe/Berlin] PHP Fatal error:  Call to undefined function wp_mail() in /home/astudio1/public_html/preview/shopifiq-test/wp-content/themes/shopifiq/mailer/mail.php on line 29
+[18-Feb-2013 08:36:37 Europe/Berlin] PHP Fatal error:  Call to undefined function wp_mail() in /home/astudio1/public_html/preview/shopifiq-test/wp-content/themes/shopifiq/mailer/mail.php on line 29
+[18-Feb-2013 08:38:52 Europe/Berlin] PHP Fatal error:  Call to undefined function wp_mail() in /home/astudio1/public_html/preview/shopifiq-test/wp-content/themes/shopifiq/mailer/mail.php on line 29

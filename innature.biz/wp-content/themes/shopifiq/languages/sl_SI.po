@@ -1,0 +1,458 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Shopifiq v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-08-24 12:02:55+0000\n"
+"Last-Translator: admin <ziga@envoo.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Slovenian\n"
+"X-Poedit-Country: SLOVENIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: admin-functions/adminSliderClass.php:18
+#: admin-functions/adminSliderClass.php:21
+#@ myplugin_textdomain
+msgid "Slider options"
+msgstr ""
+
+#: archive.php:30
+#, php-format
+#@ shopifiq
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:32
+#, php-format
+#@ shopifiq
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:34
+#, php-format
+#@ shopifiq
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:36
+#@ shopifiq
+msgid "Blog Archives"
+msgstr ""
+
+#: attachment.php:14
+#, php-format
+#@ shopifiq
+msgid "Return to %s"
+msgstr ""
+
+#. translators: %s - title of parent post
+#: attachment.php:16
+#, php-format
+#@ shopifiq
+msgid "<span>&larr;</span> %s"
+msgstr ""
+
+#: attachment.php:22
+#, php-format
+#@ shopifiq
+msgid "By %2$s"
+msgstr ""
+
+#: attachment.php:26
+#: functions.php:560
+#, php-format
+#@ shopifiq
+msgid "View all posts by %s"
+msgstr ""
+
+#: attachment.php:33
+#, php-format
+#@ shopifiq
+msgid "Published %2$s"
+msgstr ""
+
+#: attachment.php:43
+#, php-format
+#@ shopifiq
+msgid "Full size is %s pixels"
+msgstr ""
+
+#: attachment.php:46
+#@ shopifiq
+msgid "Link to full-size image"
+msgstr ""
+
+#: attachment.php:53
+#: attachment.php:92
+#: loop.php:81
+#: loop.php:96
+#: loop.php:123
+#: onecolumn-page.php:22
+#: page.php:78
+#: single.php:34
+#@ shopifiq
+msgid "Edit"
+msgstr ""
+
+#: attachment.php:88
+#: loop.php:90
+#: loop.php:107
+#@ shopifiq
+msgid "Continue reading &rarr;"
+msgstr ""
+
+#: attachment.php:89
+#: loop.php:108
+#: onecolumn-page.php:21
+#: page.php:77
+#: single.php:22
+#@ shopifiq
+msgid "Pages:"
+msgstr ""
+
+#: author.php:24
+#, php-format
+#@ shopifiq
+msgid "Author Archives: %s"
+msgstr ""
+
+#: author.php:31
+#: single.php:26
+#, php-format
+#@ shopifiq
+msgid "About %s"
+msgstr ""
+
+#: category.php:13
+#, php-format
+#@ shopifiq
+msgid "Category Archives: %s"
+msgstr ""
+
+#: comments.php:17
+#@ shopifiq
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:34
+#, php-format
+#@ shopifiq
+msgid "One Response to %2$s"
+msgid_plural "%1$s Responses to %2$s"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: comments.php:39
+#: comments.php:56
+#@ shopifiq
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:40
+#: comments.php:57
+#@ shopifiq
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:67
+#@ shopifiq
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:36
+#@ shopifiq
+msgid "Primary Navigation"
+msgstr ""
+
+#. translators: header image description
+#: functions.php:72
+#@ shopifiq
+msgid "Shopifiq default logo"
+msgstr ""
+
+#: functions.php:288
+#, php-format
+#@ shopifiq
+msgid "Search results for %s"
+msgstr ""
+
+#: functions.php:291
+#: functions.php:308
+#, php-format
+#@ shopifiq
+msgid "Page %s"
+msgstr ""
+
+#: functions.php:350
+#@ shopifiq
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: functions.php:417
+#, php-format
+#@ shopifiq
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: functions.php:420
+#@ shopifiq
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. translators: 1: date, 2: time
+#: functions.php:427
+#, php-format
+#@ shopifiq
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:427
+#: functions.php:444
+#@ shopifiq
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:444
+#@ shopifiq
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:463
+#@ shopifiq
+msgid "Primary Widget Area"
+msgstr ""
+
+#: functions.php:465
+#@ shopifiq
+msgid "The primary widget area"
+msgstr ""
+
+#: functions.php:474
+#@ shopifiq
+msgid "Secondary Widget Area"
+msgstr ""
+
+#: functions.php:476
+#@ shopifiq
+msgid "The secondary widget area"
+msgstr ""
+
+#: functions.php:485
+#@ shopifiq
+msgid "First Footer Widget Area"
+msgstr ""
+
+#: functions.php:487
+#@ shopifiq
+msgid "The first footer widget area"
+msgstr ""
+
+#: functions.php:496
+#@ shopifiq
+msgid "Second Footer Widget Area"
+msgstr ""
+
+#: functions.php:498
+#@ shopifiq
+msgid "The second footer widget area"
+msgstr ""
+
+#: functions.php:507
+#@ shopifiq
+msgid "Third Footer Widget Area"
+msgstr ""
+
+#: functions.php:509
+#@ shopifiq
+msgid "The third footer widget area"
+msgstr ""
+
+#: functions.php:518
+#@ shopifiq
+msgid "Fourth Footer Widget Area"
+msgstr ""
+
+#: functions.php:520
+#@ shopifiq
+msgid "The fourth footer widget area"
+msgstr ""
+
+#: functions.php:551
+#, php-format
+#@ shopifiq
+msgid "<span class=\"%1$s\">Posted on</span> %2$s <span class=\"meta-sep\">by</span> %3$s"
+msgstr ""
+
+#: functions.php:577
+#, php-format
+#@ shopifiq
+msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: functions.php:579
+#, php-format
+#@ shopifiq
+msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: functions.php:581
+#, php-format
+#@ shopifiq
+msgid "Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: loop.php:24
+#: loop.php:133
+#@ shopifiq
+msgid "&larr; Older posts"
+msgstr ""
+
+#: loop.php:25
+#: loop.php:134
+#@ shopifiq
+msgid "Newer posts &rarr;"
+msgstr ""
+
+#: loop.php:30
+#@ shopifiq
+msgid "Not Found"
+msgstr ""
+
+#: loop.php:31
+#@ shopifiq
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr ""
+
+#: loop.php:55
+#: loop.php:78
+#@ shopifiq
+msgctxt "gallery category slug"
+msgid "gallery"
+msgstr ""
+
+#: loop.php:56
+#: loop.php:71
+#: loop.php:101
+#, php-format
+#@ shopifiq
+msgid "Permalink to %s"
+msgstr ""
+
+#: loop.php:70
+#, php-format
+#@ shopifiq
+msgid "This gallery contains <a %1$s>%2$s photos</a>."
+msgstr ""
+
+#: loop.php:78
+#@ shopifiq
+msgid "View posts in the Gallery category"
+msgstr ""
+
+#: loop.php:78
+#@ shopifiq
+msgid "More Galleries"
+msgstr ""
+
+#: loop.php:80
+#: loop.php:95
+#: loop.php:122
+#@ shopifiq
+msgid "Leave a comment"
+msgstr ""
+
+#: loop.php:80
+#: loop.php:95
+#: loop.php:122
+#@ shopifiq
+msgid "1 Comment"
+msgstr ""
+
+#: loop.php:80
+#: loop.php:95
+#: loop.php:122
+#@ shopifiq
+msgid "% Comments"
+msgstr ""
+
+#: loop.php:85
+#@ shopifiq
+msgctxt "asides category slug"
+msgid "asides"
+msgstr ""
+
+#: loop.php:112
+#, php-format
+#@ shopifiq
+msgid "Posted in %2$s"
+msgstr ""
+
+#: loop.php:119
+#, php-format
+#@ shopifiq
+msgid "Tagged %2$s"
+msgstr ""
+
+#: search.php:13
+#, php-format
+#@ shopifiq
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:22
+#@ shopifiq
+msgid "Nothing Found"
+msgstr ""
+
+#: search.php:23
+#@ shopifiq
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr ""
+
+#: sidebar.php:26
+#@ shopifiq
+msgid "Archives"
+msgstr ""
+
+#: sidebar.php:33
+#@ shopifiq
+msgid "Meta"
+msgstr ""
+
+#: single.php:14
+#: single.php:36
+#@ shopifiq
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr ""
+
+#: single.php:15
+#: single.php:37
+#@ shopifiq
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr ""
+
+#: single.php:29
+#, php-format
+#@ shopifiq
+msgid "View all posts by %s &rarr;"
+msgstr ""
+
+#: tag.php:13
+#, php-format
+#@ shopifiq
+msgid "Tag Archives: %s"
+msgstr ""
+
