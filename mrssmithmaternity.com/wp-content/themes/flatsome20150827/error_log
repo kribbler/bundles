@@ -1,0 +1,3 @@
+[17-Jul-2015 03:38:25 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/mrssmit2/public_html/wp-content/themes/flatsome/404.php on line 13
+[19-Jul-2015 08:15:54 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/mrssmit2/public_html/wp-content/themes/flatsome/404.php on line 13
+[14-Aug-2015 03:17:16 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/mrssmit2/public_html/wp-content/themes/flatsome/index.php on line 8
