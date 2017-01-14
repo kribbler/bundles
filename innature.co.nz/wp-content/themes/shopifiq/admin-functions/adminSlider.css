@@ -1,0 +1,208 @@
+.mceListBoxMenu {
+
+    height: auto !important;
+
+    
+
+}
+
+
+
+.wp_themeSkin .mceListBoxMenu {
+
+    overflow: visible;
+
+    overflow-x: visible;
+
+}
+
+
+
+
+
+.slider-settings {
+
+    padding: 20px;
+
+}
+
+
+
+#poststuff  .slider-settings h2 {
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    margin: 30px 0 0 0;
+
+    
+
+}
+
+
+
+.slider-settings .wp_themeSkin iframe {
+
+    background: #fff;
+
+    height: 200px !important;
+
+}
+
+
+
+hr {
+
+    border: 1px solid #ccc;
+
+    border-style: solid none none none;
+
+    margin: 40px 0;
+
+}
+
+
+
+.img1 span,
+
+.img2 span, 
+
+.img3 span,
+
+.video1 span,
+
+.video2 span,
+
+.video3 span,
+
+.media span {
+
+    display: block;
+
+    margin: 15px 0;
+
+}
+
+
+
+.media {
+
+    margin: 0 0 30px 0;
+
+}
+
+
+
+.media input {
+
+    margin: 0 10px 0 0;
+
+}
+
+
+
+.slider-settings .space {
+
+    width: 20px;
+
+    height: 10px;
+
+    border:  1px solid red;
+
+}
+
+
+
+input.upload_image_button, input[type=submit].dummy {
+
+	border: 1px solid #005f8b;
+
+		-webkit-border-radius: 0px;
+
+		border-radius: 0px;
+
+	background-color: #0075b1;
+
+		background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0075b1), to(#0585c7));
+
+		background: -webkit-linear-gradient(top, #0585c7, #0075b1);
+
+		background: -moz-linear-gradient(top, #0585c7, #0075b1);
+
+		background: -ms-linear-gradient(top, #0585c7, #0075b1);
+
+		background: -o-linear-gradient(top, #0585c7, #0075b1);
+
+	color:#fff;
+
+	padding: 6px 23px;
+
+	cursor: pointer;
+
+}
+
+
+
+.slider-settings input[type=text],
+
+.slider-settings select {
+
+	margin: 0 0 0 0;
+
+	padding: 7px 5px;
+
+	width: 335px;
+
+	border: 1px solid #dddddd;
+
+	border-radius: 0px;
+
+}
+
+
+
+.slider-settings p {
+
+	color: #000000;
+
+	font-size: 11px;	
+
+	margin: 15px 0 5px 1px;
+
+	width: 332px;
+
+}
+
+
+
+.h1 {
+
+    font-size: 21px !important;
+
+    display: inline;
+
+    cursor: pointer;
+
+    margin:  10px 0 0 0;
+
+}
+
+
+
+input[type=radio].header {
+
+    vertical-align: top;
+
+    margin:  2px 7px 0 0;
+
+    cursor: pointer;
+
+}
+
+.slider-settings input.sizes {
+	margin: 10px 0 10px 0; 
+	width:50px; 
+	text-align: center;
+}
+

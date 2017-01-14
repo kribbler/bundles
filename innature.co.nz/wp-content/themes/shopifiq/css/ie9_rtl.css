@@ -1,0 +1,3 @@
+.coupon .button, .update-button, .checkout-button, #place_order, .form-submit #submit {
+	display: block !important;
+}

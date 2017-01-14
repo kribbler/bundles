@@ -1,0 +1,2215 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Anps's Shopifiq v2.0.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-09-17 10:39:20+0000\n"
+"Last-Translator: admin <ziga@envoo.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Norwegian (Bokmål)\n"
+"X-Poedit-Country: NORWAY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: admin-functions/adminThemeOptions.php:15
+#@ shopifiq
+msgid "Save all change"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:19
+#: functions.php:213
+#@ shopifiq
+msgid "Contact form"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:21
+#@ shopifiq
+msgid "Add fields to your contact form and then call the contact field via shortcodes."
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:29
+#: admin-functions/adminThemeOptions.php:108
+#@ shopifiq
+msgid "Label"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:37
+#: admin-functions/adminThemeOptions.php:116
+#@ shopifiq
+msgid "Input type"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:59
+#: admin-functions/adminThemeOptions.php:154
+#: admin-functions/class-tgm-plugin-activation.php:1106
+#@ shopifiq
+msgid "Required"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:69
+#: admin-functions/adminThemeOptions.php:162
+#@ shopifiq
+msgid "Placeholder"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:77
+#: admin-functions/adminThemeOptions.php:170
+#@ shopifiq
+msgid "Validation"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:208
+#: admin-functions/adminThemeOptions.php:1058
+#: admin-functions/adminThemeOptions.php:1831
+#@ shopifiq
+msgid "Save all changes"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:299
+#@ shopifiq
+msgid "Page layout"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:301
+#@ shopifiq
+msgid "Here you can change all the settings about responsive layout and will your site be boxed (when checked you will have more options)."
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:318
+#@ shopifiq
+msgid "Responsive"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:337
+#@ shopifiq
+msgid "Responsive on demand"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:356
+#@ shopifiq
+msgid "Boxed"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:391
+#@ shopifiq
+msgid "Custom background type"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:408
+#@ shopifiq
+msgid "Show breadcrumbs"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:415
+#@ shopifiq
+msgid "Sticky Menu"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:422
+#@ shopifiq
+msgid "Right-To-Left (RTL)"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:429
+#@ shopifiq
+msgid "Hide cart in header"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:435
+#@ shopifiq
+msgid "Site Notice"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:441
+#@ shopifiq
+msgid "Active"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:448
+#: admin-functions/class-tgm-plugin-activation.php:1299
+#@ shopifiq
+msgid "Type"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:451
+#@ shopifiq
+msgid "Lightbox"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:456
+#@ shopifiq
+msgid "Inline (before the site header)"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:458
+#@ shopifiq
+msgid "Content"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:465
+#@ shopifiq
+msgid "First page slider options"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:469
+#@ shopifiq
+msgid "Shortcod"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:476
+#@ shopifiq
+msgid "Shop page"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:480
+#@ shopifiq
+msgid "Show percentages instead of text for the Sale stickers"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:487
+#@ shopifiq
+msgid "Show view full image on product hover"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:494
+#@ shopifiq
+msgid "Number of products per page"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:501
+#@ shopifiq
+msgid "Category uses same layout as shop"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:516
+#: admin-functions/adminThemeOptions.php:579
+#@ shopifiq
+msgid "Left sidebar"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:518
+#: admin-functions/adminThemeOptions.php:535
+#: admin-functions/adminThemeOptions.php:581
+#: admin-functions/adminThemeOptions.php:598
+#@ shopifiq
+msgid "None"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:533
+#: admin-functions/adminThemeOptions.php:596
+#@ shopifiq
+msgid "Right sidebar"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:558
+#@ shopifiq
+msgid "Description length"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:565
+#@ shopifiq
+msgid "Single product page"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:567
+#@ shopifiq
+msgid "Only one sidebar can be selected at a time."
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:620
+#@ shopifiq
+msgid "Social accounts"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:622
+#@ shopifiq
+msgid "Here you can set up all of your social accounts, which will appear in the footer of the page. You do not need to include all of them."
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:625
+#: comments.php:110
+#: woocommerce/myaccount/form-login.php:67
+#: woocommerce/single-product-reviews.php:88
+#@ shopifiq
+#@ woocommerce
+msgid "Email"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:633
+#@ shopifiq
+msgid "Google analytics"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:641
+#@ shopifiq
+msgid "Facebook"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:649
+#@ shopifiq
+msgid "Google"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:657
+#@ shopifiq
+msgid "Twitter"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:665
+#@ shopifiq
+msgid "LinkedIn"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:673
+#@ shopifiq
+msgid "Vimeo"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:681
+#@ shopifiq
+msgid "Youtube"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:689
+#@ shopifiq
+msgid "Flickr"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:697
+#@ shopifiq
+msgid "Favicon and logo"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:701
+#@ shopifiq
+msgid "Favicon"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:709
+#@ shopifiq
+msgid "Enter an URL or upload an image for the favicon."
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:715
+#@ shopifiq
+msgid "Logo"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:723
+#@ shopifiq
+msgid "Enter an URL or upload an image for the logo."
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:731
+#@ shopifiq
+msgid "Page setup"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:735
+#@ shopifiq
+msgid "404 error page"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:739
+#: admin-functions/adminThemeOptions.php:769
+#: admin-functions/adminThemeOptions.php:799
+#: admin-functions/adminThemeOptions.php:883
+#: admin-functions/adminThemeOptions.php:957
+#@ shopifiq
+msgid "*** Select ***"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:765
+#@ shopifiq
+msgid "Front page"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:795
+#@ shopifiq
+msgid "Blog page"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:823
+#@ shopifiq
+msgid "Blog layout"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:851
+#@ shopifiq
+msgid "Single blog page layout"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:879
+#@ shopifiq
+msgid "Portfolio page"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:907
+#@ shopifiq
+msgid "Number of columns"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:939
+#@ shopifiq
+msgid "Filter"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:945
+#@ shopifiq
+msgid "Limit items"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:953
+#@ shopifiq
+msgid "Faq page"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:981
+#: admin-functions/adminThemeOptions.php:992
+#@ shopifiq
+msgid "Copyright footer"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:984
+#@ shopifiq
+msgid "Copyright"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1015
+#@ shopifiq
+msgid "Top menu setup"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1019
+#@ shopifiq
+msgid "Top menu"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1042
+#@ shopifiq
+msgid "Top menu label"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1050
+#@ shopifiq
+msgid "Top menu input text"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1648
+#@ shopifiq
+msgid "Heading sizes"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1651
+#@ shopifiq
+msgid "Heading 1"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1656
+#@ shopifiq
+msgid "Heading 2"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1661
+#@ shopifiq
+msgid "Heading 3"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1666
+#@ shopifiq
+msgid "Heading 4"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1671
+#@ shopifiq
+msgid "Heading 5"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1677
+#@ shopifiq
+msgid "Predefined color Scheme"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1678
+#@ shopifiq
+msgid "Selecting one of this schemes will import the predefined colors below, which you can then edit as you like."
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1694
+#@ shopifiq
+msgid "Main theme colors"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1697
+#: admin-functions/adminThemeOptions.php:1736
+#@ shopifiq
+msgid "Text color"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1701
+#@ shopifiq
+msgid "Link hover color"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1705
+#@ shopifiq
+msgid "Headings color"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1709
+#@ shopifiq
+msgid "Primary color"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1714
+#@ shopifiq
+msgid "Footer colors"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1718
+#@ shopifiq
+msgid "Footer/Top menu text primary color"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1722
+#@ shopifiq
+msgid "Footer/Top menu text secondary color"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1726
+#@ shopifiq
+msgid "Copyright footer background color"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1730
+#@ shopifiq
+msgid "Copyright footer text color"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1734
+#@ shopifiq
+msgid "Main navigation colors"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1740
+#@ shopifiq
+msgid "Text color hover"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1744
+#@ shopifiq
+msgid "Selected text color"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1749
+#@ shopifiq
+msgid "Portfolio/Blog colors"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1752
+#@ shopifiq
+msgid "Portfolio/Blog information primary background"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1756
+#@ shopifiq
+msgid "Portfolio/Blog information secondary background"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1761
+#@ shopifiq
+msgid "Button styles"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1764
+#@ shopifiq
+msgid "Button style 1, text color"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1768
+#@ shopifiq
+msgid "Button style 1, top gradient"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1772
+#@ shopifiq
+msgid "Button style 1, bottom gradient"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1779
+#@ shopifiq
+msgid "Button style 2, text color"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1783
+#@ shopifiq
+msgid "Button style 2, top gradient"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1787
+#@ shopifiq
+msgid "Button style 2, bottom gradient"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1794
+#@ shopifiq
+msgid "Button style 3, text color"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1798
+#@ shopifiq
+msgid "Button style 3, top gradient"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1802
+#@ shopifiq
+msgid "Button style 3, bottom gradient"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1807
+#@ shopifiq
+msgid "Icons wrapper"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1810
+#@ shopifiq
+msgid "Icons gradient top"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1814
+#@ shopifiq
+msgid "Icons gradient bottom"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1821
+#@ shopifiq
+msgid "Icons gradient top hover"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1825
+#@ shopifiq
+msgid "Icons gradient bottom hover"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1854
+#: admin-functions/adminThemeOptions.php:1882
+#@ shopifiq
+msgid "Insert dummy content: posts, pages, categories"
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1856
+#: admin-functions/adminThemeOptions.php:1884
+#@ shopifiq
+msgid "If you are new to wordpress or have problems creating posts or pages that look like the theme preview you can import dummy posts and pages here that will definitley help to understand how those tasks are done."
+msgstr "1"
+
+#: admin-functions/adminThemeOptions.php:1886
+#@ shopifiq
+msgid "Insert dummy content"
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:164
+#: admin-functions/install_plugins.php:54
+#@ shopifiq
+msgid "Install Required Plugins"
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:165
+#: admin-functions/install_plugins.php:55
+#@ shopifiq
+msgid "Install Plugins"
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:166
+#: admin-functions/install_plugins.php:56
+#, php-format
+#@ shopifiq
+msgid "Installing Plugin: %s"
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:167
+#@ shopifiq
+msgid "Something went wrong."
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:168
+#: admin-functions/install_plugins.php:58
+#, php-format
+#@ shopifiq
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "1"
+msgstr[1] "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:169
+#: admin-functions/install_plugins.php:59
+#, php-format
+#@ shopifiq
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "1"
+msgstr[1] "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:170
+#: admin-functions/install_plugins.php:60
+#, php-format
+#@ shopifiq
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] "1"
+msgstr[1] "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:171
+#: admin-functions/install_plugins.php:61
+#, php-format
+#@ shopifiq
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "1"
+msgstr[1] "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:172
+#: admin-functions/install_plugins.php:62
+#, php-format
+#@ shopifiq
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "1"
+msgstr[1] "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:173
+#: admin-functions/install_plugins.php:63
+#, php-format
+#@ shopifiq
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] "1"
+msgstr[1] "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:174
+#: admin-functions/install_plugins.php:64
+#, php-format
+#@ shopifiq
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "1"
+msgstr[1] "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:175
+#: admin-functions/install_plugins.php:65
+#, php-format
+#@ shopifiq
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] "1"
+msgstr[1] "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:176
+#: admin-functions/install_plugins.php:66
+#@ shopifiq
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "1"
+msgstr[1] ""
+
+#: admin-functions/class-tgm-plugin-activation.php:177
+#: admin-functions/install_plugins.php:67
+#@ shopifiq
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] "1"
+msgstr[1] ""
+
+#: admin-functions/class-tgm-plugin-activation.php:178
+#: admin-functions/class-tgm-plugin-activation.php:490
+#: admin-functions/install_plugins.php:68
+#@ shopifiq
+msgid "Return to Required Plugins Installer"
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:179
+#: admin-functions/class-tgm-plugin-activation.php:1846
+#: admin-functions/install_plugins.php:69
+#@ shopifiq
+msgid "Plugin activated successfully."
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:180
+#, php-format
+#@ shopifiq
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:517
+#: admin-functions/class-tgm-plugin-activation.php:2058
+#@ shopifiq
+msgid "Return to the Dashboard"
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:545
+#, php-format
+#@ shopifiq
+msgid "The following plugin was activated successfully: %s."
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:704
+#@ shopifiq
+msgid "Dismiss this notice"
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:1091
+#@ shopifiq
+msgid "External Link"
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:1096
+#@ shopifiq
+msgid "Private Repository"
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:1099
+#@ shopifiq
+msgid "Pre-Packaged"
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:1103
+#@ shopifiq
+msgid "WordPress Repository"
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:1106
+#@ shopifiq
+msgid "Recommended"
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:1109
+#@ shopifiq
+msgid "Not Installed"
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:1111
+#@ shopifiq
+msgid "Installed But Not Activated"
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:1281
+#, php-format
+#@ shopifiq
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:1297
+#@ shopifiq
+msgid "Plugin"
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:1298
+#@ shopifiq
+msgid "Source"
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:1300
+#: woocommerce/myaccount/my-orders.php:34
+#@ shopifiq
+#@ woocommerce
+msgid "Status"
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:1318
+#@ shopifiq
+msgid "Install"
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:1319
+#@ shopifiq
+msgid "Activate"
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:1544
+#@ shopifiq
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "1"
+msgstr[1] ""
+
+#: admin-functions/class-tgm-plugin-activation.php:1829
+#@ shopifiq
+msgid "Install package not available."
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:1830
+#, php-format
+#@ shopifiq
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:1831
+#@ shopifiq
+msgid "Unpacking the package&#8230;"
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:1832
+#@ shopifiq
+msgid "Installing the plugin&#8230;"
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:1833
+#@ shopifiq
+msgid "Plugin install failed."
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:1834
+#@ shopifiq
+msgid "Plugin installed successfully."
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:1845
+#@ shopifiq
+msgid "Plugin activation failed."
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:1955
+#@ shopifiq
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:1956
+#, php-format
+#@ shopifiq
+msgid "%1$s installed and activated successfully."
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:1956
+#: admin-functions/class-tgm-plugin-activation.php:1965
+#@ shopifiq
+msgid "Show Details"
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:1956
+#: admin-functions/class-tgm-plugin-activation.php:1965
+#@ shopifiq
+msgid "Hide Details"
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:1957
+#@ shopifiq
+msgid "All installations and activations have been completed."
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:1958
+#, php-format
+#@ shopifiq
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:1962
+#@ shopifiq
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:1963
+#, php-format
+#@ shopifiq
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:1964
+#, php-format
+#@ shopifiq
+msgid "The installation of %1$s failed."
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:1965
+#, php-format
+#@ shopifiq
+msgid "%1$s installed successfully."
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:1966
+#@ shopifiq
+msgid "All installations have been completed."
+msgstr "1"
+
+#: admin-functions/class-tgm-plugin-activation.php:1967
+#, php-format
+#@ shopifiq
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "1"
+
+#: admin-functions/importer/parsers.php:42
+#: admin-functions/importer/parsers.php:63
+#@ wordpress-importer
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: admin-functions/importer/parsers.php:43
+#@ wordpress-importer
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr ""
+
+#: admin-functions/importer/parsers.php:67
+#: admin-functions/importer/parsers.php:72
+#: admin-functions/importer/parsers.php:280
+#: admin-functions/importer/parsers.php:469
+#@ wordpress-importer
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: admin-functions/importer/wordpress-importer.php:245
+#: admin-functions/importer/wordpress-importer.php:263
+#: admin-functions/importer/wordpress-importer.php:365
+#: admin-functions/importer/wordpress-importer.php:373
+#: admin-functions/importer/wordpress-importer.php:391
+#@ wordpress-importer
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: admin-functions/importer/wordpress-importer.php:247
+#@ wordpress-importer
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: admin-functions/importer/wordpress-importer.php:333
+#@ wordpress-importer
+msgid "All done."
+msgstr ""
+
+#: admin-functions/importer/wordpress-importer.php:333
+#@ wordpress-importer
+msgid "Have fun!"
+msgstr ""
+
+#: admin-functions/importer/wordpress-importer.php:335
+#@ wordpress-importer
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: admin-functions/importer/wordpress-importer.php:375
+#, php-format
+#@ wordpress-importer
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr ""
+
+#: admin-functions/importer/wordpress-importer.php:407
+#, php-format
+#@ wordpress-importer
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr ""
+
+#: admin-functions/importer/wordpress-importer.php:457
+#@ wordpress-importer
+msgid "Loading"
+msgstr ""
+
+#: admin-functions/importer/wordpress-importer.php:513
+#@ wordpress-importer
+msgid "Import author:"
+msgstr ""
+
+#: admin-functions/importer/wordpress-importer.php:535
+#@ wordpress-importer
+msgid "or create new user with login name:"
+msgstr ""
+
+#: admin-functions/importer/wordpress-importer.php:541
+#@ wordpress-importer
+msgid "as a new user:"
+msgstr ""
+
+#: admin-functions/importer/wordpress-importer.php:557
+#@ wordpress-importer
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: admin-functions/importer/wordpress-importer.php:561
+#@ wordpress-importer
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: admin-functions/importer/wordpress-importer.php:563
+#@ wordpress-importer
+msgid "- Select -"
+msgstr ""
+
+#: admin-functions/importer/wordpress-importer.php:675
+#@ wordpress-importer
+msgid "Dummy content is being installed, please be patient."
+msgstr ""
+
+#: admin-functions/importer/wordpress-importer.php:1488
+#@ wordpress-importer
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: admin-functions/importer/wordpress-importer.php:1502
+#, php-format
+#@ wordpress-importer
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: admin-functions/importer/wordpress-importer.php:1648
+#@ wordpress-importer
+msgid "Invalid file type"
+msgstr ""
+
+#: admin-functions/importer/wordpress-importer.php:1736
+#@ wordpress-importer
+msgid "Remote server did not respond"
+msgstr ""
+
+#: admin-functions/importer/wordpress-importer.php:1748
+#, php-format
+#@ wordpress-importer
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: admin-functions/importer/wordpress-importer.php:1762
+#@ wordpress-importer
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: admin-functions/importer/wordpress-importer.php:1772
+#@ wordpress-importer
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: admin-functions/importer/wordpress-importer.php:1784
+#, php-format
+#@ wordpress-importer
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: admin-functions/importer/wordpress-importer.php:1982
+#@ wordpress-importer
+msgid "Import WordPress"
+msgstr ""
+
+#: admin-functions/importer/wordpress-importer.php:1996
+#, php-format
+#@ wordpress-importer
+msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
+msgstr ""
+
+#: admin-functions/importer/wordpress-importer.php:2026
+#@ wordpress-importer
+msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr ""
+
+#: admin-functions/importer/wordpress-importer.php:2028
+#@ wordpress-importer
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: admin-functions/install_plugins.php:57
+#@ shopifiq
+msgid "Something went wrong with the plugin API."
+msgstr "1"
+
+#: admin-functions/install_plugins.php:70
+#, php-format
+#@ shopifiq
+msgid "All plugins installed and activated successfully. %s"
+msgstr "1"
+
+#: admin-functions/shortcodes.php:13
+#@ shopifiq
+msgid "Recent projects"
+msgstr "1"
+
+#: admin-functions/shortcodes.php:921
+#: comments.php:120
+#@ shopifiq
+msgid "Reset"
+msgstr "1"
+
+#: admin-functions/shortcodes.php:922
+#@ shopifiq
+msgid "Send"
+msgstr "1"
+
+#: admin-functions/shortcodes.php:1851
+#: functions.php:1021
+#@ shopifiq
+msgid "Search..."
+msgstr "1"
+
+#: admin-functions/shortcodes.php:1973
+#@ shopifiq
+msgid "No featured products found!"
+msgstr "1"
+
+#: attachment.php:14
+#, php-format
+#@ shopifiq
+msgid "Return to %s"
+msgstr "1"
+
+#. translators: %s - title of parent post
+#: attachment.php:16
+#, php-format
+#@ shopifiq
+msgid "<span>&larr;</span> %s"
+msgstr "1"
+
+#: attachment.php:22
+#, php-format
+#@ shopifiq
+msgid "By %2$s"
+msgstr "1"
+
+#: attachment.php:26
+#: functions.php:433
+#, php-format
+#@ shopifiq
+msgid "View all posts by %s"
+msgstr "1"
+
+#: attachment.php:33
+#, php-format
+#@ shopifiq
+msgid "Published %2$s"
+msgstr "1"
+
+#: attachment.php:43
+#, php-format
+#@ shopifiq
+msgid "Full size is %s pixels"
+msgstr "1"
+
+#: attachment.php:46
+#@ shopifiq
+msgid "Link to full-size image"
+msgstr "1"
+
+#: attachment.php:53
+#: attachment.php:92
+#@ shopifiq
+msgid "Edit"
+msgstr "1"
+
+#: attachment.php:88
+#@ shopifiq
+msgid "Continue reading &rarr;"
+msgstr "1"
+
+#: attachment.php:89
+#@ shopifiq
+msgid "Pages:"
+msgstr "1"
+
+#: author.php:24
+#, php-format
+#@ shopifiq
+msgid "Author Archives: %s"
+msgstr "1"
+
+#: author.php:31
+#, php-format
+#@ shopifiq
+msgid "About %s"
+msgstr "1"
+
+#: comments.php:4
+#@ shopifiq
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "1"
+
+#: comments.php:19
+#: loop.php:234
+#: loop.php:246
+#: search.php:17
+#: single.php:250
+#@ shopifiq
+msgid "comments"
+msgstr "1"
+
+#: comments.php:86
+#@ shopifiq
+msgid "&larr; Older Comments"
+msgstr "1"
+
+#: comments.php:87
+#@ shopifiq
+msgid "Newer Comments &rarr;"
+msgstr "1"
+
+#: comments.php:97
+#@ shopifiq
+msgid "Comments are closed."
+msgstr "1"
+
+#: comments.php:108
+#: woocommerce/single-product-reviews.php:86
+#@ shopifiq
+#@ woocommerce
+msgid "Name"
+msgstr "1"
+
+#: comments.php:116
+#: comments.php:117
+#@ shopifiq
+msgid "leave a comment"
+msgstr "1"
+
+#: functions.php:62
+#@ shopifiq
+msgid "Primary Navigation"
+msgstr "1"
+
+#: functions.php:76
+#@ shopifiq
+msgid "Theme default logo"
+msgstr "1"
+
+#: functions.php:186
+#@ shopifiq
+msgid "Theme Options"
+msgstr "1"
+
+#: functions.php:207
+#@ shopifiq
+msgid "Theme style"
+msgstr "1"
+
+#: functions.php:210
+#@ shopifiq
+msgid "Theme options"
+msgstr "1"
+
+#: functions.php:216
+#@ shopifiq
+msgid "Dummy content"
+msgstr "1"
+
+#: functions.php:279
+#, php-format
+#@ shopifiq
+msgid "Search results for %s"
+msgstr "1"
+
+#: functions.php:282
+#: functions.php:296
+#, php-format
+#@ shopifiq
+msgid "Page %s"
+msgstr "1"
+
+#: functions.php:317
+#@ shopifiq
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "1"
+
+#: functions.php:344
+#@ shopifiq
+msgid "Sidebar"
+msgstr "1"
+
+#: functions.php:346
+#@ shopifiq
+msgid "The primary widget area"
+msgstr "1"
+
+#: functions.php:354
+#@ shopifiq
+msgid "Secondary Sidebar"
+msgstr "1"
+
+#: functions.php:356
+#@ shopifiq
+msgid "Secondary widget area"
+msgstr "1"
+
+#: functions.php:364
+#@ shopifiq
+msgid "Filter (only WooCommerce Price Filter)"
+msgstr "1"
+
+#: functions.php:366
+#@ shopifiq
+msgid "Filter widget area"
+msgstr "1"
+
+#: functions.php:375
+#@ shopifiq
+msgid "First Footer Column"
+msgstr "1"
+
+#: functions.php:377
+#@ shopifiq
+msgid "The first footer widget area"
+msgstr "1"
+
+#: functions.php:386
+#@ shopifiq
+msgid "Second Footer Column"
+msgstr "1"
+
+#: functions.php:388
+#@ shopifiq
+msgid "The second footer widget area"
+msgstr "1"
+
+#: functions.php:397
+#@ shopifiq
+msgid "Third Footer Column"
+msgstr "1"
+
+#: functions.php:399
+#@ shopifiq
+msgid "The third footer widget area"
+msgstr "1"
+
+#: functions.php:408
+#@ shopifiq
+msgid "Fourth Footer Column"
+msgstr "1"
+
+#: functions.php:410
+#@ shopifiq
+msgid "The fourth footer widget area"
+msgstr "1"
+
+#: functions.php:432
+#, php-format
+#@ shopifiq
+msgid "<span class=\"%1$s\">Posted on</span> %2$s <span class=\"meta-sep\">by</span> %3$s"
+msgstr "1"
+
+#: functions.php:446
+#, php-format
+#@ shopifiq
+msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "1"
+
+#: functions.php:448
+#, php-format
+#@ shopifiq
+msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "1"
+
+#: functions.php:450
+#, php-format
+#@ shopifiq
+msgid "Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "1"
+
+#: functions.php:507
+#@ shopifiq
+msgid "Home"
+msgstr "1"
+
+#: functions.php:541
+#: functions.php:1291
+#: functions.php:1293
+#@ shopifiq
+msgid "Cart"
+msgstr "1"
+
+#: functions.php:617
+#: includes/page_titles.php:23
+#, php-format
+#@ shopifiq
+msgid "Search Results for: %s"
+msgstr "1"
+
+#: functions.php:631
+#@ shopifiq
+msgid "Shop"
+msgstr "1"
+
+#: functions.php:690
+#@ shopifiq
+msgid "Posted by"
+msgstr "1"
+
+#: functions.php:697
+#@ shopifiq
+msgid "Taged as"
+msgstr "1"
+
+#: functions.php:911
+#@ shopifiq
+msgid "Logout"
+msgstr "1"
+
+#: functions.php:916
+#: functions.php:917
+#@ shopifiq
+msgid "My account"
+msgstr "1"
+
+#: functions.php:921
+#: functions.php:922
+#@ shopifiq
+msgid "Login / Register"
+msgstr "1"
+
+#: functions.php:1291
+#: functions.php:1293
+#@ shopifiq
+msgid "View your shopping cart"
+msgstr "1"
+
+#: functions.php:1327
+#, php-format
+#@ shopifiq
+msgid "%s: Widget class not found. Make sure this widget exists and the class name is correct"
+msgstr "1"
+
+#: functions.php:1437
+#@ shopifiq
+msgid "Someone has sent you a message!"
+msgstr "1"
+
+#: includes/copyright_footer.php:59
+#: includes/top_menu.php:82
+#: includes/top_menu.php:165
+#@ shopifiq
+msgid "socialise"
+msgstr "1"
+
+#: includes/page_titles.php:16
+#@ shopifiq
+msgid "Product tag: "
+msgstr "1"
+
+#: includes/page_titles.php:19
+#@ shopifiq
+msgid "Tag: "
+msgstr "1"
+
+#: includes/top_menu.php:120
+#: includes/top_menu.php:203
+#@ shopifiq
+msgid "search"
+msgstr "1"
+
+#: loop.php:269
+#@ shopifiq
+msgid "Read more"
+msgstr "1"
+
+#: loop.php:296
+#@ shopifiq
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr "1"
+
+#: search.php:35
+#@ shopifiq
+msgid "Nothing Found"
+msgstr "1"
+
+#: search.php:37
+#@ shopifiq
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "1"
+
+#: sidebar-secondary.php:27
+#@ shopifiq
+msgid "Archives"
+msgstr "1"
+
+#: sidebar-secondary.php:34
+#@ shopifiq
+msgid "Meta"
+msgstr "1"
+
+#: woocommerce/archive-product.php:47
+#@ woocommerce
+msgid "No products found which match your selection."
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:11
+#@ woocommerce
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:15
+#@ woocommerce
+msgid "&larr; Return To Shop"
+msgstr ""
+
+#: woocommerce/cart/cart.php:22
+#: woocommerce/emails/admin-new-order.php:30
+#: woocommerce/emails/customer-completed-order.php:29
+#: woocommerce/emails/customer-invoice.php:33
+#: woocommerce/emails/customer-note.php:34
+#: woocommerce/emails/customer-processing-order.php:29
+#@ woocommerce
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:23
+#: woocommerce/emails/admin-new-order.php:32
+#: woocommerce/emails/customer-completed-order.php:31
+#: woocommerce/emails/customer-invoice.php:35
+#: woocommerce/emails/customer-note.php:36
+#: woocommerce/emails/customer-processing-order.php:31
+#@ woocommerce
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:24
+#: woocommerce/emails/admin-new-order.php:31
+#: woocommerce/emails/customer-completed-order.php:30
+#: woocommerce/emails/customer-invoice.php:34
+#: woocommerce/emails/customer-note.php:35
+#: woocommerce/emails/customer-processing-order.php:30
+#@ woocommerce
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:25
+#: woocommerce/myaccount/my-orders.php:33
+#@ woocommerce
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:41
+#@ woocommerce
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:66
+#@ woocommerce
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:119
+#@ woocommerce
+msgid "Apply Coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:134
+#@ woocommerce
+msgid "Proceed to Checkout "
+msgstr ""
+
+#: woocommerce/cart/cart.php:134
+#@ woocommerce
+msgid "Update Cart"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:51
+#@ woocommerce
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:59
+#: woocommerce/cart/totals.php:146
+#@ woocommerce
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:64
+#@ shopifiq
+msgid "View Cart"
+msgstr "1"
+
+#: woocommerce/cart/mini-cart.php:65
+#@ woocommerce
+msgid "Checkout"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:18
+#@ woocommerce
+msgid "Calculate Shipping"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:22
+#@ woocommerce
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:48
+#@ woocommerce
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:59
+#@ woocommerce
+msgid "State"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:67
+#@ woocommerce
+msgid "Postcode/Zip"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:67
+#@ woocommerce
+msgid "Postcode"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:70
+#@ woocommerce
+msgid "Update Totals"
+msgstr ""
+
+#: woocommerce/cart/totals.php:20
+#@ woocommerce
+msgid "Cart Totals"
+msgstr ""
+
+#: woocommerce/cart/totals.php:25
+#@ woocommerce
+msgid "Cart Subtotal"
+msgstr ""
+
+#: woocommerce/cart/totals.php:32
+#@ woocommerce
+msgid "Cart Discount"
+msgstr ""
+
+#: woocommerce/cart/totals.php:32
+#: woocommerce/cart/totals.php:195
+#@ woocommerce
+msgid "[Remove]"
+msgstr ""
+
+#: woocommerce/cart/totals.php:41
+#@ woocommerce
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/totals.php:104
+#@ woocommerce
+msgid "Please fill in your details to see available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/totals.php:106
+#@ woocommerce
+msgid "Sorry, it seems that there are no available shipping methods for your state. Please contact us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+
+#: woocommerce/cart/totals.php:132
+#: woocommerce/cart/totals.php:159
+#@ woocommerce
+msgid "incl.&nbsp;"
+msgstr ""
+
+#: woocommerce/cart/totals.php:174
+#: woocommerce/cart/totals.php:184
+#@ woocommerce
+msgid "Tax"
+msgstr ""
+
+#: woocommerce/cart/totals.php:185
+#@ woocommerce
+msgctxt "Relating to tax"
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/cart/totals.php:195
+#@ woocommerce
+msgid "Order Discount"
+msgstr ""
+
+#: woocommerce/cart/totals.php:202
+#@ woocommerce
+msgid "Order Total"
+msgstr ""
+
+#: woocommerce/cart/totals.php:220
+#, php-format
+#@ woocommerce
+msgid "(taxes estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/totals.php:222
+#, php-format
+#@ woocommerce
+msgid "Note: Shipping and taxes are estimated%s and will be updated during checkout based on your billing and shipping information."
+msgstr ""
+
+#: woocommerce/cart/totals.php:232
+#@ woocommerce
+msgid "No shipping methods were found; please recalculate your shipping and enter your state/county and zip/postcode to ensure their are no other available methods for your location."
+msgstr ""
+
+#: woocommerce/cart/totals.php:239
+#, php-format
+#@ woocommerce
+msgid "Sorry, it seems that there are no available shipping methods for your location (%s)."
+msgstr ""
+
+#: woocommerce/cart/totals.php:241
+#@ woocommerce
+msgid "If you require assistance or wish to make alternate arrangements please contact us."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:20
+#@ woocommerce
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:51
+#@ woocommerce
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/thankyou_1.php:18
+#@ woocommerce
+msgid "Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction."
+msgstr ""
+
+#: woocommerce/checkout/thankyou_1.php:22
+#@ woocommerce
+msgid "Please attempt your purchase again or go to your account page."
+msgstr ""
+
+#: woocommerce/checkout/thankyou_1.php:24
+#@ woocommerce
+msgid "Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou_1.php:29
+#: woocommerce/myaccount/my-orders.php:61
+#@ woocommerce
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou_1.php:31
+#@ woocommerce
+msgid "My Account"
+msgstr ""
+
+#: woocommerce/checkout/thankyou_1.php:37
+#: woocommerce/checkout/thankyou_1.php:71
+#@ woocommerce
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/checkout/thankyou_1.php:41
+#: woocommerce/emails/customer-completed-order.php:24
+#: woocommerce/emails/customer-invoice.php:28
+#: woocommerce/emails/customer-note.php:29
+#: woocommerce/emails/customer-processing-order.php:24
+#@ woocommerce
+msgid "Order:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou_1.php:45
+#@ woocommerce
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou_1.php:49
+#@ woocommerce
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou_1.php:54
+#@ woocommerce
+msgid "Payment method:"
+msgstr ""
+
+#: woocommerce/content-product.php:92
+#: woocommerce/single-product-reviews.php:38
+#, php-format
+#@ woocommerce
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: woocommerce/content-product.php:92
+#: woocommerce/single-product-reviews.php:38
+#@ woocommerce
+msgid "out of 5"
+msgstr ""
+
+#: woocommerce/emails/admin-new-order.php:21
+#, php-format
+#@ woocommerce
+msgid "You have received an order from %s. Their order is as follows:"
+msgstr ""
+
+#: woocommerce/emails/admin-new-order.php:25
+#, php-format
+#@ woocommerce
+msgid "Order: %s"
+msgstr ""
+
+#: woocommerce/emails/admin-new-order.php:58
+#: woocommerce/emails/customer-completed-order.php:57
+#: woocommerce/emails/customer-note.php:62
+#: woocommerce/emails/customer-processing-order.php:57
+#@ woocommerce
+msgid "Customer details"
+msgstr ""
+
+#: woocommerce/emails/admin-new-order.php:61
+#: woocommerce/emails/customer-completed-order.php:60
+#: woocommerce/emails/customer-note.php:65
+#: woocommerce/emails/customer-processing-order.php:60
+#@ woocommerce
+msgid "Email:"
+msgstr ""
+
+#: woocommerce/emails/admin-new-order.php:64
+#: woocommerce/emails/customer-completed-order.php:63
+#: woocommerce/emails/customer-note.php:68
+#: woocommerce/emails/customer-processing-order.php:63
+#@ woocommerce
+msgid "Tel:"
+msgstr ""
+
+#: woocommerce/emails/customer-completed-order.php:20
+#, php-format
+#@ woocommerce
+msgid "Hi there. Your recent order on %s has been completed. Your order details are shown below for your reference:"
+msgstr ""
+
+#: woocommerce/emails/customer-invoice.php:22
+#, php-format
+#@ woocommerce
+msgid "An order has been created for you on %s. To pay for this order please use the following link: %s"
+msgstr ""
+
+#: woocommerce/emails/customer-invoice.php:22
+#@ woocommerce
+msgid "pay"
+msgstr ""
+
+#: woocommerce/emails/customer-new-account.php:14
+#, php-format
+#@ woocommerce
+msgid "Thanks for creating an account on %s. Your username is <strong>%s</strong>."
+msgstr ""
+
+#: woocommerce/emails/customer-new-account.php:16
+#, php-format
+#@ woocommerce
+msgid "You can access your account area here: %s."
+msgstr ""
+
+#: woocommerce/emails/customer-note.php:21
+#@ woocommerce
+msgid "Hello, a note has just been added to your order:"
+msgstr ""
+
+#: woocommerce/emails/customer-note.php:25
+#@ woocommerce
+msgid "For your reference, your order details are shown below."
+msgstr ""
+
+#: woocommerce/emails/customer-processing-order.php:20
+#@ woocommerce
+msgid "Your order has been received and is now being processed. Your order details are shown below for your reference:"
+msgstr ""
+
+#: woocommerce/emails/customer-reset-password.php:14
+#@ woocommerce
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+#: woocommerce/emails/customer-reset-password.php:15
+#, php-format
+#@ woocommerce
+msgid "Username: %s"
+msgstr ""
+
+#: woocommerce/emails/customer-reset-password.php:16
+#@ woocommerce
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: woocommerce/emails/customer-reset-password.php:17
+#@ woocommerce
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: woocommerce/emails/customer-reset-password.php:20
+#@ woocommerce
+msgid "Click here to reset your password"
+msgstr ""
+
+#: woocommerce/emails/email-addresses.php:24
+#@ woocommerce
+msgid "Billing address"
+msgstr ""
+
+#: woocommerce/emails/email-addresses.php:34
+#@ woocommerce
+msgid "Shipping address"
+msgstr ""
+
+#: woocommerce/emails/email-order-items.php:51
+#, php-format
+#@ woocommerce
+msgid "Download %d:"
+msgstr ""
+
+#: woocommerce/emails/email-order-items.php:53
+#@ woocommerce
+msgid "Download:"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:24
+#: woocommerce/loop/sorting.php:16
+#@ woocommerce
+msgid "Default sorting"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:25
+#@ woocommerce
+msgid "Sort by popularity"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:26
+#@ woocommerce
+msgid "Sort by average rating"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:27
+#@ woocommerce
+msgid "Sort by newness"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:28
+#@ woocommerce
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:29
+#@ woocommerce
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:14
+#: woocommerce/single-product/sale-flash.php:14
+#@ woocommerce
+msgid "Sale!"
+msgstr ""
+
+#: woocommerce/loop/sorting.php:17
+#@ woocommerce
+msgid "Sort alphabetically"
+msgstr ""
+
+#: woocommerce/loop/sorting.php:18
+#@ woocommerce
+msgid "Sort by most recent"
+msgstr ""
+
+#: woocommerce/loop/sorting.php:19
+#@ woocommerce
+msgid "Sort by price"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:24
+#: woocommerce/myaccount/form-login.php:38
+#@ woocommerce
+msgid "Login"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:27
+#@ woocommerce
+msgid "Username or email"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:31
+#: woocommerce/myaccount/form-login.php:74
+#@ woocommerce
+msgid "Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:39
+#@ woocommerce
+msgid "Lost Password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:49
+#: woocommerce/myaccount/form-login.php:90
+#@ woocommerce
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:55
+#@ woocommerce
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:78
+#@ woocommerce
+msgid "Re-enter password"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:31
+#@ woocommerce
+msgid "Order"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:32
+#@ woocommerce
+msgid "Ship to"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:55
+#@ woocommerce
+msgid "Click to cancel this order"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:55
+#@ woocommerce
+msgid "Cancel"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:64
+#@ woocommerce
+msgid "View"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:76
+#@ woocommerce
+msgid "You have no recent orders."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/simple.php:37
+#: woocommerce/single-product/add-to-cart/variable.php:83
+#@ woocommerce
+msgid "Add to cart"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:24
+#@ woocommerce
+msgid "Choose an option"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:69
+#@ woocommerce
+msgid "Clear selection"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:16
+#: woocommerce/single-product/meta.php:30
+#@ woocommerce
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:21
+#@ woocommerce
+msgid "Category"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:25
+#@ woocommerce
+msgid "Tags"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:33
+#@ woocommerce
+msgid "Category:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:35
+#@ woocommerce
+msgid "Tags:"
+msgstr ""
+
+#: woocommerce/single-product/product-attributes.php:26
+#@ woocommerce
+msgid "Weight"
+msgstr ""
+
+#: woocommerce/single-product/product-attributes.php:35
+#@ woocommerce
+msgid "Dimensions"
+msgstr ""
+
+#: woocommerce/single-product/tabs/additional-information.php:14
+#@ woocommerce
+msgid "Additional Information"
+msgstr ""
+
+#: woocommerce/single-product/tabs/description.php:14
+#@ woocommerce
+msgid "Product Description"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:39
+#@ woocommerce
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:40
+#, php-format
+#@ woocommerce
+msgid "%s review for %s"
+msgid_plural "%s reviews for %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:46
+#@ woocommerce
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:62
+#@ woocommerce
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:63
+#@ woocommerce
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:67
+#@ woocommerce
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:71
+#@ woocommerce
+msgid "Be the first to review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:73
+#@ woocommerce
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:91
+#@ woocommerce
+msgid "Submit Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:99
+#@ woocommerce
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:100
+#@ woocommerce
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:101
+#@ woocommerce
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:102
+#@ woocommerce
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:103
+#@ woocommerce
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:104
+#@ woocommerce
+msgid "Very Poor"
+msgstr ""
+
