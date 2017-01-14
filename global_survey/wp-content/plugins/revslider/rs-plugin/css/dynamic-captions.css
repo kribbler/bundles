@@ -1,0 +1,26 @@
+.tp-caption.D_large_bold_white {
+font-size:58px;
+line-height:60px;
+font-weight:800;
+font-family:"Museo_Slab_700", sans-serif;
+color:#ffffff;
+text-decoration:none;
+background-color:transparent;
+border-width:0px;
+border-color:rgb(255, 214, 88);
+border-style:none;
+}
+
+.tp-caption.D_medium_bold_white {
+font-size:24px;
+line-height:30px;
+font-weight:800;
+font-family:"Museo_Slab_500", sans-serif;
+color:#ffffff;
+text-decoration:none;
+background-color:transparent;
+border-width:0px;
+border-color:rgb(255, 214, 88);
+border-style:none;
+}
+

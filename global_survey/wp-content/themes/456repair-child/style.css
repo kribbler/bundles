@@ -1,0 +1,585 @@
+/*
+Theme Name: 456Repair Child Theme
+Theme URI: http://www.lpd-themes.com
+Description: This is a child theme for T456Repair Bootstrap Premium WooCommerce Theme.
+Author: lpd-themes
+Author URI: http://www.lpd-themes.com
+Template: 456repair
+Version: 1.6
+*/
+
+@import url("../456repair/style.css");
+
+@font-face {
+ font-family: 'Museo_Slab_300';
+ src: url('fonts/Museo_Slab_300.otf');
+ src: url('fonts/Museo_Slab_300.otf?#iefix') format('embedded-opentype'),
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: 'Museo_Slab_500';
+ src: url('fonts/Museo_Slab_500.otf');
+ src: url('fonts/Museo_Slab_500.otf?#iefix') format('embedded-opentype'),
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: 'Museo_Slab_700';
+ src: url('fonts/Museo_Slab_700.otf');
+ src: url('fonts/Museo_Slab_700.otf?#iefix') format('embedded-opentype'),
+ font-weight: normal;
+ font-style: normal;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+body{
+	font-family: 'Museo_Slab_300', sans-serif !important;
+}
+
+#megaMenu ul.megaMenu > li.menu-item:hover > a, #megaMenu ul.megaMenu > li.menu-item > a:hover, #megaMenu ul.megaMenu > li.menu-item.megaHover > a, #megaMenu ul.megaMenu > li.menu-item:hover > span.um-anchoremulator, #megaMenu ul.megaMenu > li.menu-item > span.um-anchoremulator:hover, #megaMenu ul.megaMenu > li.menu-item.megaHover > span.um-anchoremulator, #megaMenu{
+	background: #efeaea;
+}
+
+.header-search a.search-icon{
+	
+	/*display: none;*/
+}
+
+.header-search a.search-icon{
+	margin-top: 5px;
+	display: none !important;
+}
+.search-dropdown {
+	visibility: visible;
+}
+
+.search-dropdown .form-control{
+	font-style: italic;
+	padding: 5px;
+}
+.search-dropdown form input{
+	height: 31px;
+	width: 200px;
+	clear: none;
+	float: left;
+}
+
+.search-dropdown .special_search{
+	width: 32px;
+	height: 31px;
+	background: url(images/search.png) center center no-repeat !important;
+	content: "";
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+.wpmega-link-title{
+	color: #4d4d4d !important;
+}
+
+.menu-item a{
+	color: #4d4d4d !important;
+}
+.menu-item a:hover{
+	color: #fe340e !important;
+	background: none !important;
+}
+
+.clear{
+	clear: both;
+}
+
+.lpd-new-header{
+	padding-top: 0;
+}
+.theme-header-wrap{
+	border-top: 5px solid #d6d6d6;
+	border-bottom: 0;
+}
+.lpd-new-header{
+	padding-bottom: 0;
+}
+.lpd-new-header #logo{
+	border-left: 0;
+	border-right: 0;
+}
+
+.lpd-new-header .lpd-shopping-cart{
+	top: 5px;
+	padding: 0;
+	border: 0;
+}
+
+.lpd-new-header .menu3dmega > ul{
+	padding-right: 0;
+}
+
+h1, h2, h3{
+	font-family: "Museo_Slab_500", sans-serif !important;
+}
+
+.greener a{
+	font-family: "Museo_Slab_500", sans-serif;
+	padding-right: 10px;
+	background: url(images/bg_arrow_red.png) right center no-repeat;
+	text-transform: uppercase;
+}
+
+#home_block1, #home_block3, #home_block5{
+	padding: 20px 0;
+	background: #d6d6d6;
+	color: #6c6d71;
+}
+
+#home_block1{
+	font-family: "Museo_Slab_500", sans-serif;
+	position: relative;
+	z-index: 1;
+}
+
+.forcefullwidth_wrapper_tp_banner{
+	z-index: 0;
+	margin-top: -250px !important;
+}
+#home_block3{
+	padding: 40px 0;
+}
+#home_block3 h1{
+	font-size: 30px;
+}
+
+#home_block4{
+	padding: 60px 0 40px 0;
+	margin-bottom: 20px;
+}
+
+#home_block5{
+	background: url(images/bg_content5.png) center top no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+}
+
+#home_block5 .row{
+	margin-bottom: 30px;
+}
+
+#home_block5 h2{
+	margin-bottom: 40px;
+	color: #fff;
+	text-align: center;
+}
+
+#home_block5 h3{
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+        height: 50px;
+}
+
+#home_block5 p{
+	color: #dcdcdc;
+}
+
+#home_block5 a{
+	margin-top: 20px;
+	display: inline-block;
+}
+
+#home_block6{
+	padding: 30px 0;
+}
+#home_block6 h2{
+	text-align: center;
+	color: #2d2d2d;
+}
+#home_block6 .row {
+	/*background: url(http://globalsurvey.co.nz/wp-content/uploads/2015/01/newhmbg1.png) top left no-repeat;
+	padding-left: 670px;*/
+	min-height: 400px;
+	padding-top: 0px;
+}
+
+.blank_link a {
+	background: none;
+}
+
+#home_block7 {
+	margin-bottom: 40px;
+}
+#home_block7 h2{
+	text-align: center;
+}
+#home_block7 .smooth_more a{
+	font-family: "Museo_Slab_500", sans-serif;
+	padding-right: 10px;
+	background: url(images/bg_arrow_red.png) right center no-repeat;
+	text-transform: uppercase;
+}
+#home_block7 a{
+	background: none;
+	padding-right: 0;
+}
+#header_tabs{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#header_tabs li{
+	display: inline-block;
+	padding: 5px 10px;
+	/*border: 1px solid #888888;*/
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+#header_tabs li:hover, #header_tabs li.active{
+	border: 1px solid #f15929;
+}
+.featured_inactive{
+	border: 1px solid #888 !important;
+}
+.featured_active{
+	border: 1px solid #f15929 !important;
+}
+
+.featured_listing_extend{
+	padding: 20px 0;
+}
+
+.featured_listing_hidden_info{
+	display: none;
+}
+
+.featured_listing_hidden_info a{
+	background: none;
+}
+
+.header-search a.search-icon{
+	border-left: 0;
+	border-right: 0;
+}
+.search-dropdown{
+	float: right;
+	position: inherit;
+	width: 250px;
+	right: 10px !important;
+	top: 5px !important;
+	opacity: 1;
+}
+
+.menu3dmega > ul > li:hover, .menu3dmega > ul > li.open > a, .menu3dmega > ul > li.current-menu-item > a, .menu3dmega > ul > li.current_page_item > a, .menu3dmega > ul > li.current-page-ancestor > a, .menu3dmega > ul > li.current-menu-parent > a, .menu3dmega > ul > li.current_page_item > a, .menu3dmega > ul > li.current_page_parent > a, .menu3dmega > ul > li.current_page_ancestor > a{
+	background: url(images/red-arrow-up.png) center bottom no-repeat !important;
+}
+.menu3dmega > ul > li > a:before{
+	height: 0;
+}
+
+.smooth_slider .smooth_prev{
+	right: 0;
+	left: auto !important;
+	top: 39% !important;
+	/*background: url(images/navigation_testimonials.png) no-repeat scroll 0 0 !important;
+	height: 35px !important;*/
+}
+
+.smooth_slider .smooth_next{
+	/*background: url(images/navigation_testimonials.png) no-repeat scroll 0 -23px !important;	
+	height: 35px !important;*/
+}
+
+.slider_thumbnail{
+	margin-right: 50px !important;
+}
+.d_slider_content{
+	background: url("images/quote.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #666666 !important;
+    display: block !important;
+    font-family: "Museo_Slab_500",sans-serif !important;
+    padding-top: 70px !important;
+}
+#my_footer{
+	background-color: #4d4d4d;
+	color: #d6d6d6;
+	padding-top: 40px;
+}
+
+#my_footer a{
+	color: #fff;
+}
+
+#my_footer h1{
+	font-size: 18px;
+	color: #fff;
+}
+
+#my_footer p{
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.gray_line{
+	height: 1px;
+	display: block;
+	width: 100%;
+	border-top: 1px solid #666;
+	margin-bottom: 20px;
+}
+
+#footer{
+	display: none;
+}
+.bellow_footer a{
+	color: #d6d6d6;
+}
+
+.bellow_footer .col-md-5{
+	margin-top: 10px;
+}
+
+.bellow_footer .col-md-4 img{
+	margin-top: 0px !important;
+}
+.bellow_footer .col-md-3 img{
+	margin-top: 10px;
+}
+
+.btn-primary{
+	padding-right: 20px !important;
+	background: #ff330d url(images/white-arrow-right.png) 96% center no-repeat !important;
+	-webkit-border-radius: 5px !important;
+	-moz-border-radius: 5px !important;
+	border-radius: 5px !important;
+}
+
+.enquiry_button{
+	padding: 10px 30px !important;
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	background: url("images/white-arrow-right.png") no-repeat scroll 96% center #ff330d !important;
+    border-radius: 5px !important;
+    /*padding-right: 20px !important;*/
+    text-transform: uppercase;
+    text-shadow: 0 0 !important;
+    font-weight: normal;
+    letter-spacing: 0.75px;
+    font-weight: 500;
+}
+
+.wc_email_inquiry_button_container{
+	display: none;
+}
+.cart-bottom .wc_email_inquiry_button_container{
+	display: inline-block;
+	margin-left: 20px !important;
+}
+.tp-button{
+	padding: 15px 30px 15px 25px !important;
+	background: url(images/white-arrow-right.png) no-repeat 94% center;
+	text-shadow: 0 0 !important;
+	font-size: 18px;
+	box-shadow: 0 0 !important;
+	font-family: 'Museo_Slab_500';
+}
+.tp-button:hover{
+	background: url(images/white-arrow-right.png) no-repeat 96% center;
+
+}
+
+.poduct_more_info{
+	color: #fff;
+	margin: 10px auto 20px auto;
+	text-transform: uppercase;
+	font-size: 14px;
+	padding: 10px 15px;
+	background: #ff330d;
+	font-family: 'Museo_Slab_500';
+	display: block;
+	text-align: center;
+	-webkit-border-radius: 5px !important;
+	-moz-border-radius: 5px !important;
+	border-radius: 5px !important;
+}
+
+#margin40_under{
+	margin-bottom: 40px;
+}
+
+#title-breadcrumb{
+	padding: 0px 0;
+}
+#title-breadcrumb .title-wrap{
+	background: none;
+}
+
+#title-breadcrumb h2{
+	text-align: left;
+	margin: 70px 0 0;
+}
+
+.deco-sep-line-100, .lpd_breadcrumb{
+	display: none;
+}
+
+.some-on-top{
+	margin-top: 10px !important;
+	display: block;
+	font-size: 20px;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+
+.d_price{
+	float: right;
+    font-size: 17px;
+    font-weight: bold;
+    position: absolute;
+    right: 15px;
+    text-align: right;
+    top: 25px;
+}
+
+.text-right-align{
+	text-align: right;
+}
+
+.text-left-align{
+	text-align: left !important;
+}
+
+.text-right-align .widget{
+	margin-bottom: 0 !important;
+	margin-top: 40px;
+}
+
+.landingonehead { background-image: url("http://globalsurvey.co.nz/wp-content/uploads/2015/02/headerbg.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+    padding: 35px 0;
+    width: 100%;
+}
+/*products */
+
+a.woocommerce-main-image{
+	width: 100%;
+	border: 1px solid #ebebeb;
+	display: block;
+}
+.woocommerce #content div.product div.images img, .woocommerce div.product div.images img, .woocommerce-page #content div.product div.images img, .woocommerce-page div.product div.images img{
+	width: auto;
+	margin: 0 auto;
+}
+
+.wordpress-456repair .woocommerce div.product div.images img, .wordpress-456repair.woocommerce-page div.product div.images img{
+	border: 0 !important;
+}
+
+.featured-img, .gallery-img{
+	border: 1px solid #dedede;
+	padding: 10px;
+}
+
+.mr1{
+	margin-right: 30px;
+}
+
+.product-content .single-cart .cart-price{
+	display: none;
+}
+
+.product-content .single-cart .cart-bottom button, .a_button{
+	float: left;
+	padding: 10px 30px !important;
+}
+
+.a_button{
+	margin-left: 20px;
+}
+
+.panel-title{
+	text-transform: uppercase;
+}
+.panel-title a{
+	background: url(images/gray_arrow_right.png) right center no-repeat;
+	font-weight: bold;
+	color: #2c2c2c !important;
+}
+.panel-title a.collapsed{
+	background: url(images/gray_arrow_down.png) right center no-repeat;	
+	color: #2c2c2c !important;
+}
+.panel-body{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.product-content .lpd_product_meta{
+	display: none;
+}
+
+ul.lpd-products li.type-product h3{
+	min-height: 60px;
+}
+
+.spark-infobox.spark-infobox-warning { display: none; }
+
+.cbp-l-grid-projects-desc{
+	display: none;
+}
+
+.woocommerce-ordering {
+	display: none;
+}
+
+.smooth_slider p.smooth_more { display: inline-block;
+    line-height: 30px;
+    margin: 0;
+    text-align: left;
+    width: 300px; }
+
+@media (max-width: 1199px) { .landingonehead { background-image: none; }
+}
+@media (max-width: 979px) {
+	#home_block4{
+		display: none;
+	}
+
+	#home_block6 .row{
+		background: none;
+		padding-left: 0;
+		padding-top: 0;
+		min-height: 0;
+	}
+
+	.menuToggle{
+		display: none !important;
+	}
+}
+
+@media (max-width: 767px) {
+	.col-xs-3, .col-xs-6{
+		width: 100%;
+		float: none;
+	}
+	#home_block2{
+		display: none;
+	}
+	#home_block3{
+		padding-top: 0;
+	}
+	#home_block7{
+		display: none;
+	}
+
+	.menu3dmega > ul > li:hover, .menu3dmega > ul > li.open > a, .menu3dmega > ul > li.current-menu-item > a, .menu3dmega > ul > li.current_page_item > a, .menu3dmega > ul > li.current-page-ancestor > a, .menu3dmega > ul > li.current-menu-parent > a, .menu3dmega > ul > li.current_page_item > a, .menu3dmega > ul > li.current_page_parent > a, .menu3dmega > ul > li.current_page_ancestor > a{
+		background: none !important;
+	}
+#megaMenu #megaMenuToggle { color: #444 !important; }
+
+}
+
+@media (max-width: 767px) {
+#logo h1 img { width: 100% !important; }
+}
